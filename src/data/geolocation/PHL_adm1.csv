@@ -1,0 +1,82 @@
+OBJECTID,ID_0,ISO,NAME_0,ID_1,NAME_1,HASC_1,CCN_1,CCA_1,TYPE_1,ENGTYPE_1,NL_NAME_1,VARNAME_1,Regional desig,Region
+1,179,PHL,Philippines,1,Abra,PH.AB,NA,1401,Lalawigan|Probinsya,Province,,,CAR,Cordillera Administrative Region
+2,179,PHL,Philippines,2,Agusan del Norte,PH.AN,NA,1602,Lalawigan|Probinsya,Province,,,Region XIII,Caraga
+3,179,PHL,Philippines,3,Agusan del Sur,PH.AS,NA,1603,Lalawigan|Probinsya,Province,,,Region XIII,Caraga
+4,179,PHL,Philippines,4,Aklan,PH.AK,NA,604,Lalawigan|Probinsya,Province,,,Region VI,Western Visayas
+5,179,PHL,Philippines,5,Albay,PH.AL,NA,505,Lalawigan|Probinsya,Province,,,Region V,Bicol Region
+6,179,PHL,Philippines,6,Antique,PH.AQ,NA,606,Lalawigan|Probinsya,Province,,,Region VI,Western Visayas
+7,179,PHL,Philippines,7,Apayao,PH.AP,NA,1481,Lalawigan|Probinsya,Province,,,CAR,Cordillera Administrative Region
+8,179,PHL,Philippines,8,Aurora,PH.AU,NA,377,Lalawigan|Probinsya,Province,,,Region III,Central Luzon
+9,179,PHL,Philippines,9,Basilan,PH.BS,NA,1507,Lalawigan|Probinsya,Province,,,ARMM,Autonomous Region in Muslim Mindanao
+10,179,PHL,Philippines,10,Bataan,PH.BA,NA,308,Lalawigan|Probinsya,Province,,,Region III,Central Luzon
+11,179,PHL,Philippines,11,Batanes,PH.BN,NA,209,Lalawigan|Probinsya,Province,,,Region II,Cagayan Valley
+12,179,PHL,Philippines,12,Batangas,PH.BT,NA,410,Lalawigan|Probinsya,Province,,,Region IV-A,Calabarzon
+13,179,PHL,Philippines,13,Benguet,PH.BG,NA,1411,Lalawigan|Probinsya,Province,,,CAR,Cordillera Administrative Region
+14,179,PHL,Philippines,14,Biliran,PH.BI,NA,878,Lalawigan|Probinsya,Province,,,Region VIII,Eastern Visayas
+15,179,PHL,Philippines,15,Bohol,PH.BO,NA,712,Lalawigan|Probinsya,Province,,,Region VII,Central Visayas
+16,179,PHL,Philippines,16,Bukidnon,PH.BK,NA,1013,Lalawigan|Probinsya,Province,,,Region X,Northern Mindanao
+17,179,PHL,Philippines,17,Bulacan,PH.BU,NA,314,Lalawigan|Probinsya,Province,,,Region III,Central Luzon
+18,179,PHL,Philippines,18,Cagayan,PH.CG,NA,215,Lalawigan|Probinsya,Province,,,Region II,Cagayan Valley
+19,179,PHL,Philippines,19,Camarines Norte,PH.CN,NA,516,Lalawigan|Probinsya,Province,,,Region V,Bicol Region
+20,179,PHL,Philippines,20,Camarines Sur,PH.CS,NA,517,Lalawigan|Probinsya,Province,,,Region V,Bicol Region
+21,179,PHL,Philippines,21,Camiguin,PH.CM,NA,1018,Lalawigan|Probinsya,Province,,,Region X,Northern Mindanao
+22,179,PHL,Philippines,22,Capiz,PH.CP,NA,619,Lalawigan|Probinsya,Province,,,Region VI,Western Visayas
+23,179,PHL,Philippines,23,Catanduanes,PH.CT,NA,520,Lalawigan|Probinsya,Province,,,Region V,Bicol Region
+24,179,PHL,Philippines,24,Cavite,PH.CV,NA,421,Lalawigan|Probinsya,Province,,,Region IV-A,Calabarzon
+25,179,PHL,Philippines,25,Cebu,PH.CB,NA,722,Lalawigan|Probinsya,Province,,,Region VII,Central Visayas
+26,179,PHL,Philippines,26,Compostela Valley,PH.CL,NA,1182,Lalawigan|Probinsya,Province,,,Region XI,Davao Region
+27,179,PHL,Philippines,27,Davao del Norte,PH.DV,NA,1123,Lalawigan|Probinsya,Province,,Davao,Region XI,Davao Region
+28,179,PHL,Philippines,28,Davao del Sur,PH.DS,NA,1124,Lalawigan|Probinsya,Province,,,Region XI,Davao Region
+29,179,PHL,Philippines,29,Davao Oriental,PH.DO,NA,1125,Lalawigan|Probinsya,Province,,,Region XI,Davao Region
+30,179,PHL,Philippines,30,Dinagat Islands,PH.DI,NA,1685,Lalawigan|Probinsya,Province,,,Region XIII,Caraga
+31,179,PHL,Philippines,31,Eastern Samar,PH.ES,NA,826,Lalawigan|Probinsya,Province,,,Region VIII,Eastern Visayas
+32,179,PHL,Philippines,32,Guimaras,PH.GU,NA,679,Lalawigan|Probinsya,Province,,,Region VI,Western Visayas
+33,179,PHL,Philippines,33,Ifugao,PH.IF,NA,1427,Lalawigan|Probinsya,Province,,,CAR,Cordillera Administrative Region
+34,179,PHL,Philippines,34,Ilocos Norte,PH.IN,NA,128,Lalawigan|Probinsya,Province,,,Region I,Ilocos Region
+35,179,PHL,Philippines,35,Ilocos Sur,PH.IS,NA,129,Lalawigan|Probinsya,Province,,,Region I,Ilocos Region
+36,179,PHL,Philippines,36,Iloilo,PH.II,NA,630,Lalawigan|Probinsya,Province,,,Region VI,Western Visayas
+37,179,PHL,Philippines,37,Isabela,PH.IB,NA,231,Lalawigan|Probinsya,Province,,,Region II,Cagayan Valley
+38,179,PHL,Philippines,38,Kalinga,PH.KA,NA,1432,Lalawigan|Probinsya,Province,,,CAR,Cordillera Administrative Region
+39,179,PHL,Philippines,39,La Union,PH.LU,NA,133,Lalawigan|Probinsya,Province,,,Region I,Ilocos Region
+40,179,PHL,Philippines,40,Laguna,PH.LG,NA,434,Lalawigan|Probinsya,Province,,,Region IV-A,Calabarzon
+41,179,PHL,Philippines,41,Lanao del Norte,PH.LN,NA,1035,Lalawigan|Probinsya,Province,,,Region X,Northern Mindanao
+42,179,PHL,Philippines,42,Lanao del Sur,PH.LS,NA,1536,Lalawigan|Probinsya,Province,,,ARMM,Autonomous Region in Muslim Mindanao
+43,179,PHL,Philippines,43,Leyte,PH.LE,NA,837,Lalawigan|Probinsya,Province,,,Region VIII,Eastern Visayas
+44,179,PHL,Philippines,44,Maguindanao,PH.MG,NA,1538,Lalawigan|Probinsya,Province,,,ARMM,Autonomous Region in Muslim Mindanao
+45,179,PHL,Philippines,45,Marinduque,PH.MQ,NA,1740,Lalawigan|Probinsya,Province,,,Region IV-B,Mimaropa
+46,179,PHL,Philippines,46,Masbate,PH.MB,NA,541,Lalawigan|Probinsya,Province,,,Region V,Bicol Region
+47,179,PHL,Philippines,47,Metropolitan Manila,PH.MM,NA,1339,Lalawigan|Probinsya,Province,,,NCR,National Capital Region
+48,179,PHL,Philippines,48,Misamis Occidental,PH.MD,NA,1042,Lalawigan|Probinsya,Province,,,Region X,Northern Mindanao
+49,179,PHL,Philippines,49,Misamis Oriental,PH.MN,NA,1043,Lalawigan|Probinsya,Province,,,Region X,Northern Mindanao
+50,179,PHL,Philippines,50,Mountain Province,PH.MT,NA,1444,Lalawigan|Probinsya,Province,,,CAR,Cordillera Administrative Region
+51,179,PHL,Philippines,51,Negros Occidental,PH.ND,NA,645,Lalawigan|Probinsya,Province,,,Region VI,Western Visayas
+52,179,PHL,Philippines,52,Negros Oriental,PH.NR,NA,746,Lalawigan|Probinsya,Province,,,Region VII,Central Visayas
+53,179,PHL,Philippines,53,North Cotabato,PH.NC,NA,1247,Lalawigan|Probinsya,Province,,,Region XII,Soccsksargen
+54,179,PHL,Philippines,54,Northern Samar,PH.NS,NA,848,Lalawigan|Probinsya,Province,,,Region VIII,Eastern Visayas
+55,179,PHL,Philippines,55,Nueva Ecija,PH.NE,NA,349,Lalawigan|Probinsya,Province,,,Region III,Central Luzon
+56,179,PHL,Philippines,56,Nueva Vizcaya,PH.NV,NA,250,Lalawigan|Probinsya,Province,,,Region II,Cagayan Valley
+57,179,PHL,Philippines,57,Occidental Mindoro,PH.MC,NA,1751,Lalawigan|Probinsya,Province,,,Region IV-B,Mimaropa
+58,179,PHL,Philippines,58,Oriental Mindoro,PH.MR,NA,1752,Lalawigan|Probinsya,Province,,,Region IV-B,Mimaropa
+59,179,PHL,Philippines,59,Palawan,PH.PL,NA,1753,Lalawigan|Probinsya,Province,,Paragua,Region IV-B,Mimaropa
+60,179,PHL,Philippines,60,Pampanga,PH.PM,NA,354,Lalawigan|Probinsya,Province,,,Region III,Central Luzon
+61,179,PHL,Philippines,61,Pangasinan,PH.PN,NA,155,Lalawigan|Probinsya,Province,,,Region I,Ilocos Region
+62,179,PHL,Philippines,62,Quezon,PH.QZ,NA,456,Lalawigan|Probinsya,Province,,,Region IV-A,Calabarzon
+63,179,PHL,Philippines,63,Quirino,PH.QR,NA,257,Lalawigan|Probinsya,Province,,,Region II,Cagayan Valley
+64,179,PHL,Philippines,64,Rizal,PH.RI,NA,458,Lalawigan|Probinsya,Province,,,Region IV-A,Calabarzon
+65,179,PHL,Philippines,65,Romblon,PH.RO,NA,1759,Lalawigan|Probinsya,Province,,,Region IV-B,Mimaropa
+66,179,PHL,Philippines,66,Samar,PH.SM,NA,860,Lalawigan|Probinsya,Province,,Western Samar,Region VIII,Eastern Visayas
+67,179,PHL,Philippines,67,Sarangani,PH.SG,NA,1280,Lalawigan|Probinsya,Province,,,Region XII,Soccsksargen
+68,179,PHL,Philippines,68,Siquijor,PH.SQ,NA,761,Lalawigan|Probinsya,Province,,,Region VII,Central Visayas
+69,179,PHL,Philippines,69,Sorsogon,PH.SR,NA,562,Lalawigan|Probinsya,Province,,,Region V,Bicol Region
+70,179,PHL,Philippines,70,South Cotabato,PH.SC,NA,1263,Lalawigan|Probinsya,Province,,,Region XII,Soccsksargen
+71,179,PHL,Philippines,71,Southern Leyte,PH.SL,NA,864,Lalawigan|Probinsya,Province,,,Region VIII,Eastern Visayas
+72,179,PHL,Philippines,72,Sultan Kudarat,PH.SK,NA,1265,Lalawigan|Probinsya,Province,,,Region XII,Soccsksargen
+73,179,PHL,Philippines,73,Sulu,PH.SU,NA,1566,Lalawigan|Probinsya,Province,,,ARMM,Autonomous Region in Muslim Mindanao
+74,179,PHL,Philippines,74,Surigao del Norte,PH.SN,NA,1667,Lalawigan|Probinsya,Province,,,Region XIII,Caraga
+75,179,PHL,Philippines,75,Surigao del Sur,PH.SS,NA,1668,Lalawigan|Probinsya,Province,,,Region XIII,Caraga
+76,179,PHL,Philippines,76,Tarlac,PH.TR,NA,369,Lalawigan|Probinsya,Province,,,Region III,Central Luzon
+77,179,PHL,Philippines,77,Tawi-Tawi,PH.TT,NA,1570,Lalawigan|Probinsya,Province,,,ARMM,Autonomous Region in Muslim Mindanao
+78,179,PHL,Philippines,78,Zambales,PH.PN,NA,155,Lalawigan|Probinsya,Province,,,Region III,Central Luzon
+79,179,PHL,Philippines,79,Zamboanga del Norte,PH.ZN,NA,972,Lalawigan|Probinsya,Province,,,Region IX,Zamboanga Peninsula
+80,179,PHL,Philippines,80,Zamboanga del Sur,PH.ZS,NA,973,Lalawigan|Probinsya,Province,,,Region IX,Zamboanga Peninsula
+81,179,PHL,Philippines,81,Zamboanga Sibugay,PH.ZY,NA,983,Lalawigan|Probinsya,Province,,,Region IX,Zamboanga Peninsula
