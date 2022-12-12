@@ -11,7 +11,7 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
+|1|Geolocation         |Mapping gathered datasets into their coordinates and boundaries         |
 |2|         |         |
 |3|         |         |
 |4|         |         |
