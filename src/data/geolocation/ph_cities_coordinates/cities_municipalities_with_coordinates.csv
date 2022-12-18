@@ -60,20 +60,20 @@
 61,103302000,La Union,Aringay,La Union|Aringay,13302000.0,Mun,,,2nd,,"47,458",,"50,380",,,"Aringay, La Union",120.354351,16.3946672
 62,103303000,La Union,Bacnotan,La Union|Bacnotan,13303000.0,Mun,,,1st,,"42,078",,"44,388",,,"Bacnotan, La Union",120.3452346,16.7224138
 63,103304000,La Union,Bagulin,La Union|Bagulin,13304000.0,Mun,,,5th,,"13,456",,"14,428",,,"Bagulin, La Union",120.4363599,16.6051052
-64,103305000,La Union,Balaoan,La Union|Balaoan,13305000.0,Mun,,,1st,,"39,188",,"40,339",,,"Balaoan, La Union",120.4065709,16.8225475
+64,103305000,La Union,Balaoan,La Union|Balaoan,13305000.0,Mun,,,1st,,"39,188",,"40,339",,,"Balaoan, La Union",120.4012,16.8022
 65,103306000,La Union,Bangar,La Union|Bangar,13306000.0,Mun,,,3rd,,"35,947",,"38,041",,,"Bangar, La Union",120.4243971,16.8917948
-66,103307000,La Union,Bauang,La Union|Bauang,13307000.0,Mun,,,1st,,"75,032",,"78,449",,,"Bauang, La Union",120.324328,16.5396489
+66,103307000,La Union,Bauang,La Union|Bauang,13307000.0,Mun,,,1st,,"75,032",,"78,449",,,"Bauang, La Union",120.3551,16.5143
 67,103308000,La Union,Burgos,La Union|Burgos,13308000.0,Mun,,,5th,,"8,067",,"9,006",,,"Burgos, La Union",120.470326,16.538032
 68,103309000,La Union,Caba,La Union|Caba,13309000.0,Mun,,,4th,,"22,039",,"23,119",,,"Caba, La Union",120.378138,16.44743
 69,103310000,La Union,Luna,La Union|Luna,13310000.0,Mun,,,3rd,,"35,802",,"37,318",,,"Luna, La Union",120.3758732,16.8537894
 70,103311000,La Union,Naguilian,La Union|Naguilian,13311000.0,Mun,,,1st,,"54,221",,"52,189",,,"Naguilian, La Union",120.3335428,16.5271283
-71,103312000,La Union,Pugo,La Union|Pugo,13312000.0,Mun,,,5th,,"19,690",,"19,337",,,"Pugo, La Union",120.324328,16.5396489
+71,103312000,La Union,Pugo,La Union|Pugo,13312000.0,Mun,,,5th,,"19,690",,"19,337",,,"Pugo, La Union",120.4761,16.3213
 72,103313000,La Union,Rosario,La Union|Rosario,13313000.0,Mun,,,1st,,"55,458",,"60,278",,,"Rosario, La Union",120.470326,16.243367
 73,103314000,La Union,City of San Fernando,La Union|City of San Fernando,13314000.0,City,,CC,3rd,,"121,812",,"125,640",,Capital,"City of San Fernando, La Union",120.3350671,16.6294508
 74,103315000,La Union,San Gabriel,La Union|San Gabriel,13315000.0,Mun,,,4th,,"18,172",,"18,943",,,"San Gabriel, La Union",120.4011842,16.673886
 75,103316000,La Union,San Juan,La Union|San Juan,13316000.0,Mun,,,2nd,,"37,188",,"40,507",,,"San Juan, La Union",120.3385507,16.6699328
 76,103317000,La Union,Santo Tomas,La Union|Santo Tomas,13317000.0,Mun,,,4th,,"39,092",,"40,846",,,"Santo Tomas, La Union",120.3867155,16.2823499
-77,103318000,La Union,Santol,La Union|Santol,13318000.0,Mun,,,4th,,"12,476",,"14,166",,,"Santol, La Union",120.4065709,16.8225475
+77,103318000,La Union,Santol,La Union|Santol,13318000.0,Mun,,,4th,,"12,476",,"14,166",,,"Santol, La Union",120.5049,16.7538
 78,103319000,La Union,Sudipen,La Union|Sudipen,13319000.0,Mun,,,4th,,"17,056",,"17,187",,,"Sudipen, La Union",120.4618395,16.9060713
 79,103320000,La Union,Tubao,La Union|Tubao,13320000.0,Mun,,,4th,,"28,729",,"31,763",,,"Tubao, La Union",120.4119989,16.3489378
 81,105501000,Pangasinan,Agno,Pangasinan|Agno,15501000.0,Mun,,,3rd,,"28,052",,"29,947",,,"Agno, Pangasinan",119.799026,16.1156627
@@ -600,19 +600,19 @@
 627,501706000,Camarines Sur,Bula,Camarines Sur|Bula,51706000.0,Mun,,,2nd,,"69,430",,"73,143",,,"Bula, Camarines Sur",123.2778401,13.4683491
 628,501707000,Camarines Sur,Cabusao,Camarines Sur|Cabusao,51707000.0,Mun,,,5th,,"18,397",,"19,257",,,"Cabusao, Camarines Sur",123.1126991,13.7273308
 629,501708000,Camarines Sur,Calabanga,Camarines Sur|Calabanga,51708000.0,Mun,,,1st,,"83,033",,"88,906",,,"Calabanga, Camarines Sur",123.2157561,13.708545
-630,501709000,Camarines Sur,Camaligan,Camarines Sur|Camaligan,51709000.0,Mun,,,5th,,"24,109",,"25,036",,,"Camaligan, Camarines Sur",123.1690448,13.6198238
+630,501709000,Camarines Sur,Camaligan,Camarines Sur|Camaligan,51709000.0,Mun,,,5th,,"24,109",,"25,036",,,"Camaligan, Camarines Sur",123.1633,13.6283
 631,501710000,Camarines Sur,Canaman,Camarines Sur|Canaman,51710000.0,Mun,,,4th,,"34,210",,"36,205",,,"Canaman, Camarines Sur",123.1705562,13.6475888
 632,501711000,Camarines Sur,Caramoan,Camarines Sur|Caramoan,51711000.0,Mun,,,2nd,,"47,605",,"51,728",,,"Caramoan, Camarines Sur",123.8630737,13.77036
 633,501712000,Camarines Sur,Del Gallego,Camarines Sur|Del Gallego,51712000.0,Mun,,,4th,,"25,397",,"26,403",,,"Del Gallego, Camarines Sur",122.5938087,13.9225812
-634,501713000,Camarines Sur,Gainza,Camarines Sur|Gainza,51713000.0,Mun,,,5th,,"11,262",,"11,584",,,"Gainza, Camarines Sur",123.1690448,13.6198238
+634,501713000,Camarines Sur,Gainza,Camarines Sur|Gainza,51713000.0,Mun,,,5th,,"11,262",,"11,584",,,"Gainza, Camarines Sur",123.15,13.6167
 635,501714000,Camarines Sur,Garchitorena,Camarines Sur|Garchitorena,51714000.0,Mun,,,4th,,"27,010",,"29,436",,,"Garchitorena, Camarines Sur",123.6977233,13.8818495
-636,501715000,Camarines Sur,Goa,Camarines Sur|Goa,51715000.0,Mun,,,2nd,,"63,308",,"71,368",,,"Goa, Camarines Sur",123.4884356,13.6926042
+636,501715000,Camarines Sur,Goa,Camarines Sur|Goa,51715000.0,Mun,,,2nd,,"63,308",,"71,368",,,"Goa, Camarines Sur",123.4159,13.7362
 637,501716000,Camarines Sur,City of Iriga,Camarines Sur|City of Iriga,51716000.0,City,,CC,4th,,"111,757",,"114,457",,,"City of Iriga, Camarines Sur",123.3883763,13.4499724
 638,501717000,Camarines Sur,Lagonoy,Camarines Sur|Lagonoy,51717000.0,Mun,,,2nd,,"55,465",,"56,714",,,"Lagonoy, Camarines Sur",123.520948,13.7353849
 639,501718000,Camarines Sur,Libmanan,Camarines Sur|Libmanan,51718000.0,Mun,,,1st,,"108,716",,"112,994",,,"Libmanan, Camarines Sur",123.0612123,13.6960365
 640,501719000,Camarines Sur,Lupi,Camarines Sur|Lupi,51719000.0,Mun,,,3rd,,"32,167",,"33,897",,,"Lupi, Camarines Sur",122.9089501,13.7902611
 641,501720000,Camarines Sur,Magarao,Camarines Sur|Magarao,51720000.0,Mun,,,4th,,"25,694",,"26,742",,,"Magarao, Camarines Sur",123.1895984,13.6614431
-642,501721000,Camarines Sur,Milaor,Camarines Sur|Milaor,51721000.0,Mun,,,4th,,"31,150",,"33,963",,,"Milaor, Camarines Sur",123.1690448,13.6198238
+642,501721000,Camarines Sur,Milaor,Camarines Sur|Milaor,51721000.0,Mun,,,4th,,"31,150",,"33,963",,,"Milaor, Camarines Sur",123.1745,13.5963
 643,501722000,Camarines Sur,Minalabac,Camarines Sur|Minalabac,51722000.0,Mun,,,3rd,,"52,390",,"53,981",,,"Minalabac, Camarines Sur",123.1816453,13.5688948
 644,501723000,Camarines Sur,Nabua,Camarines Sur|Nabua,51723000.0,Mun,,,1st,,"83,874",,"86,490",,,"Nabua, Camarines Sur",123.3730644,13.4075246
 645,501724000,Camarines Sur,City of Naga,Camarines Sur|City of Naga,51724000.0,City,,ICC,2nd,,"196,003",,"209,170",,,"City of Naga, Camarines Sur",123.1977853,13.6223478
@@ -627,7 +627,7 @@
 654,501733000,Camarines Sur,San Jose,Camarines Sur|San Jose,51733000.0,Mun,,,4th,,"40,623",,"43,973",,,"San Jose, Camarines Sur",123.5181339,13.6981652
 655,501734000,Camarines Sur,Sipocot,Camarines Sur|Sipocot,51734000.0,Mun,,,1st,,"64,855",,"68,169",,,"Sipocot, Camarines Sur",122.9785788,13.766636
 656,501735000,Camarines Sur,Siruma,Camarines Sur|Siruma,51735000.0,Mun,,,4th,,"17,764",,"19,419",,,"Siruma, Camarines Sur",123.2586653,14.0205642
-657,501736000,Camarines Sur,Tigaon,Camarines Sur|Tigaon,51736000.0,Mun,,,3rd,,"55,272",,"60,524",,,"Tigaon, Camarines Sur",123.4884356,13.6926042
+657,501736000,Camarines Sur,Tigaon,Camarines Sur|Tigaon,51736000.0,Mun,,,3rd,,"55,272",,"60,524",,,"Tigaon, Camarines Sur",123.4879,13.6168
 658,501737000,Camarines Sur,Tinambac,Camarines Sur|Tinambac,51737000.0,Mun,,,1st,,"67,572",,"70,176",,,"Tinambac, Camarines Sur",123.3253366,13.8183125
 660,502001000,Catanduanes,Bagamanoc,Catanduanes|Bagamanoc,52001000.0,Mun,,,5th,,"11,551",,"11,086",,,"Bagamanoc, Catanduanes",124.2878298,13.9396368
 661,502002000,Catanduanes,Baras,Catanduanes|Baras,52002000.0,Mun,,,5th,,"12,848",,"13,484",,,"Baras, Catanduanes",124.3704682,13.6591045
@@ -870,7 +870,7 @@
 908,702211000,Cebu,City of Bogo,Cebu|City of Bogo,72211000.0,City,,CC,6th,,"78,120",,"88,867",,,"City of Bogo, Cebu",124.0035574,11.0515546
 909,702212000,Cebu,Boljoon,Cebu|Boljoon,72212000.0,Mun,,,5th,,"16,344",,"17,525",,,"Boljoon, Cebu",123.4800179,9.6289389
 910,702213000,Cebu,Borbon,Cebu|Borbon,72213000.0,Mun,,,4th*,,"35,526",,"38,187",,,"Borbon, Cebu",124.0297285,10.8378844
-911,702214000,Cebu,City of Carcar,Cebu|City of Carcar,72214000.0,City,,CC,5th,,"119,664",,"136,453",,,"City of Carcar, Cebu",123.7375645,10.1907114
+911,702214000,Cebu,City of Carcar,Cebu|City of Carcar,72214000.0,City,,CC,5th,,"119,664",,"136,453",,,"City of Carcar, Cebu",123.64,10.1151
 912,702215000,Cebu,Carmen,Cebu|Carmen,72215000.0,Mun,,,3rd,,"51,325",,"57,897",,,"Carmen, Cebu",124.0180859,10.5873302
 913,702216000,Cebu,Catmon,Cebu|Catmon,72216000.0,Mun,,,4th,,"30,471",,"33,745",,,"Catmon, Cebu",124.0137974,10.723822
 914,730600000,Cebu,City of Cebu,Cebu|City of Cebu,72217000.0,City,,HUC,1st,,"922,611",,"964,169",,Capital,"City of Cebu, Cebu",123.8851848,10.3119395
@@ -890,7 +890,7 @@
 928,702231000,Cebu,Medellin,Cebu|Medellin,72231000.0,Mun,,,2nd,,"55,332",,"59,605",,,"Medellin, Cebu",123.9621553,11.1276626
 929,702232000,Cebu,Minglanilla,Cebu|Minglanilla,72232000.0,Mun,,,1st,,"132,135",,"151,002",,,"Minglanilla, Cebu",123.7964277,10.2457144
 930,702233000,Cebu,Moalboal,Cebu|Moalboal,72233000.0,Mun,,,4th,,"31,130",,"36,930",,,"Moalboal, Cebu",123.3921896,9.9372185
-931,702234000,Cebu,City of Naga,Cebu|City of Naga,72234000.0,City,,CC,5th,,"115,750",,"133,184",,,"City of Naga, Cebu",123.7375645,10.1907114
+931,702234000,Cebu,City of Naga,Cebu|City of Naga,72234000.0,City,,CC,5th,,"115,750",,"133,184",,,"City of Naga, Cebu",123.7573,10.2085
 932,702235000,Cebu,Oslob,Cebu|Oslob,72235000.0,Mun,,,4th,,"27,893",,"29,264",,,"Oslob, Cebu",123.4335205,9.5204466
 933,702236000,Cebu,Pilar,Cebu|Pilar,72236000.0,Mun,,,5th,,"11,308",,"12,506",,,"Pilar, Cebu",124.5651739,10.8066721
 934,702237000,Cebu,Pinamungajan,Cebu|Pinamungajan,72237000.0,Mun,,,2nd,,"65,955",,"75,131",,,"Pinamungajan, Cebu",123.5837478,10.2700939
@@ -1011,7 +1011,7 @@
 1054,804802000,Northern Samar,Biri,Northern Samar|Biri,84802000.0,Mun,,,5th,,"11,767",,"11,274",,,"Biri, Northern Samar",124.3619735,12.6816354
 1055,804803000,Northern Samar,Bobon,Northern Samar|Bobon,84803000.0,Mun,,,4th,,"23,668",,"25,964",,,"Bobon, Northern Samar",124.5641977,12.5257804
 1056,804804000,Northern Samar,Capul,Northern Samar|Capul,84804000.0,Mun,,,5th,,"12,679",,"12,323",,,"Capul, Northern Samar",124.1822429,12.4230698
-1057,804805000,Northern Samar,Catarman,Northern Samar|Catarman,84805000.0,Mun,,,1st,,"94,037",,"97,879",,Capital,"Catarman, Northern Samar",124.6518402,12.2976657
+1057,804805000,Northern Samar,Catarman,Northern Samar|Catarman,84805000.0,Mun,,,1st,,"94,037",,"97,879",,Capital,"Catarman, Northern Samar",124.6414,12.4198
 1058,804806000,Northern Samar,Catubig,Northern Samar|Catubig,84806000.0,Mun,,,3rd,,"33,025",,"32,174",,,"Catubig, Northern Samar",125.0544364,12.407868
 1059,804807000,Northern Samar,Gamay,Northern Samar|Gamay,84807000.0,Mun,,,4th,,"23,511",,"23,367",,,"Gamay, Northern Samar",125.3015079,12.3867359
 1060,804808000,Northern Samar,Laoang,Northern Samar|Laoang,84808000.0,Mun,,,2nd,,"61,359",,"60,607",,,"Laoang, Northern Samar",125.0152917,12.5688537
@@ -1030,7 +1030,7 @@
 1073,804821000,Northern Samar,San Vicente,Northern Samar|San Vicente,84821000.0,Mun,,,6th,,"7,856",,"6,928",,,"San Vicente, Northern Samar",124.0997214,12.273101
 1074,804822000,Northern Samar,Silvino Lobos,Northern Samar|Silvino Lobos,84822000.0,Mun,,,4th,,"15,299",,"15,100",,,"Silvino Lobos, Northern Samar",124.8469461,12.3266874
 1075,804823000,Northern Samar,Victoria,Northern Samar|Victoria,84823000.0,Mun,,,5th,,"14,817",,"15,361",,,"Victoria, Northern Samar",124.3123478,12.4466736
-1076,804824000,Northern Samar,Lope De Vega,Northern Samar|Lope De Vega,84824000.0,Mun,,,4th,,"14,687",,"14,690",,,"Lope De Vega, Northern Samar",124.6518402,12.2976657
+1076,804824000,Northern Samar,Lope De Vega,Northern Samar|Lope De Vega,84824000.0,Mun,,,4th,,"14,687",,"14,690",,,"Lope De Vega, Northern Samar",124.6635,12.2792
 1078,806001000,Samar,Almagro,Samar|Almagro,86001000.0,Mun,,,5th,,"8,942",,"9,273",,,"Almagro, Samar",124.2861717,11.9121303
 1079,806002000,Samar,Basey,Samar|Basey,86002000.0,Mun,,,1st,,"55,480",,"56,685",,,"Basey, Samar",125.0691282,11.2802223
 1080,806003000,Samar,City of Calbayog,Samar|City of Calbayog,86003000.0,City,,CC,1st,,"183,851",,"186,960",,,"City of Calbayog, Samar",124.50206,12.0953548
@@ -1124,14 +1124,14 @@
 1172,907317000,Zamboanga del Sur,Margosatubig,Zamboanga del Sur|Margosatubig,97317000.0,Mun,,,3rd,,"37,873",,"38,660",,,"Margosatubig, Zamboanga del Sur",123.1689932,7.5765795
 1173,907318000,Zamboanga del Sur,Midsalip,Zamboanga del Sur|Midsalip,97318000.0,Mun,,,4th*,,"32,075",,"33,711",,,"Midsalip, Zamboanga del Sur",123.3171861,8.0307675
 1174,907319000,Zamboanga del Sur,Molave,Zamboanga del Sur|Molave,97319000.0,Mun,,,1st,,"52,006",,"53,140",,,"Molave, Zamboanga del Sur",123.4849176,8.0927689
-1175,907322000,Zamboanga del Sur,City of Pagadian,Zamboanga del Sur|City of Pagadian,97322000.0,City,,CC,2nd,,"199,060",,"210,452",,Capital,"City of Pagadian, Zamboanga del Sur",123.4365816,7.8249717
+1175,907322000,Zamboanga del Sur,City of Pagadian,Zamboanga del Sur|City of Pagadian,97322000.0,City,,CC,2nd,,"199,060",,"210,452",,Capital,"City of Pagadian, Zamboanga del Sur",123.4343,7.8397
 1176,907323000,Zamboanga del Sur,Ramon Magsaysay,Zamboanga del Sur|Ramon Magsaysay,97323000.0,Mun,Liargo,,4th*,,"26,606",,"27,280",,,"Ramon Magsaysay, Zamboanga del Sur",123.4867943,8.0054675
 1177,907324000,Zamboanga del Sur,San Miguel,Zamboanga del Sur|San Miguel,97324000.0,Mun,,,4th,,"19,205",,"19,838",,,"San Miguel, Zamboanga del Sur",123.2676131,7.6483033
 1178,907325000,Zamboanga del Sur,San Pablo,Zamboanga del Sur|San Pablo,97325000.0,Mun,,,4th*,,"26,106",,"26,648",,,"San Pablo, Zamboanga del Sur",123.4578657,7.6579737
 1179,907327000,Zamboanga del Sur,Tabina,Zamboanga del Sur|Tabina,97327000.0,Mun,,,4th,,"25,061",,"25,734",,,"Tabina, Zamboanga del Sur",123.4091717,7.4632266
 1180,907328000,Zamboanga del Sur,Tambulig,Zamboanga del Sur|Tambulig,97328000.0,Mun,,,4th*,,"36,160",,"37,480",,,"Tambulig, Zamboanga del Sur",123.536314,8.0692761
 1181,907330000,Zamboanga del Sur,Tukuran,Zamboanga del Sur|Tukuran,97330000.0,Mun,,,4th*,,"39,820",,"42,429",,,"Tukuran, Zamboanga del Sur",123.5736244,7.8542433
-1182,931700000,Zamboanga del Sur,City of Zamboanga,Zamboanga del Sur|City of Zamboanga,97332000.0,City,,HUC,1st,,"861,799",,"977,234",,,"City of Zamboanga, Zamboanga del Sur",123.4365816,7.8249717
+1182,931700000,Zamboanga del Sur,City of Zamboanga,Zamboanga del Sur|City of Zamboanga,97332000.0,City,,HUC,1st,,"861,799",,"977,234",,,"City of Zamboanga, Zamboanga del Sur",122.079,6.9214
 1183,907333000,Zamboanga del Sur,Lakewood,Zamboanga del Sur|Lakewood,97333000.0,Mun,,,4th,,"20,374",,"21,559",,,"Lakewood, Zamboanga del Sur",123.1556791,7.8522464
 1184,907337000,Zamboanga del Sur,Josefina,Zamboanga del Sur|Josefina,97337000.0,Mun,,,5th*,,"11,799",,"12,205",,,"Josefina, Zamboanga del Sur",123.5436197,8.2148124
 1185,907338000,Zamboanga del Sur,Pitogo,Zamboanga del Sur|Pitogo,97338000.0,Mun,,,4th,,"27,057",,"27,516",,,"Pitogo, Zamboanga del Sur",123.3126544,7.4531641
@@ -1253,7 +1253,7 @@
 1308,1102303000,Davao del Norte,Carmen,Davao del Norte|Carmen,112303000.0,Mun,,,1st,,"74,679",,"82,018",,,"Carmen, Davao del Norte",125.7044546,7.3556822
 1309,1102305000,Davao del Norte,Kapalong,Davao del Norte|Kapalong,112305000.0,Mun,,,1st,,"76,334",,"81,068",,,"Kapalong, Davao del Norte",125.7094812,7.5900355
 1310,1102314000,Davao del Norte,New Corella,Davao del Norte|New Corella,112314000.0,Mun,,,2nd,,"54,844",,"57,913",,,"New Corella, Davao del Norte",125.8225661,7.5860365
-1311,1102315000,Davao del Norte,City of Panabo,Davao del Norte|City of Panabo,112315000.0,City,,CC,3rd,,"184,599",,"209,230",,,"City of Panabo, Davao del Norte",125.5,7.31667
+1311,1102315000,Davao del Norte,City of Panabo,Davao del Norte|City of Panabo,112315000.0,City,,CC,3rd,,"184,599",,"209,230",,,"City of Panabo, Davao del Norte",125.68416666666667,7.308055555555556
 1312,1102317000,Davao del Norte,Island Garden City of Samal,Davao del Norte|Island Garden City of Samal,112317000.0,City,,CC,4th,,"104,123",,"116,771",,,"Island Garden City of Samal, Davao del Norte",125.7120437,7.0780265
 1313,1102318000,Davao del Norte,Santo Tomas,Davao del Norte|Santo Tomas,112318000.0,Mun,,,1st,,"118,750",,"128,667",,,"Santo Tomas, Davao del Norte",125.6210285,7.5299413
 1314,1102319000,Davao del Norte,City of Tagum,Davao del Norte|City of Tagum,112319000.0,City,,CC,1st,,"259,444",,"296,202",,Capital,"City of Tagum, Davao del Norte",125.8264714,7.4407906
@@ -1348,22 +1348,22 @@
 1411,1208006000,Sarangani,Malapatan,Sarangani|Malapatan,128006000.0,Mun,,,1st,,"76,914",,"80,741",,,"Malapatan, Sarangani",125.2882717,5.9707512
 1412,1208007000,Sarangani,Malungon,Sarangani|Malungon,128007000.0,Mun,,,1st,,"103,604",,"105,465",,,"Malungon, Sarangani",125.2680723,6.375677
 1413,1380600000,Metropolitan Manila,City of Manila,Metropolitan Manila|City of Manila,133900000.0,City,,HUC,Special,,"1,780,148",,"1,846,513",,,"City of Manila, Metropolitan Manila",120.9864887,14.5623665
-1414,1380500000,Metropolitan Manila,City of Mandaluyong,Metropolitan Manila|City of Mandaluyong,137401000.0,City,,HUC,1st,,"386,276",,"425,758",,,"City of Mandaluyong, Metropolitan Manila",121.0,14.5833
-1415,1380700000,Metropolitan Manila,City of Marikina,Metropolitan Manila|City of Marikina,137402000.0,City,,HUC,1st,,"450,741",,"456,059",,,"City of Marikina, Metropolitan Manila",121.0,14.5833
-1416,1381200000,Metropolitan Manila,City of Pasig,Metropolitan Manila|City of Pasig,137403000.0,City,,HUC,1st,,"755,300",,"803,159",,,"City of Pasig, Metropolitan Manila",121.0,14.5833
-1417,1381300000,Metropolitan Manila,Quezon City,Metropolitan Manila|Quezon City,137404000.0,City,,HUC,Special,,"2,936,116",,"2,960,048",,,"Quezon City, Metropolitan Manila",121.0,14.5833
-1418,1381400000,Metropolitan Manila,City of San Juan,Metropolitan Manila|City of San Juan,137405000.0,City,,HUC,1st,,"122,180",,"126,347",,,"City of San Juan, Metropolitan Manila",121.0,14.5833
-1419,1380100000,Metropolitan Manila,City of Caloocan,Metropolitan Manila|City of Caloocan,137501000.0,City,,HUC,1st,,"1,583,978",,"1,661,584",,,"City of Caloocan, Metropolitan Manila",121.0,14.5833
-1420,1380400000,Metropolitan Manila,City of Malabon,Metropolitan Manila|City of Malabon,137502000.0,City,,HUC,1st,,"365,525",,"380,522",,,"City of Malabon, Metropolitan Manila",121.0,14.5833
-1421,1380900000,Metropolitan Manila,City of Navotas,Metropolitan Manila|City of Navotas,137503000.0,City,,HUC,2nd,,"249,463",,"247,543",,,"City of Navotas, Metropolitan Manila",121.0,14.5833
-1422,1381600000,Metropolitan Manila,City of Valenzuela,Metropolitan Manila|City of Valenzuela,137504000.0,City,,HUC,1st,,"620,422",,"714,978",,,"City of Valenzuela, Metropolitan Manila",121.0,14.5833
-1423,1380200000,Metropolitan Manila,City of Las Piñas,Metropolitan Manila|City of Las Piñas,137601000.0,City,,HUC,1st,,"588,894",,"606,293",,,"City of Las Piñas, Metropolitan Manila",121.0,14.5833
+1414,1380500000,Metropolitan Manila,City of Mandaluyong,Metropolitan Manila|City of Mandaluyong,137401000.0,City,,HUC,1st,,"386,276",,"425,758",,,"City of Mandaluyong, Metropolitan Manila",121.0359,14.5794
+1415,1380700000,Metropolitan Manila,City of Marikina,Metropolitan Manila|City of Marikina,137402000.0,City,,HUC,1st,,"450,741",,"456,059",,,"City of Marikina, Metropolitan Manila",121.1029,14.6507
+1416,1381200000,Metropolitan Manila,City of Pasig,Metropolitan Manila|City of Pasig,137403000.0,City,,HUC,1st,,"755,300",,"803,159",,,"City of Pasig, Metropolitan Manila",121.0851,14.5764
+1417,1381300000,Metropolitan Manila,Quezon City,Metropolitan Manila|Quezon City,137404000.0,City,,HUC,Special,,"2,936,116",,"2,960,048",,,"Quezon City, Metropolitan Manila",121.0437,14.676
+1418,1381400000,Metropolitan Manila,City of San Juan,Metropolitan Manila|City of San Juan,137405000.0,City,,HUC,1st,,"122,180",,"126,347",,,"City of San Juan, Metropolitan Manila",121.0355,14.6019
+1419,1380100000,Metropolitan Manila,City of Caloocan,Metropolitan Manila|City of Caloocan,137501000.0,City,,HUC,1st,,"1,583,978",,"1,661,584",,,"City of Caloocan, Metropolitan Manila",121.045,14.7566
+1420,1380400000,Metropolitan Manila,City of Malabon,Metropolitan Manila|City of Malabon,137502000.0,City,,HUC,1st,,"365,525",,"380,522",,,"City of Malabon, Metropolitan Manila",120.9658,14.6681
+1421,1380900000,Metropolitan Manila,City of Navotas,Metropolitan Manila|City of Navotas,137503000.0,City,,HUC,2nd,,"249,463",,"247,543",,,"City of Navotas, Metropolitan Manila",120.935,14.6732
+1422,1381600000,Metropolitan Manila,City of Valenzuela,Metropolitan Manila|City of Valenzuela,137504000.0,City,,HUC,1st,,"620,422",,"714,978",,,"City of Valenzuela, Metropolitan Manila",120.983,14.7011
+1423,1380200000,Metropolitan Manila,City of Las Piñas,Metropolitan Manila|City of Las Piñas,137601000.0,City,,HUC,1st,,"588,894",,"606,293",,,"City of Las Piñas, Metropolitan Manila",120.9939,14.4445
 1424,1380300000,Metropolitan Manila,City of Makati,Metropolitan Manila|City of Makati,137602000.0,City,,HUC,1st,,"582,602",,"629,616",,,"City of Makati, Metropolitan Manila",121.0430972,14.5611859
-1425,1380800000,Metropolitan Manila,City of Muntinlupa,Metropolitan Manila|City of Muntinlupa,137603000.0,City,,HUC,1st,,"504,509",,"543,445",,,"City of Muntinlupa, Metropolitan Manila",121.0,14.5833
+1425,1380800000,Metropolitan Manila,City of Muntinlupa,Metropolitan Manila|City of Muntinlupa,137603000.0,City,,HUC,1st,,"504,509",,"543,445",,,"City of Muntinlupa, Metropolitan Manila",121.0415,14.4081
 1426,1381000000,Metropolitan Manila,City of Parañaque,Metropolitan Manila|City of Parañaque,137604000.0,City,,HUC,1st,,"665,822",,"689,992",,,"City of Parañaque, Metropolitan Manila",121.0,14.5833
 1427,1381100000,Metropolitan Manila,Pasay City,Metropolitan Manila|Pasay City,137605000.0,City,,HUC,1st,,"416,522",,"440,656",,,"Pasay City, Metropolitan Manila",120.9936053,14.545137
-1428,1381701000,Metropolitan Manila,Pateros,Metropolitan Manila|Pateros,137606000.0,Mun,,,1st,,"63,840",,"65,227",,,"Pateros, Metropolitan Manila",121.0,14.5833
-1429,1381500000,Metropolitan Manila,City of Taguig,Metropolitan Manila|City of Taguig,137607000.0,City,,HUC,1st,,"804,915",,"886,722",,,"City of Taguig, Metropolitan Manila",121.0,14.5833
+1428,1381701000,Metropolitan Manila,Pateros,Metropolitan Manila|Pateros,137606000.0,Mun,,,1st,,"63,840",,"65,227",,,"Pateros, Metropolitan Manila",121.070773,14.548378
+1429,1381500000,Metropolitan Manila,City of Taguig,Metropolitan Manila|City of Taguig,137607000.0,City,,HUC,1st,,"804,915",,"886,722",,,"City of Taguig, Metropolitan Manila",121.0509,14.5176
 1431,1400101000,Abra,Bangued,Abra|Bangued,140101000.0,Mun,,,1st,,"48,163",,"50,382",,Capital,"Bangued, Abra",120.6179987,17.5965664
 1432,1400102000,Abra,Boliney,Abra|Boliney,140102000.0,Mun,,,5th,,"3,573",,"4,551",,,"Boliney, Abra",120.8198364,17.3790583
 1433,1400103000,Abra,Bucay,Abra|Bucay,140103000.0,Mun,,,5th,,"17,115",,"17,953",,,"Bucay, Abra",120.7187526,17.5384336
@@ -1619,7 +1619,7 @@
 1699,1908808000,Maguindanao del Sur,Datu Salibo,Maguindanao del Sur|Datu Salibo,153836000.0,Mun,,,-,,"14,947",,"18,795",,,"Datu Salibo, Maguindanao del Sur",124.4823832,6.9767315
 1700,1908809000,Maguindanao del Sur,Datu Saudi Ampatuan,Maguindanao del Sur|Datu Saudi Ampatuan,153826000.0,Mun,,,4th,,"26,427",,"31,060",,,"Datu Saudi Ampatuan, Maguindanao del Sur",124.4145057,6.9261327
 1701,1908810000,Maguindanao del Sur,Datu Unsay,Maguindanao del Sur|Datu Unsay,153827000.0,Mun,,,5th,,"11,813",,"12,890",,,"Datu Unsay, Maguindanao del Sur",124.4355823,6.8812524
-1702,1908811000,Maguindanao del Sur,Gen. S.K. Pendatun,Maguindanao del Sur|Gen. S.K. Pendatun,153819000.0,Mun,,,4th*,,"28,103",,"31,263",,,"Gen. S.K. Pendatun, Maguindanao del Sur",124.7438,6.8409
+1702,1908811000,Maguindanao del Sur,Gen. S.K. Pendatun,Maguindanao del Sur|Gen. S.K. Pendatun,153819000.0,Mun,,,4th*,,"28,103",,"31,263",,,"Gen. S.K. Pendatun, Maguindanao del Sur",124.7078,6.8278
 1703,1908812000,Maguindanao del Sur,Guindulungan,Maguindanao del Sur|Guindulungan,153825000.0,Mun,,,-,,"19,911",,"24,933",,,"Guindulungan, Maguindanao del Sur",124.3862549,6.9766551
 1704,1908813000,Maguindanao del Sur,Mamasapano,Maguindanao del Sur|Mamasapano,153820000.0,Mun,,,5th,,"24,800",,"27,807",,,"Mamasapano, Maguindanao del Sur",124.500925,6.8926767
 1705,1908814000,Maguindanao del Sur,Mangudadatu,Maguindanao del Sur|Mangudadatu,153832000.0,Mun,,,-,,"25,046",,"26,203",,,"Mangudadatu, Maguindanao del Sur",124.7859734,6.6467834
