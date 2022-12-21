@@ -1,0 +1,51 @@
+,Pillar / Indicator,2014,2015,2016,2017,2018,2019,2020,2021,2022,City_Municipality
+0,Local Economy Size,-,-,-,0.0116,0.0061,0.0157,0.0241,0.0125,0.0022,Panitan
+1,Local Economy Growth,-,-,-,0.0500,0.0036,0.0020,1.0231,0.0007,0.0003,Panitan
+2,Active Establishments in the Locality,-,-,-,0.0836,0.0011,0.0596,0.1026,0.1366,0.0,Panitan
+3,Safety Compliant Business,-,-,-,0.0103,0.0074,0.0061,0.0904,0.0802,0.0617,Panitan
+4,Employment Generation,-,-,-,0.0854,0.0369,0.1107,0.1117,0.1199,0.1137,Panitan
+5,Cost of Living,-,-,-,1.8966,2.0833,1.7500,0.4167,1.5000,1.9988,Panitan
+6,Cost of Doing Business,-,-,-,1.7832,2.0839,2.0776,2.2678,2.3483,1.9031,Panitan
+7,Financial Deepening,-,-,-,0.2646,0.0881,0.1868,0.2888,0.2503,0.0725,Panitan
+8,Productivity,-,-,-,0.0383,0.0129,0.0648,0.0700,0.1119,0.1158,Panitan
+9,Presence of Business and Professional Organizations,-,-,-,0.0000,0.0164,0.1299,0.0472,0.0213,0.0148,Panitan
+10,Compliance to National Directives,-,-,-,1.1513,0.0000,1.2488,1.1786,0.0000,0.0,Panitan
+11,Presence of Investment Promotion Unit,-,-,-,1.8750,0.0000,2.5000,2.5000,1.8750,1.9991,Panitan
+12,Compliance to ARTA Citizens Charter,-,-,-,1.2002,0.0000,2.2470,2.4931,2.1098,2.0,Panitan
+13,Capacity to Generate Local Resource,-,-,-,0.4881,0.0000,0.0507,0.2742,0.0425,0.1653,Panitan
+14,Capacity of Health Services,-,-,-,0.0872,0.0000,0.0987,0.0706,0.0366,0.0354,Panitan
+15,Capacity of School Services,-,-,-,0.2283,0.0000,0.3451,0.0793,0.0531,0.0077,Panitan
+16,Recognition of Performance,-,-,-,0.2283,0.0000,0.0000,0.0000,0.0000,0.0,Panitan
+17,Getting Business Permits,-,-,-,0.9820,0.0000,1.6343,1.6638,1.5578,1.5,Panitan
+18,Peace and Order,-,-,-,0.1914,0.0000,0.3456,0.4592,0.1478,0.0002,Panitan
+19,Social Protection,-,-,-,0.9007,0.0000,0.9601,1.2671,0.0045,0.0027,Panitan
+20,Road Network,-,-,-,0.0000,0.0000,0.0498,0.0008,0.0418,0.097,Panitan
+21,Distance to Ports,-,-,-,2.4522,0.0000,2.4422,2.4136,2.4451,1.98,Panitan
+22,Availability of Basic Utilities,-,-,-,0.0000,0.0000,2.4063,2.1563,2.4063,1.159,Panitan
+23,Transportation Vehicles,-,-,-,0.1227,0.0000,0.0128,0.0346,0.0772,0.0068,Panitan
+24,Education,-,-,-,0.1829,0.0000,0.0670,0.0323,0.0653,0.0638,Panitan
+25,Health,-,-,-,0.4922,0.0000,0.1045,0.1104,0.1109,0.1024,Panitan
+26,LGU Investment,-,-,-,0.1467,0.0000,0.0775,0.0643,0.1268,0.0002,Panitan
+27,Accommodation Capacity,-,-,-,0.0000,0.0000,0.0000,0.0009,0.0000,0.0,Panitan
+28,Information Technology Capacity,-,-,-,0.6944,0.0000,0.4097,0.6296,0.2174,0.1739,Panitan
+29,Financial Technology Capacity,-,-,-,0.2500,0.0000,0.6318,0.8438,0.2083,0.0909,Panitan
+30,Land Use Plan,-,-,-,2.5000,0.0000,2.3846,2.3846,2.3571,1.8378,Panitan
+31,Disaster Risk Reduction Plan,-,-,-,2.5000,0.0000,2.4537,2.5000,2.5000,1.9995,Panitan
+32,Annual Disaster Drill,-,-,-,2.5000,0.0000,2.5000,2.5000,0.0000,1.0,Panitan
+33,Early Warning System,-,-,-,2.5000,0.0000,2.5000,2.5000,1.2550,1.002,Panitan
+34,Budget for DRRMP,-,-,-,0.0021,0.0000,0.1364,0.0498,0.0130,0.0,Panitan
+35,Local Risk Assessments,-,-,-,0.0000,0.0000,2.5000,2.5000,2.5000,2.0,Panitan
+36,Emergency Infrastructure,-,-,-,0.8741,0.0000,0.4810,0.4801,0.2491,0.3673,Panitan
+37,Utilities,-,-,-,0.9877,0.0000,1.8918,1.8896,1.3069,1.505,Panitan
+38,Employed Population,-,-,-,0.1053,0.0000,0.2986,0.2638,0.0070,0.0034,Panitan
+39,Sanitary System,-,-,-,0.5417,0.0000,2.0255,1.5005,1.2501,1.0,Panitan
+40,Start Up and Innovation Facilities,-,-,-,-,-,-,-,-,0.0513,Panitan
+41,Innovation Financing: R&D Expenditures Allotment,-,-,-,-,-,-,-,-,0.0,Panitan
+42,STEM graduates,-,-,-,-,-,-,-,-,0.0,Panitan
+43,Intellectual Property Registration,-,-,-,-,-,-,-,-,0.0086,Panitan
+44,ICT Use: E-BPLS Software,-,-,-,-,-,-,-,-,2.0,Panitan
+45,Internet Capability,-,-,-,-,-,-,-,-,1.087,Panitan
+46,Availability of Basic Internet Service,-,-,-,-,-,-,-,-,0.0,Panitan
+47,Online Payment Facilities,-,-,-,-,-,-,-,-,0.0,Panitan
+48,ICT Plan,-,-,-,-,-,-,-,-,0.6667,Panitan
+49,New Technology,-,-,-,-,-,-,-,-,0.0,Panitan

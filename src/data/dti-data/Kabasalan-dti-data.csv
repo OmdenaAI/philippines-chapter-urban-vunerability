@@ -1,0 +1,51 @@
+,Pillar / Indicator,2014,2015,2016,2017,2018,2019,2020,2021,2022,City_Municipality
+0,Local Economy Size,0.1044,0.0474,0.0625,0.0000,0.0000,0.0000,0.0001,0.0000,0.0017,Kabasalan
+1,Local Economy Growth,0.3250,0.3002,0.0824,0.0000,0.0000,0.0000,0.3302,0.0000,0.0,Kabasalan
+2,Active Establishments in the Locality,-,-,-,0.0000,0.0000,0.0000,0.1043,0.1062,0.0632,Kabasalan
+3,Safety Compliant Business,-,-,-,0.0000,0.0000,0.0000,0.0002,0.0735,0.0,Kabasalan
+4,Employment Generation,0.1959,0.0412,0.0881,0.0000,0.0000,0.0000,0.0000,0.0400,0.0354,Kabasalan
+5,Cost of Living,2.1073,1.5988,2.0833,1.2838,1.4815,0.8333,1.9828,1.5000,1.7596,Kabasalan
+6,Cost of Doing Business,2.8698,3.1833,3.3352,1.7617,1.6227,0.7290,2.2579,2.3424,1.8831,Kabasalan
+7,Financial Deepening,0.4655,0.5525,0.4982,0.2778,0.0497,0.1544,0.1490,0.1338,0.0879,Kabasalan
+8,Productivity,0.0100,0.0033,0.0005,0.0000,0.0000,0.0000,0.0000,0.0197,0.0284,Kabasalan
+9,Presence of Business and Professional Organizations,0.0022,0.2490,0.2160,0.1505,0.1158,0.0000,0.0665,0.0720,0.0028,Kabasalan
+10,Compliance to National Directives,3.3333,3.3333,3.3041,0.0000,0.0000,0.0000,2.4242,2.2024,1.7857,Kabasalan
+11,Presence of Investment Promotion Unit,0.0000,3.3333,2.5000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0,Kabasalan
+12,Compliance to ARTA Citizens Charter,-,2.9415,1.5430,1.1077,0.0000,2.0460,2.3959,1.8170,1.0,Kabasalan
+13,Capacity to Generate Local Resource,0.5385,0.4582,0.9704,0.0000,0.0000,0.1359,0.0297,0.0026,0.0014,Kabasalan
+14,Capacity of Health Services,0.1936,0.1326,0.1474,0.0900,0.0000,0.0628,0.0551,0.0780,0.0019,Kabasalan
+15,Capacity of School Services,0.2997,0.4010,0.2238,0.0000,0.0000,0.1912,0.0587,0.0229,0.0595,Kabasalan
+16,Recognition of Performance,0.0000,1.2698,1.5945,0.0000,0.0000,0.0000,0.0000,0.0000,0.1155,Kabasalan
+17,Getting Business Permits,-,-,0.0000,0.7449,0.0000,0.3612,1.6371,1.1781,1.5,Kabasalan
+18,Peace and Order,0.5427,0.0646,0.0565,0.3734,0.0000,0.0144,0.0144,0.0401,0.0823,Kabasalan
+19,Social Protection,-,-,0.2149,0.0000,0.0000,0.1865,0.1745,0.1367,0.0008,Kabasalan
+20,Road Network,0.0041,0.0010,0.0006,0.0000,0.0000,0.0322,0.0015,0.0660,0.0003,Kabasalan
+21,Distance to Ports,2.9945,2.6089,2.8971,2.1828,0.0000,1.6650,2.4944,2.2992,1.8297,Kabasalan
+22,Availability of Basic Utilities,1.3030,2.5000,2.9167,0.0000,0.0000,0.0000,0.0000,2.0198,0.0759,Kabasalan
+23,Transportation Vehicles,0.0016,0.0346,0.0570,0.0325,0.0000,0.0029,0.0035,0.0057,0.0066,Kabasalan
+24,Education,0.1549,0.1866,0.0529,0.0604,0.0000,0.1193,0.0644,0.0698,0.1053,Kabasalan
+25,Health,0.1219,0.0931,0.3337,0.2025,0.0000,0.0581,0.0192,0.0683,0.1376,Kabasalan
+26,LGU Investment,1.2577,1.3540,0.6277,0.0000,0.0000,0.0000,0.0844,0.0109,0.0007,Kabasalan
+27,Accommodation Capacity,0.0269,0.0997,0.0084,0.0061,0.0000,0.0130,0.0107,0.0060,0.0308,Kabasalan
+28,Information Technology Capacity,0.0000,0.8321,0.4300,0.2378,0.0000,0.0574,0.1703,0.1818,0.0617,Kabasalan
+29,Financial Technology Capacity,0.0616,0.0370,0.0694,0.0266,0.0000,0.0647,0.0631,0.0631,0.0259,Kabasalan
+30,Land Use Plan,-,-,-,0.0000,0.0000,1.5000,2.0000,2.2500,1.8182,Kabasalan
+31,Disaster Risk Reduction Plan,-,-,-,0.0000,0.0000,2.3611,2.3611,2.3684,1.9985,Kabasalan
+32,Annual Disaster Drill,-,-,-,0.0000,0.0000,1.2500,0.0000,0.0000,1.004,Kabasalan
+33,Early Warning System,-,-,-,0.0000,0.0000,2.5000,0.0000,1.2573,1.0099,Kabasalan
+34,Budget for DRRMP,-,-,-,0.0000,0.0000,0.0000,0.0405,0.0202,0.0,Kabasalan
+35,Local Risk Assessments,-,-,-,0.0000,0.0000,1.2500,0.0000,2.5000,2.0,Kabasalan
+36,Emergency Infrastructure,-,-,-,0.0116,0.0000,0.4686,0.0457,0.2379,0.3655,Kabasalan
+37,Utilities,-,-,-,0.0000,0.0000,1.8665,0.9355,1.0144,1.5078,Kabasalan
+38,Employed Population,-,-,-,0.0000,0.0000,0.0000,0.0000,0.0000,0.0097,Kabasalan
+39,Sanitary System,-,-,-,0.0000,0.0000,1.5562,1.9946,1.8754,1.5005,Kabasalan
+40,Start Up and Innovation Facilities,-,-,-,-,-,-,-,-,0.0784,Kabasalan
+41,Innovation Financing: R&D Expenditures Allotment,-,-,-,-,-,-,-,-,0.0,Kabasalan
+42,STEM graduates,-,-,-,-,-,-,-,-,0.0164,Kabasalan
+43,Intellectual Property Registration,-,-,-,-,-,-,-,-,0.0029,Kabasalan
+44,ICT Use: E-BPLS Software,-,-,-,-,-,-,-,-,2.0,Kabasalan
+45,Internet Capability,-,-,-,-,-,-,-,-,1.0333,Kabasalan
+46,Availability of Basic Internet Service,-,-,-,-,-,-,-,-,0.0013,Kabasalan
+47,Online Payment Facilities,-,-,-,-,-,-,-,-,0.0,Kabasalan
+48,ICT Plan,-,-,-,-,-,-,-,-,2.0001,Kabasalan
+49,New Technology,-,-,-,-,-,-,-,-,0.0,Kabasalan

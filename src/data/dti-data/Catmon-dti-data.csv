@@ -1,0 +1,51 @@
+,Pillar / Indicator,2014,2015,2016,2017,2018,2019,2020,2021,2022,City_Municipality
+0,Local Economy Size,-,0.1001,0.1105,0.0016,0.0046,0.0086,0.0317,0.0155,0.0042,Catmon
+1,Local Economy Growth,-,0.3441,1.1297,0.0074,0.0010,0.0013,1.0320,0.0007,0.0017,Catmon
+2,Active Establishments in the Locality,-,-,-,0.0810,0.0017,0.1199,0.3159,0.1972,0.197,Catmon
+3,Safety Compliant Business,-,-,-,0.1222,0.0726,0.1168,0.1401,0.1358,0.1181,Catmon
+4,Employment Generation,-,0.5317,0.1562,0.1305,0.0000,0.0851,0.0978,0.1181,0.15,Catmon
+5,Cost of Living,-,3.2051,2.6667,0.6466,1.4352,1.5000,1.6667,2.3750,1.9996,Catmon
+6,Cost of Doing Business,-,2.6971,2.5588,1.6142,2.0752,2.0699,2.1417,2.2053,1.5522,Catmon
+7,Financial Deepening,-,0.7768,1.9290,0.4497,0.1342,0.2787,0.3438,0.5024,0.1738,Catmon
+8,Productivity,-,0.0000,0.0069,0.0020,0.0000,0.0688,0.0934,0.1028,0.0974,Catmon
+9,Presence of Business and Professional Organizations,-,1.3177,0.1953,0.0354,0.0382,0.0340,0.0594,0.0000,0.0,Catmon
+10,Compliance to National Directives,-,3.3333,3.0976,0.0000,0.0000,2.4988,2.5000,0.0000,0.0,Catmon
+11,Presence of Investment Promotion Unit,-,0.0000,0.0000,0.0000,0.0000,2.5000,1.8750,1.8750,1.9997,Catmon
+12,Compliance to ARTA Citizens Charter,-,2.6628,2.0047,1.9945,0.0000,2.3540,2.1833,2.3793,2.0,Catmon
+13,Capacity to Generate Local Resource,-,1.8572,1.7216,0.0653,0.0000,0.0995,0.0858,0.0252,0.0285,Catmon
+14,Capacity of Health Services,-,0.0881,0.1934,0.1482,0.0000,0.0611,0.0623,0.0242,0.0105,Catmon
+15,Capacity of School Services,-,0.0536,0.2787,0.1547,0.0000,0.4594,0.1180,0.0726,0.0019,Catmon
+16,Recognition of Performance,-,0.5556,0.0000,0.1547,0.0000,0.0000,0.1693,0.0329,0.0,Catmon
+17,Getting Business Permits,-,-,0.0000,1.3468,0.0000,1.4817,1.5684,1.2205,0.0,Catmon
+18,Peace and Order,-,0.1805,0.0927,0.1489,0.0000,0.1843,0.3189,0.0800,0.1333,Catmon
+19,Social Protection,-,-,0.0005,0.6250,0.0000,1.5301,0.5913,0.1542,0.0,Catmon
+20,Road Network,-,0.0001,0.0010,0.0005,0.0000,0.0603,0.0005,0.0508,0.5664,Catmon
+21,Distance to Ports,-,2.8528,3.1255,2.4223,0.0000,2.3552,2.3654,2.3114,1.9671,Catmon
+22,Availability of Basic Utilities,-,3.3333,3.3333,2.5000,0.0000,2.4688,2.1125,2.3625,0.2262,Catmon
+23,Transportation Vehicles,-,0.0824,0.0371,0.0603,0.0000,0.0024,0.0277,0.0182,0.0009,Catmon
+24,Education,-,0.4959,0.3716,0.2724,0.0000,0.1480,0.0784,0.1262,0.0877,Catmon
+25,Health,-,0.1046,0.0561,0.1445,0.0000,0.0744,0.0953,0.0491,0.0339,Catmon
+26,LGU Investment,-,0.0000,0.0000,0.1627,0.0000,0.0601,0.0249,0.1346,2.0,Catmon
+27,Accommodation Capacity,-,0.0000,0.0505,0.0187,0.0000,0.0125,0.0223,0.0495,0.0205,Catmon
+28,Information Technology Capacity,-,0.6709,1.2540,0.9226,0.0000,0.3388,0.8241,0.2174,0.1739,Catmon
+29,Financial Technology Capacity,-,0.2381,0.2381,0.1563,0.0000,0.0543,0.0000,0.0000,0.0455,Catmon
+30,Land Use Plan,-,-,-,1.8750,0.0000,2.3718,2.4872,2.5000,1.973,Catmon
+31,Disaster Risk Reduction Plan,-,-,-,2.5000,0.0000,2.4074,2.4537,2.4706,1.999,Catmon
+32,Annual Disaster Drill,-,-,-,2.5000,0.0000,2.4107,2.5000,1.2500,0.0,Catmon
+33,Early Warning System,-,-,-,2.5000,0.0000,2.5000,2.5000,1.3123,1.0514,Catmon
+34,Budget for DRRMP,-,-,-,0.0000,0.0000,0.1061,0.0177,0.0025,0.0005,Catmon
+35,Local Risk Assessments,-,-,-,2.5000,0.0000,2.5000,2.5000,2.5000,2.0,Catmon
+36,Emergency Infrastructure,-,-,-,0.9418,0.0000,0.5067,0.5248,0.2535,0.3747,Catmon
+37,Utilities,-,-,-,0.7540,0.0000,1.8787,1.8767,1.2527,1.4972,Catmon
+38,Employed Population,-,-,-,0.1581,0.0000,0.0427,0.0377,0.0349,0.0095,Catmon
+39,Sanitary System,-,-,-,1.0833,0.0000,1.5568,1.5007,1.8752,1.5001,Catmon
+40,Start Up and Innovation Facilities,-,-,-,-,-,-,-,-,0.0,Catmon
+41,Innovation Financing: R&D Expenditures Allotment,-,-,-,-,-,-,-,-,0.0,Catmon
+42,STEM graduates,-,-,-,-,-,-,-,-,0.0,Catmon
+43,Intellectual Property Registration,-,-,-,-,-,-,-,-,0.0,Catmon
+44,ICT Use: E-BPLS Software,-,-,-,-,-,-,-,-,0.0,Catmon
+45,Internet Capability,-,-,-,-,-,-,-,-,0.087,Catmon
+46,Availability of Basic Internet Service,-,-,-,-,-,-,-,-,0.0,Catmon
+47,Online Payment Facilities,-,-,-,-,-,-,-,-,0.0,Catmon
+48,ICT Plan,-,-,-,-,-,-,-,-,0.0,Catmon
+49,New Technology,-,-,-,-,-,-,-,-,2.0,Catmon

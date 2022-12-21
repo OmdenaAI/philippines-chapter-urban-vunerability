@@ -1,0 +1,51 @@
+,Pillar / Indicator,2014,2015,2016,2017,2018,2019,2020,2021,2022,City_Municipality
+0,Local Economy Size,-,0.0653,0.0755,0.0000,0.0000,0.0001,0.0025,0.0012,0.0004,Dagami
+1,Local Economy Growth,-,0.0000,0.1182,0.0001,0.0014,0.0000,0.9418,0.0013,0.0007,Dagami
+2,Active Establishments in the Locality,-,-,-,0.0000,0.0046,0.1361,0.1338,0.2372,0.1847,Dagami
+3,Safety Compliant Business,-,-,-,0.1109,0.0811,0.1417,0.1362,0.1560,0.1215,Dagami
+4,Employment Generation,-,0.0000,0.0896,0.0000,0.0728,0.2359,0.0817,0.1181,0.1307,Dagami
+5,Cost of Living,-,0.0000,3.0000,1.4224,1.0185,1.5000,0.9375,1.9688,1.999,Dagami
+6,Cost of Doing Business,-,0.4062,2.4855,2.1925,1.0445,2.1592,2.2873,2.1378,1.62,Dagami
+7,Financial Deepening,-,0.0000,0.7716,0.1058,0.0000,0.0655,0.0896,0.1270,0.0268,Dagami
+8,Productivity,-,0.0000,0.0114,0.0000,0.0002,0.0390,0.0589,0.0978,0.0877,Dagami
+9,Presence of Business and Professional Organizations,-,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0,Dagami
+10,Compliance to National Directives,-,1.2500,2.0539,2.1711,0.0000,2.4944,2.5000,2.4643,1.9615,Dagami
+11,Presence of Investment Promotion Unit,-,3.3333,0.0000,2.5000,0.0000,2.5000,0.0000,0.0000,0.0,Dagami
+12,Compliance to ARTA Citizens Charter,-,1.3951,2.1350,2.1231,0.0000,2.2919,2.4974,2.2684,1.0,Dagami
+13,Capacity to Generate Local Resource,-,0.0000,0.0000,0.0000,0.0000,0.0664,0.0234,0.0125,0.0188,Dagami
+14,Capacity of Health Services,-,0.0600,0.0976,0.0000,0.0000,0.0317,0.0245,0.0227,0.0077,Dagami
+15,Capacity of School Services,-,0.1602,0.3007,0.3152,0.0000,0.3398,0.0534,0.0498,0.0077,Dagami
+16,Recognition of Performance,-,0.0000,0.0000,0.3152,0.0000,0.0347,0.0208,0.0000,0.0,Dagami
+17,Getting Business Permits,-,-,1.1111,2.1681,0.0000,2.2469,1.6627,1.8681,1.0,Dagami
+18,Peace and Order,-,0.0000,0.1189,0.1533,0.0000,0.2419,0.3316,0.1293,0.0001,Dagami
+19,Social Protection,-,-,0.0316,0.6619,0.0000,1.7073,0.2613,0.0000,1.2984,Dagami
+20,Road Network,-,0.0328,0.0014,0.0002,0.0000,0.0085,0.0007,0.0772,0.0002,Dagami
+21,Distance to Ports,-,0.0000,2.1033,1.6170,0.0000,2.3741,2.3706,2.3704,1.951,Dagami
+22,Availability of Basic Utilities,-,0.0000,3.3333,2.5000,0.0000,2.2500,2.0938,2.4250,0.2232,Dagami
+23,Transportation Vehicles,-,0.0000,0.1239,0.2455,0.0000,0.0171,0.0314,0.0352,0.0078,Dagami
+24,Education,-,0.0000,0.3017,0.1545,0.0000,0.0409,0.0352,0.0487,0.0527,Dagami
+25,Health,-,0.1146,0.0651,0.0206,0.0000,0.0278,0.0349,0.0286,0.0143,Dagami
+26,LGU Investment,-,0.0000,1.4186,0.0000,0.0000,0.0261,0.0587,0.1145,0.0002,Dagami
+27,Accommodation Capacity,-,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0,Dagami
+28,Information Technology Capacity,-,0.0000,0.9101,0.6151,0.0000,0.2291,0.2917,0.1087,0.087,Dagami
+29,Financial Technology Capacity,-,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0,Dagami
+30,Land Use Plan,-,-,-,2.5000,0.0000,2.3846,1.4744,0.0000,0.0,Dagami
+31,Disaster Risk Reduction Plan,-,-,-,2.5000,0.0000,2.4074,2.5000,2.4853,1.9998,Dagami
+32,Annual Disaster Drill,-,-,-,2.5000,0.0000,2.2321,2.5000,0.0000,0.0,Dagami
+33,Early Warning System,-,-,-,2.5000,0.0000,2.5000,2.5000,1.2550,1.0059,Dagami
+34,Budget for DRRMP,-,-,-,0.0000,0.0000,0.0861,0.0535,0.0024,0.0,Dagami
+35,Local Risk Assessments,-,-,-,1.2500,0.0000,2.5000,2.5000,2.5000,2.0,Dagami
+36,Emergency Infrastructure,-,-,-,0.8493,0.0000,0.4651,0.4538,0.2603,0.3691,Dagami
+37,Utilities,-,-,-,1.0184,0.0000,1.5689,1.8761,1.2619,1.4985,Dagami
+38,Employed Population,-,-,-,0.0000,0.0000,0.0183,0.0132,0.0148,0.0038,Dagami
+39,Sanitary System,-,-,-,0.0556,0.0000,1.0379,0.5007,0.0001,1.0,Dagami
+40,Start Up and Innovation Facilities,-,-,-,-,-,-,-,-,0.0,Dagami
+41,Innovation Financing: R&D Expenditures Allotment,-,-,-,-,-,-,-,-,0.0,Dagami
+42,STEM graduates,-,-,-,-,-,-,-,-,0.0,Dagami
+43,Intellectual Property Registration,-,-,-,-,-,-,-,-,0.0,Dagami
+44,ICT Use: E-BPLS Software,-,-,-,-,-,-,-,-,0.0,Dagami
+45,Internet Capability,-,-,-,-,-,-,-,-,1.0435,Dagami
+46,Availability of Basic Internet Service,-,-,-,-,-,-,-,-,0.0,Dagami
+47,Online Payment Facilities,-,-,-,-,-,-,-,-,0.0,Dagami
+48,ICT Plan,-,-,-,-,-,-,-,-,0.6667,Dagami
+49,New Technology,-,-,-,-,-,-,-,-,0.0,Dagami
