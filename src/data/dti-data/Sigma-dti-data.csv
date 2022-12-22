@@ -1,0 +1,51 @@
+,Pillar / Indicator,2014,2015,2016,2017,2018,2019,2020,2021,2022,City_Municipality
+0,Local Economy Size,-,0.1068,0.0000,0.0024,0.0101,0.0201,0.0341,0.0176,0.0034,Sigma
+1,Local Economy Growth,-,0.1951,0.0000,0.0054,0.0017,0.0016,1.0260,0.0011,1.0005,Sigma
+2,Active Establishments in the Locality,-,-,-,0.0962,0.0029,0.2518,0.2432,0.5977,0.0471,Sigma
+3,Safety Compliant Business,-,-,-,0.2065,0.1415,0.2805,0.2382,0.1942,0.1006,Sigma
+4,Employment Generation,-,0.4778,0.0000,0.0528,0.0688,0.1492,0.1186,0.1612,0.1677,Sigma
+5,Cost of Living,-,3.5256,3.5000,1.8966,2.0833,1.7500,0.4167,1.5000,1.9988,Sigma
+6,Cost of Doing Business,-,1.6266,0.9590,2.1326,2.0380,2.0534,2.1659,2.2794,1.9066,Sigma
+7,Financial Deepening,-,1.2006,1.2346,0.3439,0.1007,0.2515,0.3254,0.3701,0.1376,Sigma
+8,Productivity,-,0.0503,0.0000,0.0078,0.0108,0.1330,0.1180,0.1513,0.1169,Sigma
+9,Presence of Business and Professional Organizations,-,0.0000,0.0000,0.0030,0.0153,0.0557,0.0067,0.0701,0.0063,Sigma
+10,Compliance to National Directives,-,0.0000,0.0000,0.6908,0.0000,2.4988,2.4286,2.3571,1.8077,Sigma
+11,Presence of Investment Promotion Unit,-,0.0000,0.0000,0.0000,0.0000,1.8750,1.8750,1.8750,0.6667,Sigma
+12,Compliance to ARTA Citizens Charter,-,0.0000,0.0000,2.3191,0.0000,2.3616,2.4553,2.1277,2.0,Sigma
+13,Capacity to Generate Local Resource,-,0.0000,0.0000,0.4605,0.0000,0.0502,0.0436,0.0287,0.0397,Sigma
+14,Capacity of Health Services,-,0.0490,0.0076,0.1206,0.0000,0.0785,0.0592,0.0539,0.0424,Sigma
+15,Capacity of School Services,-,0.1585,0.0000,0.0731,0.0000,0.3275,0.0475,0.0514,0.0781,Sigma
+16,Recognition of Performance,-,0.0000,0.0000,0.0731,0.0000,0.2328,0.0208,0.0000,0.0,Sigma
+17,Getting Business Permits,-,-,0.0000,1.5182,0.0000,2.4348,2.4874,1.5492,1.5,Sigma
+18,Peace and Order,-,0.1955,0.1451,0.2249,0.0000,0.2880,0.4082,0.1416,0.2182,Sigma
+19,Social Protection,-,-,0.0000,0.6833,0.0000,0.8795,0.9208,0.1030,0.8882,Sigma
+20,Road Network,-,0.0000,0.0000,0.0015,0.0000,0.0563,0.0007,0.0472,0.0013,Sigma
+21,Distance to Ports,-,3.0602,2.1445,2.4478,0.0000,2.4148,2.3719,2.4153,1.9724,Sigma
+22,Availability of Basic Utilities,-,1.2483,1.2500,1.6667,0.0000,1.4263,1.2649,1.3556,0.1642,Sigma
+23,Transportation Vehicles,-,0.0000,0.0000,0.0222,0.0000,0.0161,0.0377,0.0488,0.0117,Sigma
+24,Education,-,0.0639,0.0744,0.0855,0.0000,0.0113,0.0430,0.0576,0.0904,Sigma
+25,Health,-,0.0758,0.0521,0.4832,0.0000,0.1939,0.0555,0.0829,0.0635,Sigma
+26,LGU Investment,-,0.2077,0.0000,0.0603,0.0000,0.0652,0.0548,0.1083,0.0002,Sigma
+27,Accommodation Capacity,-,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0147,Sigma
+28,Information Technology Capacity,-,1.3419,1.4497,1.0417,0.0000,0.3485,0.9028,0.4348,0.1304,Sigma
+29,Financial Technology Capacity,-,0.2381,0.2381,0.0000,0.0000,0.0543,0.1563,0.0893,0.0455,Sigma
+30,Land Use Plan,-,-,-,1.8750,0.0000,2.2821,2.2821,2.2429,1.7297,Sigma
+31,Disaster Risk Reduction Plan,-,-,-,2.5000,0.0000,2.4074,2.4074,2.4559,1.9998,Sigma
+32,Annual Disaster Drill,-,-,-,2.5000,0.0000,2.4107,2.5000,0.0000,1.001,Sigma
+33,Early Warning System,-,-,-,2.5000,0.0000,2.5000,2.5000,1.2550,1.004,Sigma
+34,Budget for DRRMP,-,-,-,0.0022,0.0000,0.1298,0.0478,0.0025,0.0,Sigma
+35,Local Risk Assessments,-,-,-,2.5000,0.0000,2.5000,2.5000,2.5000,2.0,Sigma
+36,Emergency Infrastructure,-,-,-,0.9066,0.0000,0.5341,0.5251,0.2805,0.3845,Sigma
+37,Utilities,-,-,-,0.2932,0.0000,1.8795,1.8816,1.0258,1.252,Sigma
+38,Employed Population,-,-,-,0.0945,0.0000,0.0853,0.0235,0.0218,0.0054,Sigma
+39,Sanitary System,-,-,-,0.5722,0.0000,1.0492,1.5006,1.2501,1.0,Sigma
+40,Start Up and Innovation Facilities,-,-,-,-,-,-,-,-,0.0,Sigma
+41,Innovation Financing: R&D Expenditures Allotment,-,-,-,-,-,-,-,-,0.0,Sigma
+42,STEM graduates,-,-,-,-,-,-,-,-,0.0,Sigma
+43,Intellectual Property Registration,-,-,-,-,-,-,-,-,0.1,Sigma
+44,ICT Use: E-BPLS Software,-,-,-,-,-,-,-,-,2.0,Sigma
+45,Internet Capability,-,-,-,-,-,-,-,-,1.0652,Sigma
+46,Availability of Basic Internet Service,-,-,-,-,-,-,-,-,0.0,Sigma
+47,Online Payment Facilities,-,-,-,-,-,-,-,-,0.0,Sigma
+48,ICT Plan,-,-,-,-,-,-,-,-,0.0,Sigma
+49,New Technology,-,-,-,-,-,-,-,-,0.0,Sigma

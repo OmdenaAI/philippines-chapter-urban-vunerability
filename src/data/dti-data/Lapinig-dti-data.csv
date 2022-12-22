@@ -1,0 +1,51 @@
+,Pillar / Indicator,2014,2015,2016,2017,2018,2019,2020,2021,2022,City_Municipality
+0,Local Economy Size,-,-,-,0.0001,0.0004,0.0012,0.0052,0.0079,0.0049,Lapinig
+1,Local Economy Growth,-,-,-,0.0022,0.0041,0.0015,0.0314,0.0111,0.0,Lapinig
+2,Active Establishments in the Locality,-,-,-,0.0000,0.0000,0.0000,0.0000,0.3344,0.2202,Lapinig
+3,Safety Compliant Business,-,-,-,0.0090,0.0838,0.1030,0.3462,0.1040,0.0725,Lapinig
+4,Employment Generation,-,-,-,0.0084,0.0069,0.0137,0.0497,0.1422,0.1568,Lapinig
+5,Cost of Living,-,-,-,2.0259,0.8796,1.5000,2.0902,1.2813,1.5526,Lapinig
+6,Cost of Doing Business,-,-,-,0.8004,0.1978,0.7039,0.7073,1.2621,0.5225,Lapinig
+7,Financial Deepening,-,-,-,0.0132,0.0000,0.0037,0.0637,0.1225,0.0158,Lapinig
+8,Productivity,-,-,-,0.0020,0.0000,0.0097,0.0359,0.0543,0.0835,Lapinig
+9,Presence of Business and Professional Organizations,-,-,-,0.0000,0.0000,0.0000,0.0000,0.0000,0.0,Lapinig
+10,Compliance to National Directives,-,-,-,0.0000,0.0000,1.2488,1.1806,2.3214,1.8182,Lapinig
+11,Presence of Investment Promotion Unit,-,-,-,0.0000,0.0000,0.6250,0.6250,0.0000,0.0,Lapinig
+12,Compliance to ARTA Citizens Charter,-,-,-,1.0248,0.0000,2.3194,2.3748,2.2086,0.0,Lapinig
+13,Capacity to Generate Local Resource,-,-,-,0.0000,0.0000,0.0060,0.0067,0.0013,0.0016,Lapinig
+14,Capacity of Health Services,-,-,-,0.0000,0.0000,0.0129,0.0511,0.1518,0.0002,Lapinig
+15,Capacity of School Services,-,-,-,0.1121,0.0000,0.0951,0.0535,0.0211,0.064,Lapinig
+16,Recognition of Performance,-,-,-,0.1121,0.0000,0.0940,0.0417,0.0000,0.0,Lapinig
+17,Getting Business Permits,-,-,-,1.5256,0.0000,1.4607,2.2708,1.6493,2.0,Lapinig
+18,Peace and Order,-,-,-,0.4268,0.0000,0.1728,0.4605,0.2292,0.0788,Lapinig
+19,Social Protection,-,-,-,0.1848,0.0000,0.2184,0.0788,1.3983,0.1637,Lapinig
+20,Road Network,-,-,-,0.0000,0.0000,0.0345,0.0204,0.0213,0.0,Lapinig
+21,Distance to Ports,-,-,-,2.1996,0.0000,1.3157,1.3337,1.9304,1.7548,Lapinig
+22,Availability of Basic Utilities,-,-,-,0.0000,0.0000,1.2533,1.5750,1.8511,0.2681,Lapinig
+23,Transportation Vehicles,-,-,-,0.0023,0.0000,0.0004,0.0004,0.0107,0.012,Lapinig
+24,Education,-,-,-,0.0000,0.0000,0.0089,0.0156,0.0193,0.0525,Lapinig
+25,Health,-,-,-,0.0000,0.0000,0.0542,0.2466,0.0412,0.0333,Lapinig
+26,LGU Investment,-,-,-,0.0789,0.0000,0.0410,0.1420,0.2277,0.0012,Lapinig
+27,Accommodation Capacity,-,-,-,0.0000,0.0000,0.0000,0.0000,0.0065,0.0,Lapinig
+28,Information Technology Capacity,-,-,-,0.2480,0.0000,0.1097,0.3750,0.1786,0.25,Lapinig
+29,Financial Technology Capacity,-,-,-,0.0000,0.0000,0.0000,0.0000,0.0000,0.0,Lapinig
+30,Land Use Plan,-,-,-,0.0000,0.0000,1.5000,1.9730,2.4615,1.9583,Lapinig
+31,Disaster Risk Reduction Plan,-,-,-,2.0000,0.0000,2.4074,2.3333,1.4762,1.9998,Lapinig
+32,Annual Disaster Drill,-,-,-,2.5000,0.0000,1.2500,1.2500,1.2632,1.0106,Lapinig
+33,Early Warning System,-,-,-,2.5000,0.0000,2.5000,2.5000,1.2595,1.0076,Lapinig
+34,Budget for DRRMP,-,-,-,0.0000,0.0000,0.0753,0.1605,0.0039,0.0015,Lapinig
+35,Local Risk Assessments,-,-,-,1.2500,0.0000,2.5000,2.5000,2.5000,2.0,Lapinig
+36,Emergency Infrastructure,-,-,-,0.8497,0.0000,0.4167,0.4167,0.2262,0.3464,Lapinig
+37,Utilities,-,-,-,0.9878,0.0000,0.6212,0.9411,1.2482,1.4421,Lapinig
+38,Employed Population,-,-,-,0.0231,0.0000,0.0293,0.0712,0.0327,0.0101,Lapinig
+39,Sanitary System,-,-,-,0.0222,0.0000,1.5076,1.4985,1.2527,1.0001,Lapinig
+40,Start Up and Innovation Facilities,-,-,-,-,-,-,-,-,0.0,Lapinig
+41,Innovation Financing: R&D Expenditures Allotment,-,-,-,-,-,-,-,-,0.0,Lapinig
+42,STEM graduates,-,-,-,-,-,-,-,-,0.0,Lapinig
+43,Intellectual Property Registration,-,-,-,-,-,-,-,-,0.0,Lapinig
+44,ICT Use: E-BPLS Software,-,-,-,-,-,-,-,-,2.0,Lapinig
+45,Internet Capability,-,-,-,-,-,-,-,-,0.04,Lapinig
+46,Availability of Basic Internet Service,-,-,-,-,-,-,-,-,0.0,Lapinig
+47,Online Payment Facilities,-,-,-,-,-,-,-,-,0.0,Lapinig
+48,ICT Plan,-,-,-,-,-,-,-,-,1.3334,Lapinig
+49,New Technology,-,-,-,-,-,-,-,-,0.0,Lapinig
