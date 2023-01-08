@@ -1,4 +1,4 @@
-City_Municipality
+0
 Aborlan
 Abra De Ilog
 Abucay
@@ -242,7 +242,6 @@ Borongan
 Boston
 Botolan
 Braulio E. Dujali
-Brooke's Point
 Buadiposo-Buntong
 Bubong
 Bucay
@@ -294,8 +293,8 @@ Cabugao
 Cabusao
 Cabuyao
 Cadiz
-Cagayancillo
 Cagayan De Oro
+Cagayancillo
 Cagdianao
 Cagwait
 Caibiran
@@ -389,10 +388,10 @@ Claveria (MS)
 Columbio
 Compostela (CU)
 Compostela (DDO)
+Concepcion
 Concepcion (IO)
 Concepcion (RN)
 Concepcion (TC)
-Concepcion
 Conner
 Consolacion
 Corcuera
@@ -444,8 +443,8 @@ Dauin
 Dauis
 Davao
 Del Carmen
-Delfin Albano
 Del Gallego
+Delfin Albano
 Diadi
 Diffun
 Digos
@@ -469,11 +468,11 @@ Divilacan
 Dolores (AA)
 Dolores (ES)
 Dolores (QN)
-Dona Remedios Trinidad
 Don Carlos
 Don Marcelino
-Donsol
 Don Victoriano Chiongbian
+Dona Remedios Trinidad
+Donsol
 Duenas
 Duero
 Dulag
@@ -515,17 +514,17 @@ Garchitorena
 Garcia-Hernandez
 Gasan
 Gattaran
+Gen S.K Pendatun
 Gen. Emilio Aguinaldo
 Gen. Mariano Alvarez
-General Luna (QN)
 General Luna  (SN)
+General Luna (QN)
 General Macarthur
 General Mamerto Natividad
 General Nakar
 General Santos
 General Tinio
 General Trias
-Gen S.K Pendatun
 Gerona
 Getafe
 Gigaquit
@@ -625,8 +624,8 @@ Jones
 Jordan
 Jose Abad Santos
 Jose Dalman
-Josefina
 Jose Panganiban
+Josefina
 Jovellar
 Juban
 Julita
@@ -668,13 +667,20 @@ Kitcharao
 Kolambugan
 Koronadal
 Kumalarang
+La Carlota
+La Castellana
+La Libertad (NR)
+La Libertad (ZN)
+La Paz (AA)
+La Paz (AS)
+La Paz (LE)
+La Paz (TC)
+La Trinidad
 Laak
 Labangan
 Labason
 Labo
 Labrador
-La Carlota
-La Castellana
 Lacub
 Lagangilang
 Lagawe
@@ -685,8 +691,6 @@ Laguindingan
 Lake Sebu
 Lakewood
 Lala
-La Libertad (NR)
-La Libertad (ZN)
 Lallo
 Lambayong
 Lambunao
@@ -700,19 +704,14 @@ Lanuza
 Laoac
 Laoag
 Laoang
-La Paz (AA)
-La Paz (AS)
-La Paz (LE)
-La Paz (TC)
 Lapinig
 Lapu Lapu
 Lapuyan
 Larena
-Lasam
 Las Navas
 Las Nieves
 Las Pinas
-La Trinidad
+Lasam
 Laua-An
 Laur
 Laurel
@@ -929,8 +928,8 @@ Mayoyao
 Medellin
 Medina
 Mendez
-Mercedes (ES)
 Mercedes
+Mercedes (ES)
 Merida
 Mexico
 Meycauayan
@@ -1229,7 +1228,6 @@ San Antonio (ZA)
 San Benito
 San Carlos (NO)
 San Carlos (PS)
-Sanchez-Mira
 San Clemente
 San Dionisio
 San Emilio
@@ -1330,6 +1328,12 @@ San Ricardo
 San Roque
 San Sebastian
 San Simon
+San Teodoro
+San Vicente (CN)
+San Vicente (IS)
+San Vicente (NS)
+San Vicente (PN)
+Sanchez-Mira
 Santa
 Santa Ana (CG)
 Santa Ana (PA)
@@ -1357,12 +1361,11 @@ Santa Margarita
 Santa Maria (BU)
 Santa Maria (DS)
 Santa Maria (IA)
-Santa Maria (Imelda)
 Santa Maria (IS)
+Santa Maria (Imelda)
 Santa Maria (LA)
 Santa Maria (PS)
 Santa Monica
-Santander
 Santa Praxedes
 Santa Rita (PA)
 Santa Rita (WS)
@@ -1370,14 +1373,13 @@ Santa Rosa (LA)
 Santa Rosa (NE)
 Santa Teresita (BS)
 Santa Teresita (CG)
-San Teodoro
+Santander
 Santiago (AN)
 Santiago (IA)
 Santiago (IS)
 Santo Domingo (AY)
 Santo Domingo (IS)
 Santo Domingo (NE)
-Santol
 Santo Nino (CG)
 Santo Nino (SC)
 Santo Nino (WS)
@@ -1387,10 +1389,7 @@ Santo Tomas (IA)
 Santo Tomas (LU)
 Santo Tomas (PA)
 Santo Tomas (PS)
-San Vicente (CN)
-San Vicente (IS)
-San Vicente (NS)
-San Vicente (PN)
+Santol
 Sapa-Sapa
 Sapad
 Sapang Dalaga
@@ -1470,7 +1469,6 @@ Sumisip
 Surallah
 Surigao
 Suyo
-T'Boli
 Taal
 Tabaco
 Tabango
@@ -1505,9 +1503,9 @@ Talavera
 Talayan
 Talibon
 Talipao
+Talisay  (CU)
 Talisay (BS)
 Talisay (CN)
-Talisay  (CU)
 Talisay (NO)
 Talisayan
 Talitay
