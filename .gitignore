@@ -130,3 +130,7 @@ dmypy.json
 
 # Mac stuffs
 .DS_Store
+
+# Folders
+noah_working/*
+noah.lnk
