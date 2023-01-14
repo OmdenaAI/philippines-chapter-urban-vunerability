@@ -1,0 +1,211 @@
+city_municipality
+2018 - Local Economy Size
+2018 - Local Economy Growth
+2018 - Active Establishments in the Locality
+2018 - Safety Compliant Business
+2018 - Employment Generation
+2018 - Cost of Living
+2018 - Cost of Doing Business
+2018 - Financial Deepening
+2018 - Productivity
+2018 - Presence of Business and Professional Organizations
+2018 - Compliance to National Directives
+2018 - Presence of Investment Promotion Unit
+2018 - Compliance to ARTA Citizens Charter
+2018 - Capacity to Generate Local Resource
+2018 - Capacity of Health Services
+2018 - Capacity of School Services
+2018 - Recognition of Performance
+2018 - Getting Business Permits
+2018 - Peace and Order
+2018 - Social Protection
+2018 - Road Network
+2018 - Distance to Ports
+2018 - Availability of Basic Utilities
+2018 - Transportation Vehicles
+2018 - Education
+2018 - Health
+2018 - LGU Investment
+2018 - Accommodation Capacity
+2018 - Information Technology Capacity
+2018 - Financial Technology Capacity
+2018 - Land Use Plan
+2018 - Disaster Risk Reduction Plan
+2018 - Annual Disaster Drill
+2018 - Early Warning System
+2018 - Budget for DRRMP
+2018 - Local Risk Assessments
+2018 - Emergency Infrastructure
+2018 - Utilities
+2018 - Employed Population
+2018 - Sanitary System
+2019 - Local Economy Size
+2019 - Local Economy Growth
+2019 - Active Establishments in the Locality
+2019 - Safety Compliant Business
+2019 - Employment Generation
+2019 - Cost of Living
+2019 - Cost of Doing Business
+2019 - Financial Deepening
+2019 - Productivity
+2019 - Presence of Business and Professional Organizations
+2019 - Compliance to National Directives
+2019 - Presence of Investment Promotion Unit
+2019 - Compliance to ARTA Citizens Charter
+2019 - Capacity to Generate Local Resource
+2019 - Capacity of Health Services
+2019 - Capacity of School Services
+2019 - Recognition of Performance
+2019 - Getting Business Permits
+2019 - Peace and Order
+2019 - Social Protection
+2019 - Road Network
+2019 - Distance to Ports
+2019 - Availability of Basic Utilities
+2019 - Transportation Vehicles
+2019 - Education
+2019 - Health
+2019 - LGU Investment
+2019 - Accommodation Capacity
+2019 - Information Technology Capacity
+2019 - Financial Technology Capacity
+2019 - Land Use Plan
+2019 - Disaster Risk Reduction Plan
+2019 - Annual Disaster Drill
+2019 - Early Warning System
+2019 - Budget for DRRMP
+2019 - Local Risk Assessments
+2019 - Emergency Infrastructure
+2019 - Utilities
+2019 - Employed Population
+2019 - Sanitary System
+2020 - Local Economy Size
+2020 - Local Economy Growth
+2020 - Active Establishments in the Locality
+2020 - Safety Compliant Business
+2020 - Employment Generation
+2020 - Cost of Living
+2020 - Cost of Doing Business
+2020 - Financial Deepening
+2020 - Productivity
+2020 - Presence of Business and Professional Organizations
+2020 - Compliance to National Directives
+2020 - Presence of Investment Promotion Unit
+2020 - Compliance to ARTA Citizens Charter
+2020 - Capacity to Generate Local Resource
+2020 - Capacity of Health Services
+2020 - Capacity of School Services
+2020 - Recognition of Performance
+2020 - Getting Business Permits
+2020 - Peace and Order
+2020 - Social Protection
+2020 - Road Network
+2020 - Distance to Ports
+2020 - Availability of Basic Utilities
+2020 - Transportation Vehicles
+2020 - Education
+2020 - Health
+2020 - LGU Investment
+2020 - Accommodation Capacity
+2020 - Information Technology Capacity
+2020 - Financial Technology Capacity
+2020 - Land Use Plan
+2020 - Disaster Risk Reduction Plan
+2020 - Annual Disaster Drill
+2020 - Early Warning System
+2020 - Budget for DRRMP
+2020 - Local Risk Assessments
+2020 - Emergency Infrastructure
+2020 - Utilities
+2020 - Employed Population
+2020 - Sanitary System
+2021 - Local Economy Size
+2021 - Local Economy Growth
+2021 - Active Establishments in the Locality
+2021 - Safety Compliant Business
+2021 - Employment Generation
+2021 - Cost of Living
+2021 - Cost of Doing Business
+2021 - Financial Deepening
+2021 - Productivity
+2021 - Presence of Business and Professional Organizations
+2021 - Compliance to National Directives
+2021 - Presence of Investment Promotion Unit
+2021 - Compliance to ARTA Citizens Charter
+2021 - Capacity to Generate Local Resource
+2021 - Capacity of Health Services
+2021 - Capacity of School Services
+2021 - Recognition of Performance
+2021 - Getting Business Permits
+2021 - Peace and Order
+2021 - Social Protection
+2021 - Road Network
+2021 - Distance to Ports
+2021 - Availability of Basic Utilities
+2021 - Transportation Vehicles
+2021 - Education
+2021 - Health
+2021 - LGU Investment
+2021 - Accommodation Capacity
+2021 - Information Technology Capacity
+2021 - Financial Technology Capacity
+2021 - Land Use Plan
+2021 - Disaster Risk Reduction Plan
+2021 - Annual Disaster Drill
+2021 - Early Warning System
+2021 - Budget for DRRMP
+2021 - Local Risk Assessments
+2021 - Emergency Infrastructure
+2021 - Utilities
+2021 - Employed Population
+2021 - Sanitary System
+2022 - Local Economy Size
+2022 - Local Economy Growth
+2022 - Active Establishments in the Locality
+2022 - Safety Compliant Business
+2022 - Employment Generation
+2022 - Cost of Living
+2022 - Cost of Doing Business
+2022 - Financial Deepening
+2022 - Productivity
+2022 - Presence of Business and Professional Organizations
+2022 - Compliance to National Directives
+2022 - Presence of Investment Promotion Unit
+2022 - Compliance to ARTA Citizens Charter
+2022 - Capacity to Generate Local Resource
+2022 - Capacity of Health Services
+2022 - Capacity of School Services
+2022 - Recognition of Performance
+2022 - Getting Business Permits
+2022 - Peace and Order
+2022 - Social Protection
+2022 - Road Network
+2022 - Distance to Ports
+2022 - Availability of Basic Utilities
+2022 - Transportation Vehicles
+2022 - Education
+2022 - Health
+2022 - LGU Investment
+2022 - Accommodation Capacity
+2022 - Information Technology Capacity
+2022 - Financial Technology Capacity
+2022 - Land Use Plan
+2022 - Disaster Risk Reduction Plan
+2022 - Annual Disaster Drill
+2022 - Early Warning System
+2022 - Budget for DRRMP
+2022 - Local Risk Assessments
+2022 - Emergency Infrastructure
+2022 - Utilities
+2022 - Employed Population
+2022 - Sanitary System
+2022 - Start Up and Innovation Facilities
+2022 - Innovation Financing: R&D Expenditures Allotment
+2022 - STEM graduates
+2022 - Intellectual Property Registration
+2022 - ICT Use: E-BPLS Software
+2022 - Internet Capability
+2022 - Availability of Basic Internet Service
+2022 - Online Payment Facilities
+2022 - ICT Plan
+2022 - New Technology

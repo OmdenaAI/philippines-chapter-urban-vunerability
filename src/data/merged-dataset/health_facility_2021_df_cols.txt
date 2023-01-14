@@ -1,0 +1,17 @@
+psgc
+Ambulatory Surgical Clinic (2021)
+Animal Bite Treatment Center (2021)
+Barangay Health Station (2021)
+Birthing Home (2021)
+City Health Office (2021)
+DepEd Clinic (2021)
+Drug Abuse Treatment and Rehabilitation Centers (2021)
+General Clinic Laboratory (2021)
+Hospital (2021)
+Infirmary (2021)
+Municipal Health Office (2021)
+Provincial Health Office (2021)
+Psychiatric Care Facility (2021)
+Rural Health Unit (2021)
+Social hygiene Clinic (2021)
+name
