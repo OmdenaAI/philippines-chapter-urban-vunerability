@@ -1,0 +1,11 @@
+psgc
+Child Headed_Male
+Child Headed_Female
+Single Headed_Male
+Single Headed_Female
+Disability_Male
+Disability_Female
+Solo Parent_Male
+Solo Parent_Female
+Older_Male
+Older_Female

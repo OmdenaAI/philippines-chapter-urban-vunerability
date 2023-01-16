@@ -14,3 +14,4 @@ Provincial Health Office (2021)
 Psychiatric Care Facility (2021)
 Rural Health Unit (2021)
 Social hygiene Clinic (2021)
+name
