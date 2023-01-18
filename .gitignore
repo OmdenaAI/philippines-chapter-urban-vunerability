@@ -133,3 +133,6 @@ dmypy.json
 
 # Folders
 noah_working/*
+src/tasks/task-3-index-creation-EDA/eda_dti_v2.ipynb
+src/tasks/task-3-index-creation-EDA/eda_dti.ipynb
+src/tasks/task-3-index-creation-EDA/main.csv
