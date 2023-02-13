@@ -1,9 +1,17 @@
-# chapter-project-repository-template-Change
+# [Philippines Chapter] Mapping Urban Vulnerability areas (Crimes, Disasters, etc.) using Open Source Data
+
 Use this Repository as a template for creating Local Chapter Repositories
 
 
-# [Chapter Challenge Name]
+# Mapping Urban Vulnerability areas (Crimes, Disasters, etc.) using Open Source Data
 
+# The problem
+
+Many frameworks on the performance of cities generate urban profiles at the city scale, providing limited or no information on the performance of different city sub-units such as districts, wards, zones, settlements, or blocks. The transformative focus of the Agenda 2030 of Leaving no one Behind aligns with the local policies of many cities, their intervention focus being the reduction of spatial inequalities.
+
+Mapping spatial inequalities within the city guides the identification of vulnerable areas, which can be expressed on a continuous scale of vulnerability. Many forms of spatial vulnerabilities such as poor access to basic services, lack of green cover, crime and insecurity, vulnerability to disaster risks, access to opportunities, and access to cultural infrastructure among others, have statistics that can be standardized for comparison and mapped – where data is available.
+
+The individual layers of vulnerability as well as the composite layer combining the layers are useful for spatially targeted intervention by city administrators and other actors. In addition, cities may prepare profiles for their settlements based on a set of indicators to guide city residents in understanding their settlements, and service providers in setting their intervention priorities. 
 
 ## Contribution Guidelines
 - Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution

@@ -14,6 +14,6 @@ Note : Please Follow the below guidelines to create task folders
 |1|Data Collection|Collection of tabular and image data         |
 |2|Geolocation         |Mapping gathered datasets into their coordinates and boundaries     |
 |3|Index Creation and Analysis|Creating index for different pillars|
-|4|         |         |
+|4|Modelling|Clustering|
 |5|Web App and Deployment|Streamlit App and Model Deployment         |
 |6|Political Rationale| The entire basis of the political rationale is to create a document upon which we could use as a basis to know if the direction of our current application is viable or not|
