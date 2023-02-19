@@ -10,13 +10,13 @@ st.set_page_config(page_title='EDA', layout='wide')
 
 
 # Load the DATA and cache.
-@st.cache
+@st.cache_data
 def get_data(url):
     df = pd.read_csv(url)
     return df
 
 
-url = 'src/tasks/task-5-web-app-deployment/data/complete_dataset.csv'
+url = 'src/tasks/task-5-web-app-deployment/data/merged_model_output.csv'
 df = get_data(url)
 
 
