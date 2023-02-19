@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pickle as pkl
 import folium as flm
 from streamlit_folium import st_folium
 
@@ -9,13 +8,13 @@ st.set_page_config(page_title='Home', layout='wide')
 
 
 # Load the DATA and cache.
-@st.cache_data
+@st.cache
 def get_data(url):
     df = pd.read_csv(url)
     return df
 
 
-url = 'src/tasks/task-5-web-app-deployment/data/merged_model_output.csv'
+url = 'src/tasks/task-5-web-app-deployment/data/complete_dataset.csv'
 df = get_data(url)
 
 
@@ -113,37 +112,8 @@ def main():
         st.subheader('Sub Header Right')
         st.write('Column One')
         st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
-    st.dataframe(df)
-    
-    # Load and read the pickle file generated from the ML python notebook
-    pickle_in = open('src/tasks/task-5-web-app-deployment/model_km.pkl', 'rb')
-    kmeans = pkl.load(pickle_in)
+    st.dataframe(df.head(10))
 
-    # Function to call the predict fuction from the ML model. 
-    # This function takes input the of the 5 indices and outputs the predicted cluster
-    def predict_cluster(DW_EG_ind,Disaster_ind,Industry_II_ind,Healthcare_ind,Poverty_ind):
-        prediction = kmeans.predict([[DW_EG_ind,Disaster_ind,Industry_II_ind,Healthcare_ind,Poverty_ind]])
-        return prediction
-
-    #Main Function
-    def main():
-        st.title("Cluster Prediction")
-        html_temp = """
-        <div style="background-color:tomato;padding:10px">
-        <h2 style="color:white;text-align:center;">Municipality Cluster Prediction Application </h2>
-        </div>
-        """
-        st.markdown(html_temp,unsafe_allow_html=True)
-
-        # Take input of the 4 indices
-        DW_EG_ind = st.text_input("Decent Work & Economic Growth Index","Type Here")
-        Disaster_ind = st.text_input("Disaster Index","Type Here")
-        Industry_II_ind = st.text_input("Industry & Infrastructure Index","Type Here")
-        Healthcare_ind = st.text_input("Healthcare Index","Type Here")
-        Poverty_ind = st.text_input("Poverty Index","Type Here")
-        result = ""
-        if st.button("Predict"):
-            result = predict_cluster(DW_EG_ind,Disaster_ind,Industry_II_ind,Healthcare_ind,Poverty_ind)
 
 if __name__ == "__main__":
     main()
