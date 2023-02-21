@@ -106,44 +106,65 @@ def main():
 
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader('Sub Header Left')
-        st.write('Column One')
-        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
-    with col2:
-        st.subheader('Sub Header Right')
-        st.write('Column One')
-        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
-    st.dataframe(df)
-    
-    # Load and read the pickle file generated from the ML python notebook
-    pickle_in = open('src/tasks/task-5-web-app-deployment/model_km.pkl', 'rb')
-    kmeans = pkl.load(pickle_in)
-
-    # Function to call the predict fuction from the ML model. 
-    # This function takes input the of the 5 indices and outputs the predicted cluster
-    def predict_cluster(DW_EG_ind,Disaster_ind,Industry_II_ind,Healthcare_ind,Poverty_ind):
-        prediction = kmeans.predict([[DW_EG_ind,Disaster_ind,Industry_II_ind,Healthcare_ind,Poverty_ind]])
-        return prediction
-
-    #Main Function
-    def main():
-        st.title("Cluster Prediction")
+        st.subheader("Cluster Prediction")
         html_temp = """
         <div style="background-color:tomato;padding:10px">
         <h2 style="color:white;text-align:center;">Municipality Cluster Prediction Application </h2>
         </div>
         """
-        st.markdown(html_temp,unsafe_allow_html=True)
+        st.markdown(html_temp, unsafe_allow_html=True)
+        
+        with open('src/tasks/task-5-web-app-deployment/mod_21.pkl', 'rb') as file:
+            kmeans = pkl.load(file)
 
-        # Take input of the 4 indices
-        DW_EG_ind = st.text_input("Decent Work & Economic Growth Index","Type Here")
-        Disaster_ind = st.text_input("Disaster Index","Type Here")
-        Industry_II_ind = st.text_input("Industry & Infrastructure Index","Type Here")
-        Healthcare_ind = st.text_input("Healthcare Index","Type Here")
-        Poverty_ind = st.text_input("Poverty Index","Type Here")
-        result = ""
-        if st.button("Predict"):
-            result = predict_cluster(DW_EG_ind,Disaster_ind,Industry_II_ind,Healthcare_ind,Poverty_ind)
+        mod_21 = pd.read_csv('src/tasks/task-5-web-app-deployment/mod_21.csv', index_col='city_municipality')
+
+
+        def get_cluster(city):
+            x = mod_21.loc[city].values.reshape(1, -1)
+            cluster = kmeans.predict(x)[0]
+            if cluster == 0:
+                return 'Medium'
+            elif cluster == 1:
+                return 'Low'
+            else:
+                return 'High'
+
+
+        def display_sliders():
+            sliders = {}
+            for col in mod_21.columns:
+                min_val = mod_21[col].min()
+                max_val = mod_21[col].max()
+                val = mod_21[col].loc[selected_city]
+                sliders[col] = st.slider(f'''<p class="res">{col}</p>''', min_value = float(min_val), max_value = float(max_val), value = float(val))
+            return sliders
+
+        # Add a dropdown to select the city
+        selected_city = st.selectbox('Select a city:', mod_21.index)
+
+        # Display the current cluster group for the selected city
+        cluster = get_cluster(selected_city)
+        result = f'''
+        <p class="res">Level of Vulnerability: {cluster}</p>
+        '''
+        st.markdown(result, unsafe_allow_html=True)
+
+        # Display the slider widgets
+        sliders = display_sliders()
+
+        # Add a button to recalculate the cluster group
+        if st.button('Recalculate'):
+            x = pd.DataFrame(sliders, index=[selected_city])
+            cluster = get_cluster(selected_city)
+            result = f'''
+            <p class="res">New Level of Vulnerability: {cluster}</p>
+            '''
+            st.markdown(result, unsafe_allow_html=True)
+    with col2:
+        st.subheader('Sub Header Right')
+        st.write('Column One')
+        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
 
 if __name__ == "__main__":
     main()
