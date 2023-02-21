@@ -139,3 +139,8 @@ src/tasks/task-3-index-creation-EDA/main.csv
 src/tasks/task-3-index-creation-EDA/cities.csv
 src/tasks/task-1-data-collection/data_check.ipynb
 src/tasks/task-4-modelling/cits.csv
+src/tasks/task-4-modelling/model_km.pkl
+src/tasks/task-4-modelling/Pillar wise Modelling_v2.ipynb
+src/tasks/task-5-web-app-deployment/dti_consolidated_all_no_clusterID.csv
+src/tasks/task-5-web-app-deployment/mod_km_all.pkl
+src/tasks/task-5-web-app-deployment/model.pkl
