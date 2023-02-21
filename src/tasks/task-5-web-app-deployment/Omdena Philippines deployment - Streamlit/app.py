@@ -5,7 +5,7 @@ import streamlit as st
 
 
 # Load and read the pickle file generated from the ML python notebook
-pickle_in = open('model.pkl','rb')
+pickle_in = open('model_km.pkl','rb')
 kmeans=pickle.load(pickle_in)
 
 # Function to call the predict fuction from the ML model. 
@@ -37,6 +37,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
