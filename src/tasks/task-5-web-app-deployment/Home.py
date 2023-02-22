@@ -15,8 +15,17 @@ def get_data(url):
     return df
 
 
+@st.cache_data
+def get_data(url):
+    df2 = pd.read_csv(url)
+    return df2
+
+
 url = 'src/tasks/task-5-web-app-deployment/data/merged_model_output.csv'
 df = get_data(url)
+
+url2 = 'src/tasks/task-5-web-app-deployment/data/complete_dataset.csv'
+df2 = get_data(url)
 
 
 def main():
@@ -92,6 +101,23 @@ def main():
         width: 2rem;
         height: 2rem;
         }
+        p.res {
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px #ffa500 solid;
+        }
+        .css-1vq4p4l h2 {
+        font-size: 1.6rem;
+        }
+        .row-widget.stSelectbox {
+        border-radius: 0;
+        border: 1px tomato solid;
+        }
+        .st-bu {
+        font-weight: bold;
+        }
         </style>
         """, unsafe_allow_html=True
     )
@@ -104,9 +130,9 @@ def main():
     st.title(APP_TITLE)
     st.write('**Under Construction** - Please be aware we are currently building this app, so it will change over the next few weeks. Thank you for your patience.')
 
-    col1, col2 = st.columns(2)
-    with col1:
-        st.subheader("Cluster Prediction")
+
+    with st.sidebar:
+        st.header("Cluster Prediction")
         html_temp = """
         <div style="background-color:tomato;padding:10px">
         <h2 style="color:white;text-align:center;">Municipality Cluster Prediction Application </h2>
@@ -129,15 +155,15 @@ def main():
                 return 'Low'
             else:
                 return 'High'
-
-
+            
+            
         def display_sliders():
             sliders = {}
             for col in mod_21.columns:
                 min_val = mod_21[col].min()
                 max_val = mod_21[col].max()
                 val = mod_21[col].loc[selected_city]
-                sliders[col] = st.slider(f'''<p class="res">{col}</p>''', min_value = float(min_val), max_value = float(max_val), value = float(val))
+                sliders[col] = st.slider(f'''**{col}**''', min_value = float(min_val), max_value = float(max_val), value = float(val))
             return sliders
 
         # Add a dropdown to select the city
@@ -156,14 +182,85 @@ def main():
         # Add a button to recalculate the cluster group
         if st.button('Recalculate'):
             x = pd.DataFrame(sliders, index=[selected_city])
-            cluster = get_cluster(selected_city)
+            new_cluster = kmeans.predict(x)[0]
+            if new_cluster == 0:
+                new_cluster = 'Medium'
+            elif new_cluster == 1:
+                new_cluster = 'Low'
+            elif new_cluster == 2:
+                new_cluster = 'High'
+            
             result = f'''
-            <p class="res">New Level of Vulnerability: {cluster}</p>
+            <p class="res">New Level of Vulnerability: {new_cluster}</p>
             '''
             st.markdown(result, unsafe_allow_html=True)
+            st.write(x)
+
+
+    # def map_ph(data, name):
+    #     cond = data[data['province'] == name]
+
+    #     lat = data[cond]['latitude'].tolist()
+    #     lon = data[cond]['longitude'].tolist()
+    #     nam = data[cond]['city_municipality'].tolist()
+    #     eco = data[cond]['economic_dynamism'].tolist()
+    #     gov = data[cond]['government_efficiency'].tolist()
+    #     inf = data[cond]['infrastructure'].tolist()
+    #     res = data[cond]['resiliency'].tolist()
+
+    #     html = '''<h4>Needs Assessment Information</h4>
+    #     <b>Name: %s</b> <br /><br />
+    #     <b>economic_dynamism: </b> %s <br />
+    #     <b>government_efficiency: </b> %s <br />
+    #     <b>infrastructure: </b> %s <br />
+    #     <b>resiliency: </b> %s <br />
+    #     '''
+
+    #     if lat and lon:
+    #         map = flm.Map(location=[lat[0], lon[0]], zoom_start=6, zoom_control=True, zoom_end=20, scrollWheelZoom=False)
+    #     else:
+    #         return None
+
+    #     fg = flm.FeatureGroup(name='Philippines Map')
+
+    #     for lt, ln, nm, ec, go, nf, re in zip((lat), (lon), (nam), (eco), (gov), (inf), (res)):
+    #         sum_values = ec + go + nf + re
+
+    #         def marker_size(sums):
+    #             marker_sized = 0
+    #             if sums > 0:
+    #                 marker_sized = (10 - sums) + 10
+    #             marker_sized = marker_sized * map.zoom_start / 12
+    #             return int(marker_sized)
+
+    #         def marker_color(sums):
+    #             norm = colors.Normalize(vmin=0, vmax=10)
+    #             cmap = cm.get_cmap('YlOrRd')
+    #             marker_colored = cmap(norm(sums))
+    #             return marker_colored
+
+    #         iframe = flm.IFrame(html = html % ((nm), (ec), (go), (nf), (re)), height = 165)
+    #         popup = flm.Popup(iframe, min_width=200, max_width=500)
+    #         marker = flm.CircleMarker(location = [lt, ln], popup = (popup), fill_color=marker_color(sum_values), color='None', radius=marker_size(sum_values, map.zoom_level), fill_opacity = 0.7)
+    #         marker.add_child(flm.Popup(html = html % ((nm), (ec), (go), (nf), (re)), min_width=200, max_width=500))
+    #         fg.add_child(flm.CircleMarker(location = [lt, ln], popup = (popup), fill_color=marker_color(sum_values), color='None', radius=marker_size(sum_values), fill_opacity = 0.7))
+    #         map.add_child(fg)
+    #         print(sum_values)
+    #         print(marker_size(sum_values))
+    #     # map.save('map.html')
+    #     return map
+
+    # map_ph(df2, 'philippines')
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader('Sub Header Left')
+        st.write('Column One')
+        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+
     with col2:
         st.subheader('Sub Header Right')
-        st.write('Column One')
+        st.write('Column Two')
         st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
 
 if __name__ == "__main__":
