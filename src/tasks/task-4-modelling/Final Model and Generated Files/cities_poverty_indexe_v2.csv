@@ -1,0 +1,1633 @@
+idx,municipality,pov_inc
+0,Aborlan,13.33
+1,Abra De Ilog,20.46
+2,Abucay,5.3
+3,Abulug,14.79
+4,Abuyog,28.17
+5,Adams,5.62
+6,Agdangan,14
+7,Aglipay,11.6
+8,Agno,11.68
+9,Agoncillo,12.5
+10,Agoo,3.26
+11,Aguilar,16.22
+12,Aguinaldo,24.68
+13,Agutaya,15.22
+14,Ajuy,23.11
+15,Akbar,70.12
+16,Alabat,73.56
+17,Alabel,15.45
+18,Alamada,29.2
+19,Alaminos (LA),44.3
+20,Alaminos (PS),2.58
+21,Alang-Alang,7.75
+22,Al-Barka,31.05
+23,Albuera,27.2
+24,Alburquerque,10.4
+25,Alcala (CG),12.24
+26,Alcala (PS),14.66
+27,Alcantara (CU),21.15
+28,Alcantara (RN),22.3
+29,Alcoy,22.9
+30,Alegria (CU),23.2
+31,Alegria (SN),37.37
+32,Aleosan,47.1
+33,Alfonso,5.26
+34,Alfonso Castaneda,22.92
+35,Alfonso Lista,16.4
+36,Aliaga,6.71
+37,Alicia (BL),27.6
+38,Alicia (IA),12.61
+39,Alicia (ZS),37.31
+40,Alilem,8.69
+41,Alimodian,23.72
+42,Alitagtag,16
+43,Allacapan,11.47
+44,Allen,23.97
+45,Almagro,30.25
+46,Almeria,16.78
+47,Aloguinsan,22.7
+48,Aloran,23.51
+49,Altavas,14.62
+50,Alubijid,14.93
+51,Amadeo,4.7
+52,Amai Manabilang,75.74
+53,Ambaguio,53.45
+54,Amlan,12.7
+55,Ampatuan,58.89
+56,Amulung,15.46
+57,Anahawan,23.63
+58,Anao,5.21
+59,Anda (BL),12.4
+60,Anda (PS),25.4
+61,Angadanan,14.31
+62,Angat,4.61
+63,Angeles,1.71
+64,Angono,4.07
+65,Anilao,22.61
+66,Anini-Y,18.76
+67,Antequera,15.6
+68,Antipas,28.6
+69,Antipolo,5.38
+70,Apalit,4.7
+71,Aparri,13.28
+72,Araceli,19.18
+73,Arakan,42.1
+74,Arayat,6.4
+75,Argao,15.9
+76,Aringay,4.39
+77,Aritao,15.83
+78,Aroroy,37.26
+79,Arteche,58.66
+80,Asingan,10.42
+81,Asipulo,32.04
+82,Asturias,26
+83,Asuncion,18.12
+84,Atimonan,6.1
+85,Atok,18.66
+86,Aurora (IA),11.23
+87,Aurora (ZR),29.8
+88,Ayungon,30.5
+89,Baao,26.2
+90,Babatngon,33.12
+91,Bacacay,31.51
+92,Bacarra,3.43
+93,Baclayon,11.2
+94,Bacnotan,1.46
+95,Baco,16.82
+96,Bacolod (LN),20.42
+97,Bacolod (NO),6.7
+98,Bacolod-Kalawi,66.62
+99,Bacolor,3.63
+100,Bacong,13.9
+101,Bacoor,3.9
+102,Bacuag,31.76
+103,Bacungan Leon B. Postigo,55.77
+104,Badian,26.5
+105,Badiangan,15.96
+106,Badoc,5.67
+107,Bagabag,8.68
+108,Bagac,6.07
+109,Bagamanoc,22.71
+110,Baganga,36.35
+111,Baggao,13.47
+112,Bago,12.98
+113,Baguio,4
+114,Bagulin,5.5
+115,Bagumbayan,33.1
+116,Bais,22.8
+117,Bakun,17.92
+118,Balabac,29.74
+119,Balabagan,73.45
+120,Balagtas,3.38
+121,Balamban,18.9
+122,Balanga,3.39
+123,Balangiga,50.07
+124,Balangkayan,50.42
+125,Balaoan,3.2
+126,Balasan,20.74
+127,Balatan,38.39
+128,Balayan,10.41
+129,Balbalan,15.95
+130,Baleno,33.05
+131,Baler,7.34
+132,Balete (AK),17.26
+133,Balete (BS),12.66
+134,Baliangao,26.76
+135,Baliguian,52.55
+136,Balilihan,20.5
+137,Balindong,67.37
+138,Balingasag,20.15
+139,Balingoan,18.47
+140,Baliwag,3.98
+141,Ballesteros,13.03
+142,Baloi,29.12
+143,Balud,31.72
+144,Balungao,9.49
+145,Bamban,10.3
+146,Bambang,8.23
+147,Banate,18.8
+148,Banaue,19.22
+149,Banaybanay,26.05
+150,Banayoyo,6.05
+151,Banga (AK),19.5
+152,Banga (SC),10.61
+153,Bangar,3.83
+154,Bangued,8.89
+155,Bangui,4.74
+156,Bani,10.58
+157,Banisilan,43
+158,Banna,6.13
+159,Bansalan,17.29
+160,Bansud,16.2
+161,Bantay,3.18
+162,Bantayan Island,23.5
+163,Banton,16.71
+164,Baras (CT),6.4
+165,Baras (RL),25.67
+166,Barbaza,19.88
+167,Barcelona,28.35
+168,Barili,23.5
+169,Barira,65.66
+170,Barlig,14.43
+171,Barobo,33.17
+172,Barotac Nuevo,15.66
+173,Barotac Viejo,19.5
+174,Baroy,17.11
+175,Barugo,26.48
+176,Basay,29.1
+177,Basco,7.01
+178,Basey,26.87
+179,Basilisa,33.22
+180,Basista,14.48
+181,Basud (CN),22.37
+182,Batac,4.14
+183,Batad,23.77
+184,Batan,14.66
+185,Batangas,8.55
+186,Bataraza,15.29
+187,Bato (CS),29.15
+188,Bato (CT),30.85
+189,Bato (LE),14.55
+190,Batuan (BL),23.3
+191,Batuan (MS),29.28
+192,Bauan,7.6
+193,Bauang,3.1
+194,Bauko,21.75
+195,Baungon,34.65
+196,Bautista,14.79
+197,Bay,2.19
+198,Bayabas,31.1
+199,Bayambang,14.67
+200,Bayang,70.39
+201,Bayawan,29.5
+202,Baybay,22.84
+203,Bayog,37.86
+204,Bayombong,6.82
+205,Bayugan,31.5
+206,Belison,13.18
+207,Benito Soliven,19.74
+208,Besao,16.63
+209,Bien Unido,32
+210,Bilar,20.1
+211,Biliran,22.42
+212,Binalbagan,16.41
+213,Binalonan,6.92
+214,Binangonan,3.83
+215,Bindoy,37.8
+216,Bingawan,22.39
+217,Binidayan,69.77
+218,Binmaley,6.56
+219,Binuangan,17.11
+220,Biri,41.78
+221,Bislig,21.6
+222,Binan,1.69
+223,Boac,13.44
+224,Bobon,34.6
+225,Bocaue,7.52
+226,Bogo,13.1
+227,Bokod,9.88
+228,Bolinao,16.28
+229,Boliney,32.97
+230,Boljoon,23.3
+231,Bombon,23.78
+232,Bongabon,5.47
+233,Bongabong,16.5
+234,Bongao,17.29
+235,Bonifacio,34.96
+236,Bontoc (MP),29.69
+237,Bontoc (SL),10.01
+238,Borbon,20.7
+239,Borongan,37.42
+240,Boston,29.48
+241,Botolan,12.75
+242,Braulio E. Dujali,11.4
+244,Buadiposo-Buntong,66.88
+245,Bubong,67.25
+246,Bucay,20.43
+247,Bucloc,21.16
+248,Buenavista (AN),32.6
+249,Buenavista (BL),6.99
+250,Buenavista (GS),19.65
+251,Buenavista (ME),24.91
+252,Buenavista (QN),24.77
+253,Bugallon,15.28
+254,Bugasong,19.93
+255,Buguey,15.28
+256,Buguias,9.44
+257,Buhi,29.82
+258,Bula,25.05
+259,Bulakan,4
+260,Bulalacao,23.93
+261,Bulan,29.49
+262,Buldon,66.8
+263,Buluan,63.91
+264,Bulusan,28.97
+265,Bunawan,30.33
+266,Burauen,27.79
+267,Burdeos,21.96
+268,Burgos (IN),18.23
+269,Burgos (IS),4.35
+270,Burgos (IA),31.55
+271,Burgos (LU),4.03
+272,Burgos (PS),12.25
+273,Burgos (SN),6.48
+274,Buruanga,16.41
+275,Bustos,4.31
+276,Busuanga,17.42
+277,Butig,80.72
+278,Butuan,26.1
+279,Buug,25.32
+280,Caba,3.11
+281,Cabadbaran,19.04
+282,Cabagan,14.68
+283,Cabanatuan,3.12
+284,Cabangan,9.99
+285,Cabanglasan,34.04
+286,Cabarroguis,9.3
+287,Cabatuan (IO),11.02
+288,Cabatuan (IA),13.46
+289,Cabiao,5.71
+290,Cabucgayan,27.86
+291,Cabugao,6.61
+292,Cabusao,28.07
+293,Cabuyao,1.52
+294,Cadiz,24.85
+295,Cagayancillo,23.16
+296,Cagayan De Oro,15.2
+297,Cagdianao,36.83
+298,Cagwait,27.95
+299,Caibiran,31.14
+300,Cainta,3.7
+301,Cajidiocan,28.71
+302,Calabanga,26.78
+303,Calaca,10.29
+304,Calamba (LA),24.01
+305,Calamba (MC),1.87
+306,Calanasan,29.81
+307,Calanogas,86.1
+308,Calapan,7.15
+309,Calape,17.4
+310,Calasiao,7.82
+311,Calatagan,11.71
+312,Calatrava (NO),22.64
+313,Calatrava (RN),33.96
+314,Calauag,9.77
+315,Calauan,4.04
+316,Calayan,42.19
+317,Calbayog,23.66
+318,Calbiga,24.86
+319,Calinog,27.02
+320,Calintaan,18.97
+321,Caloocan,9.9
+322,Calubian,29.35
+323,Calumpit,4.73
+324,Caluya,30.27
+325,Camalaniugan,13.5
+326,Camalig,21.05
+327,Camaligan,17.44
+328,Camiling,6.25
+329,Canaman,52.2
+330,Can-Avid,13.93
+331,Candaba,6.99
+332,Candelaria (QN),6.23
+333,Candelaria (ZA),9.84
+334,Candijay,21.4
+335,Candon,5.6
+336,Candoni,24.78
+337,Canlaon,23.6
+338,Cantilan,19.17
+339,Caoayan,4.05
+340,Capalonga,38.7
+341,Capas,8.73
+342,Capoocan,32.85
+343,Capul,37.35
+344,Caraga,40.04
+345,Caramoan,25.32
+346,Caramoran,34.85
+347,Carasi,6.71
+348,Carcar,13.8
+349,Cardona,4.73
+350,Carigara,25
+351,Carles,35.79
+352,Carmen (AN),25
+353,Carmen (BL),27.33
+354,Carmen (CU),14.1
+355,Carmen (NC),39.3
+356,Carmen (DN),27.17
+357,Carmen (SS),14.17
+358,Carmona,4.01
+359,Carranglan,7.68
+360,Carrascal,23.03
+361,Casiguran (AU),12.62
+362,Casiguran (SO),30.58
+363,Castilla,35.39
+364,Castillejos,7.04
+365,Cataingan,23.42
+366,Catanauan,11.34
+367,Catarman (CM),30.27
+368,Catarman (NS),26.57
+369,Catbalogan,19
+370,Cateel,32.7
+371,Catigbian,23
+372,Catmon,16.1
+373,Catubig,44.12
+374,Cauayan (IA),27.26
+375,Cauayan (NO),12.62
+376,Cavinti,2.66
+377,Cavite,5.66
+378,Cawayan,24.26
+379,Cebu,14
+380,Cervantes,11.19
+381,Clarin (BL),17.4
+382,Clarin (MC),22.51
+383,Claver,32.33
+384,Claveria (CG),36.33
+385,Claveria (MS),22.1
+386,Claveria (MO),11.12
+387,Columbio,36.2
+388,Compostela (CU),12.4
+389,Compostela (DDO),25.25
+390,Concepcion (IO),17.18
+391,Concepcion,49.92
+392,Concepcion (RN),29.2
+393,Concepcion (TC),9.85
+394,Conner,23.65
+395,Consolacion,6.6
+396,Corcuera,19.9
+397,Cordon,18.92
+398,Cordova,9
+399,Corella,10.1
+400,Coron,17.06
+401,Cortes (BL),12.5
+402,Cortes (SS),28.37
+403,Cotabato,48.7
+404,Cuartero,6.39
+405,Cuenca,11.65
+406,Culaba,28.75
+407,Culasi,22.58
+408,Culion,15.77
+409,Currimao,4.3
+410,Cuyapo,5.9
+411,Cuyo,11.38
+412,Daan Bantayan,17.8
+413,Daet,14.73
+414,Dagami,33.68
+415,Dagohoy,27.5
+416,Daguioman,24.74
+417,Dagupan,9.19
+418,Dalaguete,25.2
+419,Damulog,35.44
+420,Danao (BL),29.2
+421,Danao (CU),14.3
+422,Dangcagan,27.64
+423,Danglas,23.22
+424,Dao,6.58
+425,Dapa,38.11
+426,Dapitan,27.12
+427,Daraga,13.51
+428,Daram,41.18
+429,Dasmarinas,5.34
+430,Dasol,13.14
+431,Datu Abdullah Sangki,67.14
+432,Datu Anggal Midtimbang,69.48
+433,Datu Blah Sinsuat,70.44
+434,Datu Hoffer Ampatuan,70.31
+435,Datu Odin Sinsuat,48
+436,Datu Paglas,65.06
+437,Datu Piang,52.11
+438,Datu Salibo,59.31
+439,Datu Saudi-Ampatuan,62.3
+440,Datu Unsay,67.6
+441,Dauin,17.5
+442,Dauis,10.8
+443,Davao,11.4
+444,Del Carmen,35.52
+445,Delfin Albano,30.59
+446,Del Gallego,16.95
+447,Diadi,14.33
+448,Diffun,10.64
+449,Digos,5.46
+450,Dilasag,12.87
+451,Dimasalang,33.94
+452,Dimataling,36.56
+453,Dimiao,22.2
+454,Dinagat,35.33
+455,Dinalungan,14.74
+456,Dinalupihan,6.35
+457,Dinapigue,44.81
+458,Dinas,36.81
+459,Dingalan,12.73
+460,Dingle,17.48
+461,Dingras,6.04
+462,Dipaculao,11.35
+463,Diplahan,28.89
+464,Dipolog,17.93
+465,Ditsaan-Ramain,72.98
+466,Divilacan,47.58
+467,Dolores (AA),15.69
+468,Dolores (ES),55.34
+469,Dolores (QN),6.34
+470,Don Carlos,27.06
+471,Don Marcelino,37.89
+472,Donsol,35.74
+473,Don Victoriano Chiongbian,37.1
+474,Dona Remedios Trinidad,11.43
+475,Duero,21.6
+476,Duenas,20.52
+477,Dulag,24.63
+478,Dumaguete,3.2
+479,Dumalag,4.14
+480,Dumalinao,32.81
+481,Dumalneg,7.18
+482,Dumangas,14.14
+483,Dumanjug,22.3
+484,Dumaran,15.52
+485,Dumarao,8.19
+486,Dumingag,39.76
+487,Dupax Del Norte,14.22
+488,Dupax Del Sur,15.98
+489,Echague,14.99
+490,El Nido,16.32
+491,El Salvador,13.33
+492,Enrile,10.21
+493,E. B. Magalona,21.59
+494,Enrique Villanueva,14.4
+495,Escalante,25.31
+496,Esperanza (AS),31.68
+497,Esperanza (MS),45.67
+498,Esperanza (SK),27.5
+499,Estancia,22.79
+500,Famy,2.78
+501,Ferrol,20.25
+502,Flora,17.79
+503,Floridablanca,2.92
+504,Gabaldon,7.13
+505,Gainza,26.08
+506,Galimuyod,6.91
+507,Gamay,33.45
+508,Gamu,15.25
+509,Ganassi,74.2
+510,Gandara,31.33
+511,Gapan,5.35
+512,Garchitorena,41.16
+513,Garcia-Hernandez,17.6
+514,Gasan,15.65
+515,Gattaran,16.68
+516,Gen. Emilio Aguinaldo,13.06
+517,General Luna (QN),40.67
+518,General Luna  (SN),18.36
+519,General Macarthur,57.95
+520,General Mamerto Natividad,6.7
+521,General Nakar,18.59
+522,General Santos,20.6
+523,General Tinio,5.1
+524,General Trias,3.75
+525,Gen. Mariano Alvarez,6.36
+526,Gen S.K Pendatun,73.8
+527,Gerona,6.13
+528,Getafe,33.9
+529,Gigaquit,39.23
+530,Gigmoto,27.13
+531,Ginatilan,19.8
+532,Gingoog,22.73
+533,Giporlos,51.55
+534,Gitagum,15.84
+535,Glan,39.3
+536,Gloria,14.31
+537,Goa,28.56
+538,Godod,59.3
+539,Gonzaga,12.19
+540,Governor Generoso,35.05
+541,Gregorio Del Pilar,9.73
+542,Guagua,3.59
+543,Gubat,26.38
+544,Guiguinto (BU),5.48
+545,Guihulngan,31.7
+546,Guimba,4.3
+547,Guimbal,11.46
+548,Guinayangan,17.04
+549,Guindulman,23.2
+550,Guindulungan,70.61
+551,Guinobatan,25.61
+552,Guinsiliban,30.36
+553,Guipos,31.63
+554,Guiuan,43.35
+555,Gumaca,7.7
+556,Gutalac,59.66
+557,Hadji Mohammad Ajul,81.63
+558,Hadji Muhtamad,75.18
+559,Hadji Panglima Tahil,78.45
+560,Hagonoy (BU),4.88
+561,Hagonoy (DS),14.13
+562,Hamtic,18.45
+563,Hermosa,8.99
+564,Hernani,49.66
+565,Hilongos,26.05
+566,Himamaylan,23.96
+567,Hinabangan,28.32
+568,Hinatuan,31.26
+569,Hindang,23.62
+570,Hingyon,23.04
+571,Hinigaran,19.36
+572,Hinobaan,24.63
+573,Hinunangan,25.21
+574,Hinundayan,23.16
+575,Hungduan,21.22
+576,Iba,6
+577,Ibaan,9.27
+578,Ibajay,13.92
+579,Igbaras,25.45
+580,Iguig,11.12
+581,Ilagan,13.85
+582,Iligan,24.7
+583,Ilog,16.89
+584,Iloilo,6.4
+585,Imelda,29.28
+586,Impasug-Ong,33.79
+587,Imus,2.71
+588,Inabanga,25.4
+589,Indanan,69.79
+590,Indang,4.04
+591,Infanta (PS),12.78
+592,Infanta (QN),7.57
+593,Initao,17
+594,Inopacan,26.15
+595,Ipil,4.31
+596,Iriga,22.3
+597,Irosin,13.62
+598,Isabel,32.64
+599,Isabela (BAS),17.83
+600,Isabela (NO),28
+601,Igacos,12.29
+602,Isulan,20.6
+603,Itbayat,30.92
+604,Itogon,6.88
+605,Ivana,7
+606,Ivisan,6.36
+607,Jabonga,31.3
+608,Jaen,4.14
+609,Jagna,17.9
+610,Jalajala,12.4
+611,Jamindan,12.8
+612,Janiuay,21.62
+613,Jaro,31.59
+614,Jasaan,16.73
+615,Javier,30.7
+616,Jiabong,25.65
+617,Jimalalud,33.3
+618,Jimenez,20.42
+619,Jipapad,65.46
+620,Jolo,58.94
+621,Jomalig,25.77
+622,Jones,13.34
+623,Jordan,10.33
+624,Jose Abad Santos,47.15
+625,Jose Dalman,56.48
+626,Josefina,34.45
+627,Jose Panganiban,28.08
+628,Jovellar,37.52
+629,Juban,35.73
+630,Julita,28.36
+631,Kabacan,24.2
+632,Kabankalan,28.57
+633,Kabasalan,30.09
+634,Kabayan,19.14
+635,Kabugao,35.34
+636,Kabuntalan,68.51
+637,Kadingilan,33.64
+638,Kalamansig,42.2
+639,Kalawit,56.47
+640,Kalayaan (LA),5.06
+641,Kalayaan (PN),76.92
+642,Kalibo,6.9
+643,Kalilangan,31.87
+644,Kalingalan Caluang,78.71
+645,Kananga,31.08
+646,Kapai,88.91
+647,Kapalong,20.92
+648,Kapangan,17.31
+649,Kapatagan (LN),85.23
+650,Kapatagan (LS),17.83
+651,Kasibu,21.68
+652,Katipunan,52.86
+653,Kauswagan,23.23
+654,Kawayan,27.04
+655,Kawit,5.66
+656,Kayapa,29.15
+657,Kiamba,33.4
+658,Kiangan,14.88
+659,Kibawe,28.47
+660,Kiblawan,29.9
+661,Kibungan,28.07
+662,Kidapawan,14
+663,Kinoguitan,17.12
+664,Kitaotao,35.63
+665,Kitcharao,23.89
+666,Kolambugan,18.57
+667,Koronadal,12.1
+668,Kumalarang,37.73
+669,Laak,24.91
+670,Labangan,32.39
+671,Labason,45.18
+672,Labo,25.06
+673,Labrador,10.45
+674,La Carlota,12.36
+675,La Castellana,26.98
+676,Lacub,37.66
+677,Lagangilang,19.39
+678,Lagawe,12.21
+679,Lagayan,32.89
+680,Lagonglong,18.91
+681,Lagonoy,30.08
+682,Laguindingan,15.16
+683,Lake Sebu,49.3
+684,Lakewood,39.14
+685,Lala,18.54
+686,La Libertad (NR),53.04
+687,La Libertad (ZN),31.4
+688,Lallo,13.51
+689,Lambayong,34.6
+690,Lambunao,21.98
+691,Lamitan,52.71
+692,Lamut,11.68
+693,Langiden,24.02
+694,Languyan,17.02
+695,Lantapan,33.9
+696,Lantawan,64.68
+697,Lanuza,29.49
+698,Laoac,11.16
+699,Laoag,2.36
+700,Laoang,39.81
+701,La Paz (AA),50.09
+702,La Paz (AS),10.37
+703,La Paz (LE),31.63
+704,La Paz (TC),19.83
+705,Lapinig,37.69
+706,Lapu Lapu,11.3
+707,Lapuyan,40.99
+708,Larena,9.5
+709,Lasam,14.29
+710,Las Navas,50.09
+711,Las Nieves,37.24
+712,Las Pinas,6.1
+713,La Trinidad,2.3
+714,Laua-An,21.91
+715,Laur,5.69
+716,Laurel,13.13
+717,Lavezares,34.14
+718,Lawaan,46.64
+719,Lazi,20.3
+720,Lebak,34.7
+721,Leganes,12.4
+722,Legazpi,13.78
+723,Lemery (BS),10.67
+724,Lemery (IO),19.78
+725,Leon,22.06
+726,Leyte,36.93
+727,Lezo,9.88
+728,Lian,10.71
+729,Lianga,30.04
+730,Libacao,25.67
+731,Libagon,28.12
+732,Libertad (AE),17.89
+733,Libertad (MO),19.71
+734,Libjo,38.5
+735,Libmanan,29.53
+736,Libon,37.37
+737,Libona,27.73
+738,Libungan,25.2
+739,Licab,7.65
+740,Licuan-Baay,23.33
+741,Lidlidda,6.81
+742,Ligao,23.07
+743,Lila,17.9
+744,Liliw,2.06
+745,Liloan (CU),29.34
+746,Liloan (SL),7.2
+747,Liloy,44.44
+748,Limasawa,22.48
+749,Limay,7.2
+750,Linamon,20.52
+751,Linapacan,21.81
+752,Lingayen,8.58
+753,Lingig,36.32
+754,Lipa,9.95
+755,Llanera,3.82
+756,Llorente,51.81
+757,Loay,10.4
+758,Lobo,20.52
+759,Loboc,12.8
+760,Looc (OM),20.17
+761,Looc (RN),13.32
+762,Loon,17.8
+763,Lope De Vega,47.87
+764,Lopez,9.08
+765,Lopez Jaena,28.21
+766,Loreto (AS),31.45
+767,Loreto (DI),44.37
+768,Los Banos,1.57
+769,Luba,21.6
+770,Lubang,9.49
+771,Lubao,3.59
+772,Lubuagan,20.23
+773,Lucban,3.99
+774,Lucena,8.5
+775,Lugait,14.11
+776,Lugus,75.53
+777,Luisiana,4.47
+778,Lumba-Bayabao,76.57
+779,Lumbaca-Unayan,82.25
+780,Lumban,2.29
+781,Lumbatan,76.85
+782,Lumbayanague,76.49
+783,Luna (AO),3.25
+784,Luna (IA),12.66
+785,Luna (LU),13.87
+786,Lupao,5.78
+787,Lupi,20.62
+788,Lupon,26.05
+789,Lutayan,39.9
+790,Luuk,78.31
+791,Maasim,41.9
+792,Maasin (IO),20.88
+793,Maasin (SL),20.47
+794,Ma-Ayon,10.35
+795,Mabalacat,4.4
+796,Mabinay,32.7
+797,Mabini (BS),9.82
+798,Mabini (BL),12.46
+799,Mabini (CV),26.9
+800,Mabini (PS),22.59
+801,Mabitac,2.99
+802,Mabuhay,42.93
+803,Macabebe,29.64
+804,Macalelon,5.5
+805,Macarthur,19.16
+806,Maco,19.82
+807,Maconacon,39.01
+808,Macrohon,23.17
+809,Madalag,21.7
+810,Madalum,73.99
+811,Madamba,76.45
+812,Maddela,9.25
+813,Madrid,21.46
+814,Madridejos,19.5
+815,Magalang,4.96
+816,Magallanes (AN),20.97
+817,Magallanes (CE),35.89
+818,Magallanes (SO),13.8
+819,Magarao,16.32
+820,Magdalena,7.81
+821,Magdiwang,26.05
+822,Magpet,41.7
+823,Magsaysay (DS),11.9
+824,Magsaysay (LN),25.79
+825,Magsaysay (MO),31.87
+826,Magsaysay (OM),21.01
+827,Magsaysay (PN),23.54
+828,Magsingal,4.42
+829,Maguing,76.06
+830,Mahaplag,31.86
+831,Mahatao,17.83
+832,Mahayag,35.37
+833,Mahinog,26.34
+834,Maigo,18.76
+835,Maimbung,71.21
+836,Mainit,38.95
+837,Maitum,38.6
+838,Majayjay,3.12
+839,Makati,1.5
+840,Makato,14.03
+841,Makilala,20.3
+842,Malabang,71.01
+843,Malabon,27
+844,Malabuyoc,17.38
+845,Malalag,30.8
+846,Malangas,45.7
+847,Malapatan,13.29
+848,Malasiqui,2.69
+849,Malay,13.39
+850,Malaybalay,21.58
+851,Malibcong,18.42
+852,Malilipot,26.09
+853,Malimono,35.17
+854,Malinao (AK),14.59
+855,Malinao (AY),33.66
+856,Malita,35.82
+857,Malitbog (BK),35.62
+858,Malitbog (SL),29.83
+859,Mallig,16.34
+860,Malolos,2.93
+861,Malungon,34.2
+862,Maluso,72.75
+863,Malvar,9.4
+864,Mamasapano,72.64
+865,Mambajao,21.44
+866,Mamburao,13.17
+867,Mambusao,4.8
+868,Manabo,16.72
+869,Manaoag,9.37
+870,Manapla,23.95
+871,Manay,37.07
+872,Mandaluyong,2.2
+873,Mandaon,32.38
+874,Mandaue,13.1
+875,Mangaldan,8.98
+876,Mangatarem,14.64
+877,Mangudadatu,52
+878,Manila,7.5
+879,Manito,37.21
+880,Manjuyod,25.1
+881,Mankayan,10.35
+882,Manolo Fortich,23.07
+883,Mansalay,23.3
+884,Manticao,17.67
+885,Manukan,49.22
+886,Mapanas,42.53
+887,Mapandan,12.16
+888,Mapun,18.81
+889,Marabut,27.43
+890,Maragondon,6.14
+891,Maragusan,22.74
+892,Maramag,23.43
+893,Marantao,67.27
+894,Marawi,63.18
+895,Marcos,5
+896,Margosatubig,32.3
+897,Maria,24.9
+898,Maria Aurora,11.98
+899,Maribojoc,10.8
+900,Marihatag,37.82
+901,Marikina,4.8
+902,Marilao,3.6
+903,Maripipi,20.42
+904,Mariveles,4.9
+905,Marogong,86.57
+906,Masbate,10.24
+907,Masinloc,19.55
+908,Masiu,9.6
+909,Maslog,74.91
+910,Masantol,73.43
+911,Mataasnakahoy,9.17
+912,Matag-Ob,29.18
+913,Matalam,35.9
+914,Matalom,26.51
+915,Matanao,21.02
+916,Matanog,64.66
+917,Mati,21.51
+918,Matnog,37.12
+919,Matuguinao,39.77
+920,Matungao,40.96
+921,Mauban,7.95
+922,Mawab,18.05
+923,Mayantoc,6.88
+924,Maydolong,46.41
+925,Mayorga,29.56
+926,Mayoyao,17.41
+927,Medellin,20.2
+928,Medina,18.16
+929,Mendez,9.23
+930,Mercedes,37.91
+931,Mercedes (ES),36.88
+932,Merida,22.99
+933,Mexico,4.6
+934,Meycauayan,5.17
+935,Miag-ao,17.43
+936,Midsalip,45.32
+937,Midsayap,24.7
+938,Milagros,36.37
+939,Milaor,17.67
+940,Mina,16.07
+941,Minalabac,32.21
+942,Minalin,6.16
+943,Minglanilla,7.7
+944,Mlang,20.6
+945,Moalboal,16.9
+946,Mobo,24.67
+947,Mogpog,12.08
+948,Moises Padilla,32.3
+949,Molave,18.59
+950,Moncada,7.25
+951,Mondragon,39.53
+952,Monkayo,28.04
+953,Monreal,39.78
+954,Montevista,27.85
+955,Morong (BN),3.81
+956,Morong (RL),9.99
+957,Motiong,30.86
+958,Mulanay,21.14
+959,Mulondo,78.19
+960,Munai,36.34
+961,Muntinlupa,21.26
+962,Murcia,46.77
+963,Mutia,5.52
+964,Naawan,16.66
+965,Nabas,16.9
+966,Nabua,15.52
+967,Nabunturan,17.5
+968,Naga (CS),32.79
+969,Naga (CU),15.3
+970,Naga (ZS),9.12
+971,Nagbukel,6.52
+972,Nagcarlan,2.37
+973,Nagtipunan,22.34
+974,Naguilian (IA),14.16
+975,Naguilian (LU),2.81
+976,Naic,6.03
+977,Nampicuan,6.62
+978,Narra,10.34
+979,Narvacan,6.21
+980,Nasipit,19.68
+981,Nasugbu,13.21
+982,Natividad,11.44
+983,Natonin,23.07
+984,Naujan,12.41
+985,Naval,22.86
+986,Navotas,13.8
+987,New Bataan,25.6
+988,New Corella,19.58
+989,New Lucena,12.02
+990,New Washington,11.35
+991,Norala,24.6
+992,Northern Kabuntalan,65.5
+993,Norzagaray,8.24
+994,Noveleta,4.07
+995,Nueva Era,6.1
+996,Nueva Valencia,15.22
+997,Numancia,6.61
+998,Nunungan,44.22
+999,Oas,34.21
+1000,Obando,4.66
+1001,Ocampo,30.99
+1002,Odiongan,9.6
+1003,Old Panamao,84.72
+1004,Olongapo,12.3
+1005,Olutanga,36.62
+1006,Omar,79.37
+1007,Opol,12.66
+1008,Orani,6.66
+1009,Oras,55.22
+1010,Orion,8.5
+1011,Ormoc,22.12
+1012,Oroquieta,15.55
+1013,Oslob,22.6
+1014,Oton,11.65
+1015,Ozamiz,21.12
+1016,Padada,9.49
+1017,Padre Burgos (QN),8.01
+1018,Padre Burgos (SL),23.98
+1019,Padre Garcia,20.91
+1020,Paete,5.39
+1021,Pagadian,14.07
+1022,Pagagawan,67.54
+1023,Pagalungan,61.15
+1024,Pagayawan,89.55
+1025,Pagbilao,6.31
+1026,Paglat,72.77
+1027,Pagsanghan,29.18
+1028,Pagsanjan,2.34
+1029,Pagudpud,5.68
+1030,Pakil,3.34
+1031,Palanan,31.3
+1032,Palanas,30.5
+1033,Palapag,39.99
+1034,Palauig,10.32
+1035,Palayan,5.83
+1036,Palimbang,60.5
+1037,Palo,18.55
+1038,Palompon,20.82
+1039,Paluan,22.64
+1040,Pambujan,44.68
+1041,Pamplona (CG),30.83
+1042,Pamplona (CS),16.4
+1043,Pamplona (NR),25.6
+1044,Panabo,8.65
+1045,Panaon,18.08
+1046,Panay,6.16
+1047,Pandag,70.18
+1048,Pandami,70.07
+1049,Pandan (AE),22.75
+1050,Pandan (CT),18.72
+1051,Pandi,7.09
+1052,Panganiban,21.93
+1053,Pangantucan,31.7
+1054,Pangil,5.8
+1055,Panglao,12.6
+1056,Panglima Estino,85.35
+1057,Panglima Sugala,27.52
+1058,Pangutaran,76.75
+1059,Paniqui,4.58
+1060,Panitan,4.8
+1061,Pantabangan,16.01
+1062,Pantao Ragat,42.51
+1063,Pantar,36.74
+1064,Pantukan,27.77
+1065,Panukulan,22.3
+1066,Paoay,4.51
+1067,Paombong,5.18
+1068,Paracale,37.61
+1069,Paracelis,30.63
+1070,Paranas,26.44
+1071,Parang (MA),77.17
+1072,Parang (SU),49.06
+1073,Paranaque,6.5
+1074,Pasacao,32.75
+1075,Pasay,8
+1076,Pasig,5.1
+1077,Pasil,18.15
+1078,Passi,21.11
+1079,Pastrana,28.48
+1080,Pasuquin,5.46
+1081,Pata,87.31
+1082,Pateros,6
+1083,Patikul,59.06
+1084,Patnanungan,24.14
+1085,Patnongon,21.94
+1086,Pavia,7.81
+1087,Payao,38.8
+1088,Perez,21.48
+1089,Penablanca,27.72
+1090,Penaranda,4.25
+1091,Penarrubia,16.17
+1092,Piagapo,83.94
+1093,Piat,12.87
+1094,Picong,86.62
+1095,Piddig,5.59
+1096,Pidigan,15.22
+1097,Pigcawayan,33.2
+1098,Pikit,44
+1099,Pila,2.37
+1100,Pilar (AA),19.29
+1101,Pilar (BN),23.5
+1102,Pilar (BL),31.3
+1103,Pilar (CZ),37.41
+1104,Pilar (CU),37.1
+1105,Pilar (SO),7.29
+1106,Pilar (SN),8.88
+1107,Pili,16.06
+1108,Pililla,5.14
+1109,Pinabacdao,30.41
+1110,Pinamalayan,11.43
+1111,Pinamungajan,24
+1112,Pinili,6.01
+1113,Pintuyan,27.26
+1114,Pinukpuk,20.31
+1115,Pio Duran,37.47
+1116,Pio V Corpuz,29.74
+1117,Pitogo (QN),36.89
+1118,Pitogo (ZR),8.67
+1119,Pinan,46.49
+1120,Placer (MS),33.12
+1121,Placer (SN),32.65
+1122,Plaridel (BU),23.75
+1123,Plaridel (MC),7.27
+1124,Plaridel (QN),4.2
+1125,Pola,14.88
+1126,Polanco,42.42
+1127,Polangui,21.34
+1128,Polillo,10.74
+1129,Polomolok,15
+1130,Pontevedra (CZ),6.05
+1131,Pontevedra (NO),12.47
+1132,Poona Bayabao,72.26
+1133,Poona Piagapo,51.39
+1134,Porac,5.6
+1135,Poro,21
+1136,Pototan,15.35
+1137,Pozorrubio,7.71
+1138,Presentacion,36.5
+1139,President Garcia,55.62
+1140,President Quirino,38.02
+1141,President Roxas (CZ),26.7
+1142,President Roxas (NC),6.89
+1143,Roxas (ZN),37.5
+1144,Prieto Diaz,33.99
+1145,Prosperidad,34.23
+1146,Pualas,75.91
+1147,Pudtol,21.01
+1148,Puerto Galera,13.25
+1149,Puerto Princesa,6.1
+1150,Pugo,3.16
+1151,Pulilan,4.59
+1152,Pulupandan,7.7
+1153,Pura,5.59
+1154,Quezon (BK),18.78
+1155,Quezon (IA),16.98
+1156,Quezon (MM),14.78
+1157,Quezon (NE),5.87
+1158,Quezon (NV),29.83
+1159,Quezon (PN),22.73
+1160,Quezon (QN),4.02
+1161,Quinapondan,51.27
+1162,Quirino (IS),15.59
+1163,Quirino (IA),10.97
+1164,Ragay,30.41
+1165,Rajah Buayan,73.25
+1166,Ramon,13.4
+1167,Ramon Magsaysay,32.62
+1168,Ramos,8.46
+1169,Rapu-Rapu,42.71
+1170,Real,8.71
+1171,Reina Mercedes,14.99
+1172,Remedios T. Romualdez,27.74
+1173,Rizal (CG),32.16
+1174,Rizal (KA),21.29
+1175,Rizal (LA),39.54
+1176,Rizal (NE),1.56
+1177,Rizal (OM),20.13
+1178,Rizal (PN),7.35
+1179,Rizal (ZN),11.87
+1180,Rodriguez,5.62
+1181,Romblon,21.71
+1182,Ronda,21.2
+1183,Rosales,11.84
+1184,Rosario (AS),5.21
+1185,Rosario (BS),3.55
+1186,Rosario (CE),35.42
+1187,Rosario (LU),11.92
+1188,Rosario (NS),32.98
+1189,R.T. Lim,32.26
+1190,Roxas (CZ),16.44
+1191,Roxas (IA),10.78
+1192,Roxas (OR),13.47
+1193,Roxas (PN),7.32
+1194,Sabangan,14.04
+1195,Sablan,8.71
+1196,Sablayan,12.84
+1197,Sabtang,21.71
+1198,Sadanga,21.65
+1199,Sagada,12.62
+1200,Sagay (CM),32.7
+1201,Sagay (NO),24.1
+1202,Sagbayan,21.5
+1203,Saguday,9.94
+1204,Saguiaran,75.26
+1205,Sagnay,33.93
+1206,Saint Bernard,25.48
+1207,Salay,17.25
+1208,Salcedo (ES),44.9
+1209,Salcedo (IS),7.41
+1210,Sallapadan,19.96
+1211,Salug,49.39
+1212,Salvador,29.11
+1213,Salvador Benedicto,32.4
+1214,Samal,7.27
+1215,Samboan,21.6
+1216,Sampaloc,12.56
+1217,San Agustin (IA),1.97
+1218,San Agustin (RN),31.97
+1219,San Agustin (SS),25.35
+1220,San Andres (CT),12.36
+1221,San Andres (QN),21.84
+1222,San Andres (RN),20.68
+1223,San Antonio (NS),25.49
+1224,San Antonio (NE),5.8
+1225,San Antonio (QN),26.81
+1226,San Antonio (ZA),7.29
+1227,San Benito,16.5
+1228,San Carlos (NO),38.74
+1229,San Carlos (PS),12.73
+1230,Sanchez-Mira,28.05
+1231,San Clemente,5.06
+1232,San Dionisio,26.74
+1233,San Emilio,10.78
+1234,San Enrique (IO),10.37
+1235,San Enrique (NO),22.18
+1236,San Esteban,4.84
+1237,San Fabian,11.46
+1238,San Felipe,9.27
+1239,San Fernando (BK),36.31
+1240,San Fernando (CS),15
+1241,San Fernando (CU),29.28
+1242,San Fernando (LU),28.04
+1243,San Fernando (MS),27.2
+1244,San Fernando (PA),3.61
+1245,San Fernando (RN),1.27
+1246,San Francisco (AS),25.69
+1247,San Francisco (CU),31.7
+1248,San Francisco (QN),27.47
+1249,San Francisco (SL),32.09
+1250,San Francisco (SN),24.15
+1251,San Gabriel,5.79
+1252,San Guillermo,27.2
+1253,San Ildefonso (BU),5.54
+1254,San Ildefonso (IS),3.84
+1255,San Isidro (AA),25.12
+1256,San Isidro (BL),25.8
+1257,San Isidro (DN),32.55
+1258,San Isidro (DO),31.24
+1259,San Isidro (IA),4.63
+1260,San Isidro (LE),36.79
+1261,San Isidro (NS),11.97
+1262,San Isidro (NE),20.3
+1263,San Isidro (SN),32.7
+1264,San Jacinto (MS),13.33
+1265,San Jacinto (PS),27.07
+1266,San Joaquin,26.15
+1267,San Jorge,29.58
+1268,San Jose (AE),27.94
+1269,San Jose (BS),15.27
+1270,San Jose (CS),32.1
+1271,San Jose (DI),12.06
+1272,San Jose (NR),10.36
+1273,San Jose (NS),24.91
+1274,San Jose (NE),9.24
+1275,San Jose (OM),17.1
+1276,San Jose (RN),27.63
+1277,San Jose (TC),4.61
+1278,San Jose De Buan,4.64
+1279,San Jose Del Monte,38.77
+1280,San Juan (AA),13.04
+1281,San Juan (BS),13
+1282,San Juan (IS),1.82
+1283,San Juan (LU),4.86
+1284,San Juan (MM),22.17
+1285,San Juan (SR),24.48
+1286,San Juan (SL),2.9
+1287,San Julian,48.41
+1288,San Leonardo,5.14
+1289,San Lorenzo,15.9
+1290,San Lorenzo Ruiz,31.61
+1291,San Luis (AS),10.93
+1292,San Luis (AU),6.01
+1293,San Luis (BS),15.67
+1294,San Luis (PA),47.33
+1295,San Manuel (IA),13.69
+1296,San Manuel (PS),9.91
+1297,San Manuel (TC),8.76
+1298,San Marcelino,9.06
+1299,San Mariano,23.09
+1300,San Mateo (IA),4.22
+1301,San Mateo (RL),10.66
+1302,San Miguel (BL),13.99
+1303,San Miguel (BU),32.74
+1304,San Miguel (CT),33.22
+1305,San Miguel (IO),6.51
+1306,San Miguel (LE),38.78
+1307,San Miguel (SS),27.1
+1308,San Miguel (ZR),26.74
+1309,San Narciso (QN),5
+1310,San Narciso (ZA),23.22
+1311,San Nicolas (BS),3.99
+1312,San Nicolas (IN),19.62
+1313,San Nicolas (PS),2.91
+1314,San Pablo (IA),38.78
+1315,San Pablo (LA),18.78
+1316,San Pablo (ZR),2.1
+1317,San Pascual (BS),38.21
+1318,San Pascual (MS),7.53
+1319,San Pedro,1.99
+1320,San Policarpo,55.81
+1321,San Quintin (AA),11.68
+1322,San Quintin (PS),14.83
+1323,San Rafael (BU),21.32
+1324,San Rafael (IO),4.45
+1325,San Remigio (AE),33.09
+1326,San Remigio (CU),15.9
+1327,San Ricardo,30.64
+1328,San Roque,44.11
+1329,San Sebastian,27.76
+1330,San Simon,5.58
+1331,San Teodoro,16.53
+1332,Santiago (AN),28.72
+1333,Santiago (IS),5.67
+1334,Santiago (IA),12.33
+1335,San Vicente (CN),18.91
+1336,San Vicente (IS),27.21
+1337,San Vicente (NS),37.31
+1338,San Vicente (PN),3.33
+1339,Sapad,25.1
+1340,Sapang Dalaga,35.35
+1341,Sapa-Sapa,24.76
+1342,Sapi-An,8.96
+1343,Sara,19.81
+1344,Sarangani,35.47
+1345,Sariaya,6.34
+1346,Sarrat,4.66
+1347,Sasmuan,6.07
+1348,Science City of Munoz,5.5
+1349,Sebaste,21.17
+1350,Senator Ninoy Aquino,38.2
+1351,Sergio Osmena,59.19
+1352,Sevilla,22.1
+1353,Shariff Aguak,62.85
+1354,Shariff Saydona Mustapha,66.3
+1355,Siasi,70.93
+1356,Siaton,30.7
+1357,Siay,33.02
+1358,Siayan,61.95
+1359,Sibagat,40.23
+1360,Sibalom,17.67
+1361,Sibonga,18.6
+1362,Sibuco,58.59
+1363,Sibulan,10.9
+1364,Sibunag,14.57
+1365,Sibutad,46.34
+1366,Sibutu,20.89
+1367,Sierra Bullones,27.3
+1368,Sigay,9.47
+1369,Sigma,6.38
+1370,Sikatuna,15.6
+1371,Silago,26.77
+1372,Silang,5.8
+1373,Silay,17.6
+1374,Silvino Lobos,56.94
+1375,Simunul,14.64
+1376,Sinacaban,24.19
+1377,Sinait,5.64
+1378,Sindangan,37.1
+1379,Siniloan,2.97
+1380,Siocon,51.36
+1381,Sipalay,23.53
+1382,Sipocot,29.11
+1383,Siquijor,13.1
+1384,Sirawai,57.61
+1385,Siruma,37.77
+1386,Sison (PS),12.33
+1387,Sison (SN),36.24
+1388,Sitangkai,24.03
+1389,Socorro (OR),31.97
+1390,Socorro (SN),13.72
+1391,Sofronio Espanola,17.35
+1392,Sogod (CU),27.22
+1393,Sogod (SL),19.2
+1394,Solana,10.72
+1395,Solano,6.95
+1396,Solsona,6.19
+1397,Sominot,38.4
+1398,Sorsogon,18.07
+1399,South Ubian,16.43
+1400,South Upi,60.4
+1401,Santa,4.78
+1402,Santa Ana (CG),6.18
+1403,Santa Ana (PA),13.87
+1404,Santa Barbara (IO),11.38
+1405,Santa Barbara (PS),9.99
+1406,Santa Catalina (IS),5.87
+1407,Santa Catalina (NR),28.6
+1408,Santa Cruz (DS),6.94
+1409,Santa Cruz (IS),20.71
+1410,Santa Cruz (LA),1.98
+1411,Santa Cruz (ME),13.54
+1412,Santa Cruz (OM),2.36
+1413,Santa Cruz (ZA),9.6
+1414,Santa Elena,35.79
+1415,Santa Fe (CU),26.52
+1416,Santa Fe (LE),24.9
+1417,Santa Fe (NV),17.65
+1418,Santa Fe (RN),27.92
+1419,Santa Ignacia,5.53
+1420,Santa Josefa,30.96
+1421,Santa Lucia,6.28
+1422,Santa Magdalena,32.78
+1423,Santa Marcela,12.2
+1424,Santa Margarita,25.49
+1425,Santa Maria (BU),4.73
+1426,Santa Maria (DS),4.58
+1427,Santa Maria (IS),31.7
+1428,Santa Maria (IA),19.43
+1429,Santa Maria (LA),6.18
+1430,Santa Maria (PS),21.82
+1431,Santa Maria (Imelda),11.08
+1432,Santa Monica,33.65
+1433,Santander,18.7
+1434,Santa Praxedes,12.23
+1435,Santa Rita (PA),4.1
+1436,Santa Rita (WS),34.41
+1437,Santa Rosa (LA),4.01
+1438,Santa Rosa (NE),1.29
+1439,Santa Teresita (BS),10.75
+1440,Santa Teresita (CG),11.8
+1441,Santo Domingo (AY),4.59
+1442,Santo Domingo (IS),23.03
+1443,Santo Domingo (NE),4.3
+1444,Santol,5.31
+1445,Santo Nino (CG),16.74
+1446,Santo Nino (WS),30.68
+1447,Santo Nino (SC),17.3
+1448,Santo Tomas (BS),4.25
+1449,Santo Tomas (DN),22.68
+1450,Santo Tomas (IA),8.37
+1451,Santo Tomas (LU),12.06
+1452,Santo Tomas (PA),3.37
+1453,Santo Tomas (PS),10.72
+1454,Sual,10.1
+1455,Subic,10.25
+1456,Sudipen,3.95
+1457,Sugbongcogon,17.89
+1458,Sugpon,10.08
+1459,Sulat,45.56
+1460,Sulop,16.12
+1461,Sultan Dumalondong,88.08
+1462,Sultan Kudarat,58.88
+1463,Sultan Mastura,59.75
+1464,Sultan Naga Dimaporo,27.7
+1465,Sultan Sa Barongis,67.09
+1466,Sumilao,32.26
+1467,Sumisip,72.24
+1468,Surallah,17.9
+1469,Surigao,24.7
+1470,Suyo,7.88
+1471,Taal,8.84
+1472,Tabaco,19.83
+1473,Tabango,30.81
+1474,Tabina,37.88
+1475,Tabogon,21.5
+1476,Tabontabon,30.61
+1477,Tabuan-Lasa,85.88
+1478,Tabuelan,22.2
+1479,Tabuk,10.6
+1480,Tacloban,18.4
+1481,Tacurong,10.3
+1482,Tadian,18.08
+1483,Taft,47.61
+1484,Tagana-An,37.23
+1485,Tagapul-An,31.62
+1486,Tagaytay,5.35
+1487,Tagbilaran,3.4
+1488,Tagbina,32.66
+1489,Tagkawayan,20.92
+1490,Tago,29.69
+1491,Tagoloan (LN),16.83
+1492,Tagoloan (MO),36.46
+1493,Tagoloan Ii,85.01
+1494,Tagudin,6.4
+1495,Taguig,4.1
+1496,Tagum,5.5
+1497,Talacogon,36.17
+1498,Talaingod,49.57
+1499,Talakag,43.39
+1500,Talalora,37.16
+1501,Talavera,4.42
+1502,Talayan,70.83
+1503,Talibon,26.5
+1504,Talipao,82.62
+1505,Talisay (BS),24.46
+1506,Talisay (CN),10.72
+1507,Talisay  (CU),8.2
+1508,Talisay (NO),3.52
+1509,Talisayan,19.89
+1510,Talitay,68.73
+1511,Talugtug,5.28
+1512,Talusan,42.32
+1513,Tambulig,32.33
+1514,Tampakan,30.9
+1515,Tamparan,73.58
+1516,Tampilisan,48.2
+1517,Tanauan (BS),20.91
+1518,Tanauan (LE),8.74
+1519,Tanay,6.37
+1520,Tandag,19.13
+1521,Tandubas,23.93
+1522,Tangalan,15.31
+1523,Tangcal,44.07
+1524,Tangub,27.5
+1525,Tanjay,18.9
+1526,Tantangan,26.8
+1527,Tanudan,22.29
+1528,Tanza,5.24
+1529,Tapaz,12.41
+1530,Tapul,76.79
+1531,Taraka,72.85
+1532,Tarangnan,29.87
+1533,Tarlac,5.23
+1534,Tarragona,38.21
+1535,Tayabas,6.26
+1536,Tayasan,29.2
+1537,Taysan,11.77
+1538,Taytay (PN),4.63
+1539,Taytay (RL),17.88
+1540,Tayug,8.07
+1541,Tayum,17.92
+1543,Teresa,4.12
+1544,Ternate,11.42
+1545,Tiaong,6.78
+1546,Tibiao,20.7
+1547,Tigaon,28.7
+1548,Tigbao,39.46
+1549,Tigbauan,15.59
+1550,Tinambac,36.77
+1551,Tineg,36.35
+1552,Tinglayan,27.71
+1553,Tingloy,19.08
+1554,Tinoc,26.96
+1555,Tipo-Tipo,76.61
+1556,Titay,33.52
+1557,Tiwi,23.58
+1558,Tobias Fornier,22.48
+1559,Toboso,20.26
+1560,Toledo,17.2
+1561,Tolosa,20.96
+1562,Tomas Oppus,26.49
+1563,Tongkil,80.68
+1564,Torrijos,20.34
+1565,Trece Martires,5.89
+1566,Trento,29.57
+1567,Trinidad,25.2
+1568,Tuao,11.75
+1569,Tuba,6.99
+1570,Tubajon,35.7
+1571,Tubao,3.69
+1572,Tubaran,78.27
+1573,Tubay,28.84
+1574,Tubigon,16.3
+1575,Tublay,13.21
+1576,Tubo,23.59
+1577,Tubod (LN),29.36
+1578,Tubod (SN),18.06
+1579,Tubungan,25.39
+1580,Tuburan (BA),75.52
+1581,Tuburan (CU),24.4
+1582,Tudela (CU),19.7
+1583,Tudela (MC),24.38
+1584,Tugaya,70.32
+1585,Tuguegarao,4.19
+1586,Tukuran,33.36
+1587,Tulunan,35.4
+1588,Tumauini,21.15
+1589,Tunga,18.24
+1590,Tungawan,36.3
+1591,Tupi,22.5
+1592,Turtle Islands,18.57
+1593,Tuy,11.88
+1594,Ubay,25.7
+1595,Umingan,12.82
+1596,Ungkaya Pukan,76.76
+1597,Unisan,14.64
+1598,Upi,50.95
+1599,Urbiztondo,18.38
+1600,Urdaneta,8.36
+1601,Uson,36.45
+1602,Uyugan,13.24
+1603,Valderrama,42.59
+1604,Valencia (BL),22
+1605,Valencia (BK),13
+1606,Valencia (NR),21.9
+1607,Valenzuela,8.9
+1608,Valladolid,10.29
+1609,Vallehermoso,32.3
+1610,Veruela,39.86
+1611,Victoria (LA),3.75
+1612,Victoria (NS),11.72
+1613,Victoria (OR),33.58
+1614,Victoria (TC),8.45
+1615,Victorias,12.86
+1616,Viga,29.05
+1617,Vigan,2.42
+1618,Villaba,26.25
+1619,Villanueva,15.97
+1620,Villareal,32.64
+1621,Villasis,11.77
+1622,Villaverde,12.54
+1623,Villaviciosa,19.93
+1624,Vincenzo A Sagun,30.81
+1625,Vintar,4.18
+1626,Vinzons,24.33
+1627,Virac,11.16
+1628,Wao,65.07
+1629,Zamboanga,18
+1630,Zamboanguita,17.5
+1631,Zaragoza,3.82
+1632,Zarraga,10.83
+1633,Zumarraga,38.87
