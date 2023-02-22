@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import os
 import pickle as pkl
 import folium as flm
 from streamlit_folium import st_folium
@@ -10,22 +11,22 @@ st.set_page_config(page_title='Home', layout='wide')
 
 # Load the DATA and cache.
 @st.cache_data
-def get_data(url):
-    df = pd.read_csv(url)
-    return df
+def get_data():
+    data_folder = "src/tasks/task-5-web-app-deployment/data/model"
+    files = [f for f in os.listdir(data_folder) if f.endswith(".csv")]
+    dfs = {}
+    for file in files:
+        df_name = os.path.splitext(file)[0]
+        df = pd.read_csv(os.path.join(data_folder, file))
+        df = df.iloc[:, :-2]  # remove last column
+        dfs[df_name] = df.set_index(df.columns[0])
+    return dfs
 
 
-@st.cache_data
-def get_data(url):
-    df2 = pd.read_csv(url)
-    return df2
-
-
-url = 'src/tasks/task-5-web-app-deployment/data/merged_model_output.csv'
-df = get_data(url)
-
-url2 = 'src/tasks/task-5-web-app-deployment/data/complete_dataset.csv'
-df2 = get_data(url)
+# @st.cache_data
+# def get_data(url):
+#     df2 = pd.read_csv(url)
+#     return df2
 
 
 def main():
@@ -130,7 +131,14 @@ def main():
     st.title(APP_TITLE)
     st.write('**Under Construction** - Please be aware we are currently building this app, so it will change over the next few weeks. Thank you for your patience.')
 
-
+    data = get_data()
+    df_disaster = data["disaster"]
+    df_dweg = data["dweg"]
+    df_health = data["health"]
+    df_industry = data["industry_II"]
+    df_poverty = data["poverty"]
+    
+    
     with st.sidebar:
         st.header("Cluster Prediction")
         html_temp = """
@@ -139,15 +147,40 @@ def main():
         </div>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
+        Disaster, Economy, Health, Industry, Poverty = 'src/tasks/task-5-web-app-deployment/pckls/disaster.pkl', 'src/tasks/task-5-web-app-deployment/pckls/dweg.pkl', 'src/tasks/task-5-web-app-deployment/pckls/health.pkl', 'src/tasks/task-5-web-app-deployment/pckls/industry_II.pkl', 'src/tasks/task-5-web-app-deployment/pckls/poverty.pkl'
         
-        with open('src/tasks/task-5-web-app-deployment/mod_21.pkl', 'rb') as file:
+        models = {'Disaster': Disaster, 'Economy': Economy,
+        'Health': Health, 'Industry': Industry, 'Poverty': Poverty}
+        
+        model_names = models.keys()
+        
+        option = st.selectbox(
+            'Please Select the Pillar', options=model_names,
+            help='Here are 5 pillars that can influence the vulnerability of a City')
+        
+        st.info(models[option])
+
+        with open(models[option], 'rb') as file:
             kmeans = pkl.load(file)
 
-        mod_21 = pd.read_csv('src/tasks/task-5-web-app-deployment/mod_21.csv', index_col='city_municipality')
+        # dframe = pd.read_csv('src/tasks/task-5-web-app-deployment/dframe.csv', index_col='city_municipality')
 
 
+        def load_df():
+            if option == Disaster:
+                return df_disaster
+            elif option == Economy:
+                return df_dweg
+            elif option == Health:
+                return df_health
+            elif option == Industry:
+                return df_industry
+            else:
+                return df_poverty
+        
+        
         def get_cluster(city):
-            x = mod_21.loc[city].values.reshape(1, -1)
+            x = load_df().loc[city].values.reshape(1, -1)
             cluster = kmeans.predict(x)[0]
             if cluster == 0:
                 return 'Medium'
@@ -159,15 +192,15 @@ def main():
             
         def display_sliders():
             sliders = {}
-            for col in mod_21.columns:
-                min_val = mod_21[col].min()
-                max_val = mod_21[col].max()
-                val = mod_21[col].loc[selected_city]
+            for col in load_df().columns:
+                min_val = load_df()[col].min()
+                max_val = load_df()[col].max()
+                val = load_df()[col].loc[selected_city]
                 sliders[col] = st.slider(f'''**{col}**''', min_value = float(min_val), max_value = float(max_val), value = float(val))
             return sliders
 
         # Add a dropdown to select the city
-        selected_city = st.selectbox('Select a city:', mod_21.index)
+        selected_city = st.selectbox('Select a city:', load_df().index)
 
         # Display the current cluster group for the selected city
         cluster = get_cluster(selected_city)
