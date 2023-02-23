@@ -107,7 +107,7 @@ def main():
         font-weight: bold;
         background-color: #fff;
         padding: 5px;
-        border: 1px #ffa500 solid;
+        border: 1px tomato solid;
         }
         .css-1vq4p4l h2 {
         font-size: 1.6rem;
@@ -137,8 +137,7 @@ def main():
     df_health = data["health"]
     df_industry = data["industry_II"]
     df_poverty = data["poverty"]
-    
-    
+
     with st.sidebar:
         st.header("Cluster Prediction")
         html_temp = """
@@ -148,17 +147,15 @@ def main():
         """
         st.markdown(html_temp, unsafe_allow_html=True)
         Disaster, Economy, Health, Industry, Poverty = 'src/tasks/task-5-web-app-deployment/pckls/disaster.pkl', 'src/tasks/task-5-web-app-deployment/pckls/dweg.pkl', 'src/tasks/task-5-web-app-deployment/pckls/health.pkl', 'src/tasks/task-5-web-app-deployment/pckls/industry_II.pkl', 'src/tasks/task-5-web-app-deployment/pckls/poverty.pkl'
-        
+
         models = {'Disaster': Disaster, 'Economy': Economy,
         'Health': Health, 'Industry': Industry, 'Poverty': Poverty}
-        
+
         model_names = models.keys()
-        
+
         option = st.selectbox(
             'Please Select the Pillar', options=model_names,
             help='Here are 5 pillars that can influence the vulnerability of a City')
-        
-        st.info(models[option])
 
         with open(models[option], 'rb') as file:
             kmeans = pkl.load(file)
@@ -167,13 +164,13 @@ def main():
 
 
         def load_df():
-            if option == Disaster:
+            if option == 'Disaster':
                 return df_disaster
-            elif option == Economy:
+            elif option == 'Economy':
                 return df_dweg
-            elif option == Health:
+            elif option == 'Health':
                 return df_health
-            elif option == Industry:
+            elif option == 'Industry':
                 return df_industry
             else:
                 return df_poverty
@@ -227,7 +224,6 @@ def main():
             <p class="res">New Level of Vulnerability: {new_cluster}</p>
             '''
             st.markdown(result, unsafe_allow_html=True)
-            st.write(x)
 
 
     # def map_ph(data, name):
