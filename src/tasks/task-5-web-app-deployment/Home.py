@@ -275,9 +275,9 @@ def main():
     map_url = 'src/tasks/task-5-web-app-deployment/data/mapping_data.parquet'
     df1 = get_map_data(map_url)
 
-    noah_folder = 'src/tasks/task-5-web-app-deployment/data/noah'
+    # noah_folder = 'src/tasks/task-5-web-app-deployment/data/noah'
     
-    geodata = get_data_noah(noah_folder)
+    # geodata = get_data_noah(noah_folder)
     # gdf_AlluvialFan = geodata['AlluvialFan']
     # gdf_DebrisFlow = geodata['DebrisFlow']
     # gdf_flood_5yr = geodata['flood-5yr']
