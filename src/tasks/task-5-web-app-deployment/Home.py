@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import geopandas as gpd
 import os
 import pickle as pkl
 import folium as flm
@@ -7,34 +8,63 @@ from streamlit_folium import st_folium
 
 APP_TITLE = 'Mapping Urban Vulnerability areas'
 st.set_page_config(page_title='Home', layout='wide')
+print('hello')
 
-
-# Load the DATA and cache.
+# Load the Model DATA and cache.
 @st.cache_data
-def get_data():
-    data_folder = "src/tasks/task-5-web-app-deployment/data/model"
-    files = [f for f in os.listdir(data_folder) if f.endswith(".csv")]
+def get_data(folder):
+    """
+    Load the data in a function so we can cache the files.
+
+    Returns:
+        pd.Dataframe: Returns a data frame.
+    """
+    data_folder = folder
+    files = [f for f in os.listdir(data_folder) if f.endswith('.csv')]
     dfs = {}
     for file in files:
         df_name = os.path.splitext(file)[0]
         df = pd.read_csv(os.path.join(data_folder, file))
-        df = df.iloc[:, :-2]  # remove last column
         dfs[df_name] = df.set_index(df.columns[0])
     return dfs
 
 
-# @st.cache_data
-# def get_data(url):
-#     df2 = pd.read_csv(url)
-#     return df2
+# Load the Map DATA and cache.
+@st.cache_data
+def get_map_data(url):
+    # gdf = gpd.read_parquet(url)
+    df1 = pd.read_parquet(url)
+    df1 = pd.DataFrame(df1.iloc[:, :-1])  # remove last column.
+    return df1
 
 
+# Load the Noah DATA and cache.
+@st.cache_data
+def get_data_noah(folder):
+    """
+    Load the data in a function so we can cache the files.
+
+    Returns:
+        pd.Dataframe: Returns a data frame.
+    """
+    data_folder = folder
+    files = [f for f in os.listdir(data_folder) if f.endswith('.parquet')]
+    gdfs = {}
+    for file in files:
+        gdf_name = os.path.splitext(file)[0]
+        gdf = gpd.read_parquet(os.path.join(data_folder, file))
+        gdfs[gdf_name] = gdf.set_index(gdf.columns[0])
+    return gdfs
+    
+
+# Create the landing page.
 def main():
-    # Colors:
+    # Base Colors:
     # Blue = #182D40
     # Light Blue = #82a6c0
     # Green = #4abd82
 
+    # Add custom CSS.
     st.markdown(
         """
         <style>
@@ -79,7 +109,6 @@ def main():
         }
         .css-12w0qpk.e1tzin5v2 {
         background: #d2d2d2;
-        border-radius: 8px;
         padding: 5px 10px;
         }
         label.css-18ewatb.e16fv1kl2 {
@@ -123,21 +152,19 @@ def main():
         """, unsafe_allow_html=True
     )
 
-    # col1, col2 = st.columns((1, 3))
-    # with col1:
-    #     st.image('assets/Omdena-Logo.png')
-    # with col2:
-    st.image('src/tasks/task-5-web-app-deployment/assets/header.png')
+    # st.image('src/tasks/task-5-web-app-deployment/assets/header.png')
     st.title(APP_TITLE)
     st.write('**Under Construction** - Please be aware we are currently building this app, so it will change over the next few weeks. Thank you for your patience.')
 
-    data = get_data()
-    df_disaster = data["disaster"]
-    df_dweg = data["dweg"]
-    df_health = data["health"]
-    df_industry = data["industry_II"]
-    df_poverty = data["poverty"]
+    # Load data and create data frames for the Model
+    data = get_data('src/tasks/task-5-web-app-deployment/data/model')
+    df_disaster = data['disaster'].iloc[: , :-2]
+    df_dweg = data['dweg'].iloc[: , :-2]
+    df_health = data['health'].iloc[: , :-2]
+    df_industry = data['industry_II'].iloc[: , :-2]
+    df_poverty = data['poverty'].iloc[: , :-2]
 
+    # Create the sidebar and add Model
     with st.sidebar:
         st.header("Cluster Prediction")
         html_temp = """
@@ -146,9 +173,9 @@ def main():
         </div>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
-        Disaster, Economy, Health, Industry, Poverty = 'src/tasks/task-5-web-app-deployment/pckls/disaster.pkl', 'src/tasks/task-5-web-app-deployment/pckls/dweg.pkl', 'src/tasks/task-5-web-app-deployment/pckls/health.pkl', 'src/tasks/task-5-web-app-deployment/pckls/industry_II.pkl', 'src/tasks/task-5-web-app-deployment/pckls/poverty.pkl'
+        Disaster, Eclnomy, Health, Industry, Poverty = 'src/tasks/task-5-web-app-deployment/pckls/disaster.pkl', 'src/tasks/task-5-web-app-deployment/pckls/dweg.pkl', 'src/tasks/task-5-web-app-deployment/pckls/health.pkl', 'src/tasks/task-5-web-app-deployment/pckls/industry_II.pkl', 'src/tasks/task-5-web-app-deployment/pckls/poverty.pkl'
 
-        models = {'Disaster': Disaster, 'Economy': Economy,
+        models = {'Disaster': Disaster, 'Eclnomy': Eclnomy,
         'Health': Health, 'Industry': Industry, 'Poverty': Poverty}
 
         model_names = models.keys()
@@ -160,13 +187,17 @@ def main():
         with open(models[option], 'rb') as file:
             kmeans = pkl.load(file)
 
-        # dframe = pd.read_csv('src/tasks/task-5-web-app-deployment/dframe.csv', index_col='city_municipality')
-
 
         def load_df():
+            """
+            Loads the correct data frame the options drop down.
+
+            Returns:
+                pd.Dataframe: Returns relevant data frame.
+            """
             if option == 'Disaster':
                 return df_disaster
-            elif option == 'Economy':
+            elif option == 'Vulnerability':
                 return df_dweg
             elif option == 'Health':
                 return df_health
@@ -177,6 +208,15 @@ def main():
         
         
         def get_cluster(city):
+            """
+            Create clusters for mapping to output.
+
+            Args:
+                city (str): City name.
+
+            Returns:
+                str: Vulnerability level.
+            """
             x = load_df().loc[city].values.reshape(1, -1)
             cluster = kmeans.predict(x)[0]
             if cluster == 0:
@@ -188,6 +228,12 @@ def main():
             
             
         def display_sliders():
+            """
+            Creates sliders.
+
+            Returns:
+                st.slider: Slider values based on cluster.
+            """
             sliders = {}
             for col in load_df().columns:
                 min_val = load_df()[col].min()
@@ -196,20 +242,20 @@ def main():
                 sliders[col] = st.slider(f'''**{col}**''', min_value = float(min_val), max_value = float(max_val), value = float(val))
             return sliders
 
-        # Add a dropdown to select the city
+        # Add a dropdown to select the city.
         selected_city = st.selectbox('Select a city:', load_df().index)
 
-        # Display the current cluster group for the selected city
+        # Display the current cluster group for the selected city.
         cluster = get_cluster(selected_city)
         result = f'''
         <p class="res">Level of Vulnerability: {cluster}</p>
         '''
         st.markdown(result, unsafe_allow_html=True)
 
-        # Display the slider widgets
+        # Display the slider widgets.
         sliders = display_sliders()
 
-        # Add a button to recalculate the cluster group
+        # Add a button to recalculate the cluster group.
         if st.button('Recalculate'):
             x = pd.DataFrame(sliders, index=[selected_city])
             new_cluster = kmeans.predict(x)[0]
@@ -226,71 +272,115 @@ def main():
             st.markdown(result, unsafe_allow_html=True)
 
 
-    # def map_ph(data, name):
-    #     cond = data[data['province'] == name]
+    map_url = 'src/tasks/task-5-web-app-deployment/data/mapping_data.parquet'
+    df1 = get_map_data(map_url)
 
-    #     lat = data[cond]['latitude'].tolist()
-    #     lon = data[cond]['longitude'].tolist()
-    #     nam = data[cond]['city_municipality'].tolist()
-    #     eco = data[cond]['economic_dynamism'].tolist()
-    #     gov = data[cond]['government_efficiency'].tolist()
-    #     inf = data[cond]['infrastructure'].tolist()
-    #     res = data[cond]['resiliency'].tolist()
-
-    #     html = '''<h4>Needs Assessment Information</h4>
-    #     <b>Name: %s</b> <br /><br />
-    #     <b>economic_dynamism: </b> %s <br />
-    #     <b>government_efficiency: </b> %s <br />
-    #     <b>infrastructure: </b> %s <br />
-    #     <b>resiliency: </b> %s <br />
-    #     '''
-
-    #     if lat and lon:
-    #         map = flm.Map(location=[lat[0], lon[0]], zoom_start=6, zoom_control=True, zoom_end=20, scrollWheelZoom=False)
-    #     else:
-    #         return None
-
-    #     fg = flm.FeatureGroup(name='Philippines Map')
-
-    #     for lt, ln, nm, ec, go, nf, re in zip((lat), (lon), (nam), (eco), (gov), (inf), (res)):
-    #         sum_values = ec + go + nf + re
-
-    #         def marker_size(sums):
-    #             marker_sized = 0
-    #             if sums > 0:
-    #                 marker_sized = (10 - sums) + 10
-    #             marker_sized = marker_sized * map.zoom_start / 12
-    #             return int(marker_sized)
-
-    #         def marker_color(sums):
-    #             norm = colors.Normalize(vmin=0, vmax=10)
-    #             cmap = cm.get_cmap('YlOrRd')
-    #             marker_colored = cmap(norm(sums))
-    #             return marker_colored
-
-    #         iframe = flm.IFrame(html = html % ((nm), (ec), (go), (nf), (re)), height = 165)
-    #         popup = flm.Popup(iframe, min_width=200, max_width=500)
-    #         marker = flm.CircleMarker(location = [lt, ln], popup = (popup), fill_color=marker_color(sum_values), color='None', radius=marker_size(sum_values, map.zoom_level), fill_opacity = 0.7)
-    #         marker.add_child(flm.Popup(html = html % ((nm), (ec), (go), (nf), (re)), min_width=200, max_width=500))
-    #         fg.add_child(flm.CircleMarker(location = [lt, ln], popup = (popup), fill_color=marker_color(sum_values), color='None', radius=marker_size(sum_values), fill_opacity = 0.7))
-    #         map.add_child(fg)
-    #         print(sum_values)
-    #         print(marker_size(sum_values))
-    #     # map.save('map.html')
-    #     return map
-
-    # map_ph(df2, 'philippines')
+    noah_folder = 'src/tasks/task-5-web-app-deployment/data/noah'
     
-    col1, col2 = st.columns(2)
-    with col1:
-        st.subheader('Sub Header Left')
-        st.write('Column One')
-        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+    geodata = get_data_noah(noah_folder)
+    # gdf_AlluvialFan = geodata['AlluvialFan']
+    # gdf_DebrisFlow = geodata['DebrisFlow']
+    # gdf_flood_5yr = geodata['flood-5yr']
+    # gdf_StormSurgeAdvisory1 = geodata['StormSurgeAdvisory1']
 
+    # Add map.
+    def map_ph(data, name):
+        cond = data['Province'] == name
+
+        lat = data[cond]['Latitude'].tolist()
+        lon = data[cond]['Longitude'].tolist()
+        nam = data[cond]['City'].tolist()
+        vul = data[cond]['Vulnerability'].tolist()
+        pop = data[cond]['Population'].tolist()
+        pov = data[cond]['Poverty_Incidents'].tolist()
+        hop = data[cond]['Hospital'].tolist()
+
+        html = f''' <div style="font-family: monospace;font-size: 1rem;">
+        <h4 style="font-size:1.05rem;">Vulnerability Info</h4>
+        <ul style="list-style-type: none;margin: 0;padding: 0;">
+        <li>City/Town: </li>
+        <li> <b> %s</b></li>
+        <li>Vulnerability: <b> %s</b></li>
+        <li>Population: <b> %s</b></li>
+        <li>Poverty: <b> %s</b></li>
+        <li>Hospital: <b> %s</b></li>
+        <li>Model:</li>
+        <li>{option}: <b> {cluster}</b></li>
+        </ul>  
+        </div>
+        '''
+
+        if lat and lon:
+            map = flm.Map(location=[lat[0], lon[0]], zoom_start=8, scrollWheelZoom=False)
+        else:
+            return None
+
+        fg = flm.FeatureGroup(name='Philippines Map')
+        # fg2 = flm.FeatureGroup(name='Disaster Layers')
+
+        marker_props = {'low': {'color': 'green', 'size': 10},
+                    'medium': {'color': 'blue', 'size': 10},
+                    'high': {'color': 'red', 'size': 15}}
+
+        for lt, ln, nm, vu, po, pv, ho in zip((lat), (lon), (nam), (vul), (pop), (pov), (hop)):
+            iframe = flm.IFrame(html = html % ((nm), (vu), (po), (pv), int((ho))), height = 210)
+            popup = flm.Popup(iframe, min_width=200, max_width=500)
+            props = marker_props[vu]
+            marker = flm.CircleMarker(location = [lt, ln], popup = popup, fill_color=props['color'], color='None', radius=props['size'], fill_opacity = 0.5)
+            fg.add_child(marker)
+            map.add_child(fg)
+        
+        # Add layers for geospatial data
+        # gdfs = {
+        #     'AlluvialFan': geodata['AlluvialFan'],
+        #     'DebrisFlow': geodata['DebrisFlow'],
+        #     'flood-5yr': geodata['flood-5yr'],
+        #     'StormSurgeAdvisory1': geodata['StormSurgeAdvisory1']
+        # }
+
+        # colors = {
+        #     'AlluvialFan': 'blue',
+        #     'DebrisFlow': 'green',
+        #     'flood-5yr': 'red',
+        #     'StormSurgeAdvisory1': 'orange'
+        # }
+
+        # for gdf_name, color in colors.items():
+        #     if gdf_name in gdfs:
+        #         gdf = gdfs[gdf_name]
+        #         geojson = gdf.__geo_interface__
+        #         style = {'color': color, 'fillOpacity': 0.1}
+        #         layer = flm.GeoJson(data=geojson, style_function=lambda x: style)
+        #         map.add_child(layer)
+        
+        # flm.LayerControl().add_to(map_ph)
+        
+        # map.save('map.html')
+        st_map = st_folium(map, width=1600)
+        return st_map
+    
+    # Set columns.
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        # Create lists for dropdowns.
+        prov_list = list(df1['Province'].unique())
+        prov_list.sort()
+        province = st.selectbox(
+            'Province', prov_list, len(prov_list) - 1,
+            help='Select the Province'
+        )
     with col2:
-        st.subheader('Sub Header Right')
-        st.write('Column Two')
-        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+        st.write('place holder')
+
+    with col3:
+        st.write('place holder')
+
+    with col4:
+        st.write('place holder')
+    with st.container():
+        map_ph(df1, province)
 
 if __name__ == "__main__":
     main()
+    

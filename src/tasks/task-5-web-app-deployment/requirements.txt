@@ -9,3 +9,4 @@ cufflinks
 seaborn
 missingno
 altair
+scikit-learn
