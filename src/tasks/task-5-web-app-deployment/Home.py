@@ -278,10 +278,9 @@ def main():
     noah_folder = 'src/tasks/task-5-web-app-deployment/data/noah'
     
     geodata = get_data_noah(noah_folder)
-    # gdf_AlluvialFan = geodata['AlluvialFan']
-    # gdf_DebrisFlow = geodata['DebrisFlow']
-    # gdf_flood_5yr = geodata['flood-5yr']
-    # gdf_StormSurgeAdvisory1 = geodata['StormSurgeAdvisory1']
+    gdf_StormSurgeAdvisory1_1 = geodata['StormSurgeAdvisory1_1'][0]
+    gdf_StormSurgeAdvisory1_2 = geodata['StormSurgeAdvisory1_1'][1]
+    gdf_StormSurgeAdvisory1_3 = geodata['StormSurgeAdvisory1_1'][2]
 
     # Add map.
     def map_ph(data, name):
@@ -303,9 +302,7 @@ def main():
         <li>Vulnerability: <b> %s</b></li>
         <li>Population: <b> %s</b></li>
         <li>Poverty: <b> %s</b></li>
-        <li>Hospital: <b> %s</b></li>
-        <li>Model:</li>
-        <li>{option}: <b> {cluster}</b></li>
+        <li>Hospitals: <b> %s</b></li>
         </ul>  
         </div>
         '''
@@ -315,8 +312,29 @@ def main():
         else:
             return None
 
-        fg = flm.FeatureGroup(name='Philippines Map')
-        # fg2 = flm.FeatureGroup(name='Disaster Layers')
+        fg = flm.FeatureGroup(name='Philippines Cities')
+        fg1 = flm.FeatureGroup(name='Storm Surge 4 metres')
+        fg2 = flm.FeatureGroup(name='Storm Surge 3 metres')
+        fg3 = flm.FeatureGroup(name='Storm Surge 2 metres')
+
+        # loop through the dataframes and create a GeoJSON layer for each row
+        for df, fg, clr in [(gdf_StormSurgeAdvisory1_1, fg1, 'blue'), (gdf_StormSurgeAdvisory1_2, fg2, 'orange'), (gdf_StormSurgeAdvisory1_3, fg3, 'red')]:
+            for _, r in df.iterrows():
+                simple_geo = gpd.GeoSeries(r['geometry']).simplify(tolerance=0.001)
+                geo_j = simple_geo.to_json()
+                geo_j = flm.GeoJson(data=geo_j, style_function=lambda x: {'fillColor': clr})
+                fg.add_child(geo_j)
+                map.add_child(fg)
+                
+
+            parent_group = flm.FeatureGroup(name='Storm Surge Group')
+
+            # create a control group for the feature groups
+            toggleable_group = flm.plugins.FeatureGroupSubGroup(parent_group, name='Toggleable Layers')
+
+            toggleable_group.add_to(parent_group)
+            # add the control group to the map
+            parent_group.add_to(map)
 
         marker_props = {'low': {'color': 'green', 'size': 10},
                     'medium': {'color': 'blue', 'size': 10},
@@ -324,38 +342,16 @@ def main():
 
         for lt, ln, nm, vu, po, pv, ho in zip((lat), (lon), (nam), (vul), (pop), (pov), (hop)):
             iframe = flm.IFrame(html = html % ((nm), (vu), (po), (pv), int((ho))), height = 210)
-            popup = flm.Popup(iframe, min_width=200, max_width=500)
+            popup = flm.Popup(iframe, min_width=200, max_width=650)
             props = marker_props[vu]
             marker = flm.CircleMarker(location = [lt, ln], popup = popup, fill_color=props['color'], color='None', radius=props['size'], fill_opacity = 0.5)
             fg.add_child(marker)
             map.add_child(fg)
-        
-        # Add layers for geospatial data
-        # gdfs = {
-        #     'AlluvialFan': geodata['AlluvialFan'],
-        #     'DebrisFlow': geodata['DebrisFlow'],
-        #     'flood-5yr': geodata['flood-5yr'],
-        #     'StormSurgeAdvisory1': geodata['StormSurgeAdvisory1']
-        # }
 
-        # colors = {
-        #     'AlluvialFan': 'blue',
-        #     'DebrisFlow': 'green',
-        #     'flood-5yr': 'red',
-        #     'StormSurgeAdvisory1': 'orange'
-        # }
+        # create layer control and add it to the map
+        layer_ctrl = flm.LayerControl(collapsed=False)
+        layer_ctrl.add_to(map)
 
-        # for gdf_name, color in colors.items():
-        #     if gdf_name in gdfs:
-        #         gdf = gdfs[gdf_name]
-        #         geojson = gdf.__geo_interface__
-        #         style = {'color': color, 'fillOpacity': 0.1}
-        #         layer = flm.GeoJson(data=geojson, style_function=lambda x: style)
-        #         map.add_child(layer)
-        
-        # flm.LayerControl().add_to(map_ph)
-        
-        # map.save('map.html')
         st_map = st_folium(map, width=1600)
         return st_map
     
