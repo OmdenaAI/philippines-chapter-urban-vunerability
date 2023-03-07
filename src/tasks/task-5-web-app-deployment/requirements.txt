@@ -1,6 +1,5 @@
 streamlit
 pandas
-geopandas
 numpy
 folium
 streamlit_folium
@@ -11,3 +10,4 @@ seaborn
 missingno
 altair
 scikit-learn
+geopandas
