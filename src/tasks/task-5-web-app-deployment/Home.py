@@ -2,22 +2,24 @@ import streamlit as st
 import pandas as pd
 import geopandas as gpd
 import os
-import pickle as pkl
 import folium as flm
 from streamlit_folium import st_folium
 from PIL import Image
 
-APP_TITLE = 'Mapping Urban Vulnerability areas'
+APP_TITLE = 'Philippines - Urban Vulnerability Levels'
 st.set_page_config(page_title='Home', layout='wide')
 
 # Load the Model DATA and cache
 @st.cache_data
 def get_data(folder):
     """
-    Load the data in a function so we can cache the files.
+    Loads the data via a function so we can cache the files.
+
+    Args:
+        folder (str): url to the folder containing the data.
 
     Returns:
-        pd.Dataframe: Returns a data frame.
+        dict: Returns a dictionary of data frames. File name is the key. Data frame is the values.
     """
     data_folder = folder
     files = [f for f in os.listdir(data_folder) if f.endswith('.csv')]
@@ -32,31 +34,40 @@ def get_data(folder):
 # Load the Map DATA and cache
 @st.cache_data
 def get_map_data(url):
-    # gdf = gpd.read_parquet(url)
     df1 = pd.read_csv(url)
-    # df1 = pd.DataFrame(df1.iloc[:, :-1])  # remove last column
     df1 = pd.DataFrame(df1)
     return df1
 
 
 # Load the Noah DATA and cache
-# @st.cache_data
-# def get_data_noah(folder):
-#     """
-#     Load the data in a function so we can cache the files.
+@st.cache_data
+def get_data_noah(folder, name):
+    """
+    Reads all files inside a directory and creates a dataframe for each file.
+    The dataframe names are created from the df parameter plus an incremental number n.
 
-#     Returns:
-#         pd.Dataframe: Returns a data frame.
-#     """
-#     data_folder = folder
-#     files = [f for f in os.listdir(data_folder) if f.endswith('.parquet')]
-#     gdfs = {}
-#     for file in files:
-#         gdf_name = os.path.splitext(file)[0]
-#         gdf = gpd.read_parquet(os.path.join(data_folder, file))
-#         gdfs[gdf_name] = gdf.set_index(gdf.columns[0])
-#     return gdfs
+    Args:
+        folder (str): Path to the directory containing the files.
+        name (str): Base name for the dataframes.
+
+    Returns:
+        list: A list of dataframes.
+    """
+    # Get all files inside the directory
+    files = [file for file in os.listdir(folder) if os.path.isfile(os.path.join(folder, file))]
     
+    # Create a list to store the dataframes
+    dataframes = []
+    
+    # Loop through each file and create a dataframe for it
+    for i, file in enumerate(files):
+        file_path = os.path.join(folder, file)
+        df_name = f'{name}_{i}'
+        df = gpd.read_parquet(file_path)
+        dataframes.append(df)
+    
+    return dataframes
+
 
 # Create the landing page
 def main():
@@ -79,7 +90,6 @@ def main():
         background: none;
         }
         span.css-10trblm.e16nr0p30 {
-        text-align: center;
         color: #2c39b1;
         }
         .css-1dp5vir.e8zbici1 {
@@ -104,7 +114,9 @@ def main():
         font-size: 1.1em;
         font-weight: bold;
         font-variant-caps: small-caps;
-        border-bottom: 3px solid #4abd82;
+        text-decoration-line: underline;
+        text-decoration-color: green;
+        text-underline-offset: 8px;
         }
         label.css-18ewatb.e16fv1kl2 {
         font-variant: small-caps;
@@ -141,6 +153,14 @@ def main():
         justify-content: flex-end;
         flex: 1 1 0%;
         }
+        .css-184tjsw p {
+        word-break: break-word;
+        font-size: 1rem;
+        font-weight: bold;
+        }
+        button.css-fxzapv.edgvbvh10 {
+        background-color: #2627301f;
+        }
         </style>
         """, unsafe_allow_html=True
     )
@@ -158,17 +178,12 @@ def main():
 
     st.title(APP_TITLE)
 
-    # Load data and create data frames for the Model
-    # data = get_data('src/tasks/task-5-web-app-deployment/data/model')
-    # df_disaster = data['disaster']
-    # df_dweg = data['dweg']
-    # df_health = data['health']
-    # df_industry = data['industry_II']
-    # df_poverty = data['poverty']
-
     map_url = 'src/tasks/task-5-web-app-deployment/data/all_data.csv'
     df1 = get_map_data(map_url)
-    st.dataframe(df1)
+
+    url2 = 'src/tasks/task-5-web-app-deployment/data/noah'
+    name = 'storm_surge'
+    df_list = get_data_noah(url2, name)
 
     # Add map.
     def map_ph(data, name, prov):
@@ -209,7 +224,7 @@ def main():
         '''
 
         if lat and lon:
-            map = flm.Map(location=[lat[0], lon[0]], zoom_start=8, scrollWheelZoom=False)
+            map = flm.Map(location=[lat[0], lon[0]], zoom_start=10, scrollWheelZoom=False)
         else:
             return None
 
@@ -227,19 +242,17 @@ def main():
             fg.add_child(marker)
             map.add_child(fg)
 
+        flm.LayerControl(collapsed=False).add_to(map)
+
         # map.save('map1.html')
-        st_map = st_folium(map, width=1600)
-        return st_map
+        st_map_ph = st_folium(map, width=1600, returned_objects=['last_object_clicked'])
+        return st_map_ph
 
-    col1, col2 = st.columns(2)
-    with col1:
-        st.write("This map sponsored by Omdena and United Nations (Habitat) provides information regarding vulnerable areas in the Philippines. It shows previous data around 3 indexes: Poverty, Health and Climate Disaster vulnerability and aims to aid NGOs, government officials and citizens in better understanding the Philippines and its most vulnerable areas. The tool also projects to the future by predicting areas at most risk with the goal of providing entities with an effective tool that would help them appropriately distribute resources and aid. ")
-
-    with col2:
-        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type spvuimen book. It has survived not only five centuries, but also the leap into elvutronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more rvuently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+    st.write("This map sponsored by Omdena and United Nations (Habitat) provides information regarding vulnerable areas in the Philippines.")
+    st.write("It shows data around 5 indexes: Economy, Disaster, Industry, Health and Poverty. Its aim is to aid NGOs, government officials and citizens in better understanding the Philippines and its most vulnerable areas.")
+    st.write("The tool also projects to the future by predicting areas at most risk with the goal of providing entities with an effective tool that would help them appropriately distribute resources and aid.")
+    
     df1 = df1.assign(Country='Philippines')
-    # st.dataframe(df1)
-    # st.dataframe(df_disaster)
 
     # Set columns
     col1, col2 = st.columns(2)
@@ -257,7 +270,7 @@ def main():
         prov_list = list(df1['province'].unique())
         prov_list.sort()
         province = st.selectbox(
-            'Select Province', prov_list, len(prov_list) - 1,
+            'Select Province', prov_list, index=0,
             help='Select the Province, and then click on the map for city statistics.'
         )
 
@@ -285,5 +298,15 @@ def main():
         pop_growth = int(df1['total_population'].sum()) - 102897634
         st.metric('Total Population', tot_pop, f'{pop_growth} from last year')
 
+    st.subheader('Geospatial layers - Storm Surge')
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image('src/tasks/task-5-web-app-deployment/assets/layered_map.png')
+
+    with col2:
+        st.text('')
+
 if __name__ == "__main__":
     main()
+    
