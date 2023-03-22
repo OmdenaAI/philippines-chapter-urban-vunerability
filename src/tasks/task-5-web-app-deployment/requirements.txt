@@ -11,3 +11,4 @@ missingno
 altair
 scikit-learn
 geopandas
+plotly
