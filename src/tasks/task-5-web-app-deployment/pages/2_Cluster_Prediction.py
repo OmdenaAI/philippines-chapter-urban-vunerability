@@ -144,6 +144,8 @@ def main():
     df_health = data['health']
     df_industry = data['industry_II']
     df_poverty = data['poverty']
+    
+    st.dataframe(df_health.iloc[: , :-2])
 
     # Create columns
     col1, col2 = st.columns(2)
