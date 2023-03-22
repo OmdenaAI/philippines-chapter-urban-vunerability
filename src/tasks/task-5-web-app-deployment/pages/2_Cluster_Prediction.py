@@ -1,13 +1,10 @@
 import streamlit as st
 import pandas as pd
-import geopandas as gpd
 import os
 import pickle as pkl
-import folium as flm
-from streamlit_folium import st_folium
 from PIL import Image
 
-APP_TITLE = 'Mapping Urban Vulnerability areas'
+APP_TITLE = 'Philippines - Urban Vulnerability Levels'
 st.set_page_config(page_title='Home', layout='wide')
 print('hello')
 
@@ -51,7 +48,6 @@ def main():
         background: none;
         }
         span.css-10trblm.e16nr0p30 {
-        text-align: center;
         color: #2c39b1;
         }
         .css-1dp5vir.e8zbici1 {
@@ -76,7 +72,9 @@ def main():
         font-size: 1.1em;
         font-weight: bold;
         font-variant-caps: small-caps;
-        border-bottom: 3px solid #4abd82;
+        text-decoration-line: underline;
+        text-decoration-color: green;
+        text-underline-offset: 8px;
         }
         label.css-18ewatb.e16fv1kl2 {
         font-variant: small-caps;
@@ -98,7 +96,7 @@ def main():
         p.res {
         font-size: 1.2rem;
         font-weight: bold;
-        background-color: #fff;
+        background-color: #daf2bf;
         padding: 5px;
         border: 1px tomato solid;
         }
@@ -112,6 +110,14 @@ def main():
         -webkit-box-pack: end;
         justify-content: flex-end;
         flex: 1 1 0%;
+        }
+        .css-184tjsw p {
+        word-break: break-word;
+        font-size: 1rem;
+        font-weight: bold;
+        }
+        button.css-fxzapv.edgvbvh10 {
+        background-color: #2627301f;
         }
         </style>
         """, unsafe_allow_html=True
@@ -139,10 +145,10 @@ def main():
     df_industry = data['industry_II']
     df_poverty = data['poverty']
 
-    # Create the divs and add Model
+    # Create columns
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader('Cluster Prediction')
+        st.subheader('Cluster Predicted Outcome')
         Disaster, Economy, Health, Industry, Poverty = (
             'src/tasks/task-5-web-app-deployment/pckls/disaster.pkl',
             'src/tasks/task-5-web-app-deployment/pckls/dweg.pkl',
@@ -150,13 +156,17 @@ def main():
             'src/tasks/task-5-web-app-deployment/pckls/industry_II.pkl',
             'src/tasks/task-5-web-app-deployment/pckls/poverty.pkl')
 
+        # Create a dictionary of models
         models = {'Disaster': Disaster, 'Economy': Economy,
         'Health': Health, 'Industry': Industry, 'Poverty': Poverty}
 
+        # Create a list of model names
         model_names = models.keys()
 
+        # Set default option
         option = 'Disaster'
 
+        # Create a drop down menu
         with open(models[option], 'rb') as file:
             kmeans = pkl.load(file)
 
@@ -226,6 +236,7 @@ def main():
                 sliders[col] = st.slider(f'''**{col}**''', min_value = float(min_val), max_value = float(max_val), value = float(val))
             return sliders
 
+        # Create a nested column for the city selection and the model selection.
         subcol1, subcol2 = col1.columns(2)
         subcol1.subheader('City Selection')
         # Add a dropdown to select the city.
@@ -237,18 +248,19 @@ def main():
             'Please Select the Pillar', options=model_names,
             help='Here are 5 pillars that can influence the vulnerability of a City')
 
-        # Display the current cluster group for the selected city.
+        # Display the current cluster group for the selected city in an info panel.
         cluster = get_cluster(selected_city)
-        result = f'''
-        <p class="res">Level of Vulnerability: {cluster}</p>
-        '''
-        st.markdown(result, unsafe_allow_html=True)
-
+        
+        st.info(f'Level of Vulnerability: **{cluster}**', icon='ℹ️')
+        
         # Display the slider widgets.
         sliders = display_sliders()
 
-        # Add a button to recalculate the cluster group.
-        if st.button('Recalculate'):
+        st.subheader('Cluster Prediction')
+        st.markdown('''<p class="predict">The slider values above can be moved to change the values in the pillars and used to re-predict the cluster group for the selected city by clicking <b>ReCalculate</b> below.</p>''', unsafe_allow_html=True)
+
+        # Add a button to recalculate the cluster group and display in an info panel.
+        if st.button('ReCalculate', use_container_width=True):
             x = pd.DataFrame(sliders, index=[selected_city])
             new_cluster = kmeans.predict(x)[0]
             map_dict = {
@@ -268,35 +280,32 @@ def main():
                 ('Economy', 0): 'Medium',
                 ('Economy', 1): 'High'}
             new_value = map_dict.get((option, new_cluster), None)
-            result = f'''
-            <p class="res">New Level of Vulnerability: {new_value}</p>
-            '''
-            st.markdown(result, unsafe_allow_html=True)
+
+            st.info(f'Level of Vulnerability: **{new_value}**', icon='ℹ️')
+
     with col2:
-            st.markdown("We collected data from two main sources, Department of Trade and Industry (DTi) and the Philippine Statistics Authority (PSA).", unsafe_allow_html=True)
-            st.markdown("The DTi data was used to create the 3 indexes: Poverty, Health and Disaster.", unsafe_allow_html=True)
-            st.markdown("The Philippine Statistics Authority data was used to create the Industry index.", unsafe_allow_html=True)
-            st.markdown("The data was then clustered using **K-Means Clustering**.", unsafe_allow_html=True)
-            st.markdown("The clusters were then mapped to the vulnerability levels: Low, Medium and High.", unsafe_allow_html=True)
-            st.markdown("The tool also allows users to change the values of the sliders and see how the vulnerability level changes.", unsafe_allow_html=True)
-            st.markdown("We used the K-Means clustering algorithm to cluster the data.", unsafe_allow_html=True)
-            st.markdown("- It is a simple and easy to implement algorithm.", unsafe_allow_html=True)
-            st.markdown("- It is a fast and efficient algorithm.", unsafe_allow_html=True)
-            st.markdown("- It is a popular algorithm and is used in many applications.", unsafe_allow_html=True)
-            st.markdown("- It is a scalable algorithm.", unsafe_allow_html=True)
-            st.markdown("- It is a robust algorithm.", unsafe_allow_html=True)
-            st.markdown("- It is a stable algorithm.", unsafe_allow_html=True)
-            st.markdown("- It is a well-known algorithm.", unsafe_allow_html=True)
-            st.markdown("- It is a well-understood algorithm.", unsafe_allow_html=True)
-            st.markdown("Download the PDF file containing the full DTI Metadata")
+            st.markdown('The clustering model can help in mapping vulnerabilities of different municipalities in Philippines into different clusters on the basis of different pillars:') 
+            st.markdown('- Economy') 
+            st.markdown('- Disaster') 
+            st.markdown('- Industry')
+            st.markdown('- Health')
+            st.markdown('- Poverty')
+            st.markdown('This application can help us in identifying the improvements required in different areas(features) to move a particular municipality from high vulnerability cluster to low vulnerability cluster.')
+            st.markdown("We collected data from two main sources, Department of Trade and Industry (DTi) and the Philippine Statistics Authority (PSA).")
+            st.markdown("The DTi data was used to create the 5 indexes: Decent work and Economic growth, Disaster, Industry, Innovation and Infrastructure, Healthcare and Poverty.")
+            st.markdown("The Philippine Statistics Authority data was used to create the Industry index.")
+            st.markdown("The clusters were then mapped to the vulnerability levels: Low, Medium and High.")
+            st.markdown("The tool also allows users to change the values of the sliders and see how the vulnerability level changes.")
+            st.markdown("You can download the PDF file containing the full DTI Metadata for a better understanding of the values below.")
             with open("src/tasks/task-5-web-app-deployment/assets/dti-index-data-dict.pdf", "rb") as file:
                 btn = st.download_button(
                         label="Download Pdf",
                         data=file,
                         file_name="dti-index-data-dict.pdf",
-                        mime="application/pdf"
+                        mime="application/pdf",
+                        use_container_width=True
                     )
-            # st.markdown("Download the PDF file containing the full DTI Metadata", st.download_button('Download file', 'src/tasks/task-5-web-app-deployment/assets/dti-index-data-dict.pdf'))
+
 
 if __name__ == "__main__":
     main()
