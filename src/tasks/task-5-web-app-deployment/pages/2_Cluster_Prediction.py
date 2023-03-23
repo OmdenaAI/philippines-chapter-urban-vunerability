@@ -144,8 +144,6 @@ def main():
     df_health = data['health']
     df_industry = data['industry_II']
     df_poverty = data['poverty']
-    
-    st.dataframe(df_health.iloc[: , :-2])
 
     # Create columns
     col1, col2 = st.columns(2)
@@ -168,7 +166,7 @@ def main():
         # Set default option
         option = 'Disaster'
 
-        # Create a drop down menu
+        # Load initial results
         with open(models[option], 'rb') as file:
             kmeans = pkl.load(file)
 
@@ -190,8 +188,8 @@ def main():
                 return df_industry.iloc[: , :-2]
             elif option == 'Poverty':
                 return df_poverty.iloc[: , :-2]
-        
-        
+
+
         def get_cluster(city):
             """
             Create clusters for mapping to output
@@ -235,7 +233,7 @@ def main():
                 min_val = load_df()[col].min()
                 max_val = load_df()[col].max()
                 val = load_df()[col].loc[selected_city]
-                sliders[col] = st.slider(f'''**{col}**''', min_value = float(min_val), max_value = float(max_val), value = float(val))
+                sliders[col] = st.slider(f'**{col}**', min_value = float(min_val), max_value = float(max_val), value = float(val))
             return sliders
 
         # Create a nested column for the city selection and the model selection.
@@ -260,6 +258,9 @@ def main():
 
         st.subheader('Cluster Prediction')
         st.markdown('''<p class="predict">The slider values above can be moved to change the values in the pillars and used to re-predict the cluster group for the selected city by clicking <b>ReCalculate</b> below.</p>''', unsafe_allow_html=True)
+
+        with open(models[option], 'rb') as file:
+            kmeans = pkl.load(file)
 
         # Add a button to recalculate the cluster group and display in an info panel.
         if st.button('ReCalculate', use_container_width=True):
@@ -307,7 +308,6 @@ def main():
                         mime="application/pdf",
                         use_container_width=True
                     )
-
 
 if __name__ == "__main__":
     main()
