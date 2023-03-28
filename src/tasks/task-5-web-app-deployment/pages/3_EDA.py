@@ -151,7 +151,7 @@ def main():
     st.write("- Poverty")
     st.write("Each of the above pillars are then assigned with features taken from the collected dataset.This assignment is on the basis of United Nations Sustainable Development Goals and meta data information from DTI and PSA websites.")
     st.write("Let's have closer look on the data.")
-    df_health
+
 
 # Boxplot Section
     st.markdown('#### Pillar wise data distribution of features')
