@@ -236,7 +236,7 @@ def main():
         else:
             return None
 
-        fg = flm.FeatureGroup(name='Philippines Map')
+        fg = flm.FeatureGroup(name='Municipalities')
 
         marker_props = {'Low': {'color': 'green', 'size': 10},
                     'Medium': {'color': 'blue', 'size': 10},
