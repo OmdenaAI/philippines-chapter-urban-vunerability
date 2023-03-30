@@ -211,7 +211,7 @@ def main():
         vul_4 = data[cond]['vulnerability_povt'].tolist()
         pop = data[cond]['total_population'].tolist()
         pov = data[cond]['pov_inc'].tolist()
-        hop = data[cond]['hospital'].tolist()
+        hop = data[cond]['hospitals'].tolist()
 
         html = f''' <div style="font-family: monospace;font-size: 1rem;">
         <h4 style="font-size:1.05rem;">Vulnerability Info</h4>
@@ -243,7 +243,7 @@ def main():
                     'High': {'color': 'red', 'size': 15}}
 
         for lt, ln, nm, v0, v1, v2, v3, v4, po, pv, ho in zip((lat), (lon), (nam), (vul_0), (vul_1), (vul_2), (vul_3), (vul_4), (pop), (pov), (hop)):
-            iframe = flm.IFrame(html = html % ((nm), (v0), (v1), (v2), (v3), (v4), (po), (pv), int((ho))), height = 290)
+            iframe = flm.IFrame(html = html % ((nm), (v0), (v1), (v2), (v3), (v4), (po), (pv), (ho)), height = 290)
             popup = flm.Popup(iframe, min_width=200, max_width=650)
             props = marker_props[v0]
             marker = flm.CircleMarker(location = [lt, ln], popup = popup, fill_color=props['color'], color='None', radius=props['size'], fill_opacity = 0.5)
