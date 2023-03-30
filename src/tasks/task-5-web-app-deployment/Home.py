@@ -164,6 +164,14 @@ def main():
         </style>
         """, unsafe_allow_html=True
     )
+
+    make_map_responsive= """
+    <style>
+    [title~="st.iframe"] { width: 100%}
+    </style>
+    """
+    st.markdown(make_map_responsive, unsafe_allow_html=True)
+
     col1, col2, col3 = st.columns((1, 1, 1))
     with col1:
         image2 = Image.open('src/tasks/task-5-web-app-deployment/assets/Omdena.png')
@@ -244,8 +252,7 @@ def main():
 
         flm.LayerControl(collapsed=False).add_to(map)
 
-        # map.save('map1.html')
-        st_map_ph = st_folium(map, width=1600, returned_objects=['last_object_clicked'])
+        st_map_ph = st_folium(map, width='width', returned_objects=['last_object_clicked'])
         return st_map_ph
 
     st.write("This map sponsored by Omdena and United Nations (Habitat) provides information regarding vulnerable areas in the Philippines.")
