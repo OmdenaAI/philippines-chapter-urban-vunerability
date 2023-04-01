@@ -144,7 +144,7 @@ def main():
     df_health = data['health']
     df_industry = data['industry_II']
     df_poverty = data['poverty']
-    # df_disaster
+
 
     # Create columns
     col1, col2 = st.columns(2)
@@ -167,10 +167,6 @@ def main():
         # Set default option
         option = 'Disaster'
 
-        # Load initial results
-        with open(models[option], 'rb') as file:
-            kmeans = pkl.load(file)
-
 
         def load_df():
             """
@@ -191,35 +187,23 @@ def main():
                 return df_poverty.iloc[: , :-2]
 
 
-        def get_cluster(city):
+        def load_data():
             """
-            Create clusters for mapping to output
-
-            Args:
-                city (str): City name
+            Loads the correct data frame from the options drop down
 
             Returns:
-                str: Vulnerability level
+                pd.Dataframe: Returns relevant data frame
             """
-            x = load_df().loc[city].values.reshape(1, -1)
-            cluster = kmeans.predict(x)[0]
-            map_dict = {
-                ('Industry', 0): 'Low',
-                ('Industry', 2): 'Medium',
-                ('Industry', 1): 'High',
-                ('Health', 1): 'Low',
-                ('Health', 0): 'Medium',
-                ('Health', 2): 'High',
-                ('Poverty', 0): 'Low',
-                ('Poverty', 1): 'Medium',
-                ('Poverty', 2): 'High',
-                ('Disaster', 2): 'Low',
-                ('Disaster', 0): 'Medium',
-                ('Disaster', 1): 'High',
-                ('Economy', 2): 'Low',
-                ('Economy', 0): 'Medium',
-                ('Economy', 1): 'High'}
-            return map_dict.get((option, cluster), None)
+            if option == 'Disaster':
+                return df_disaster
+            elif option == 'Economy':
+                return df_dweg
+            elif option == 'Health':
+                return df_health
+            elif option == 'Industry':
+                return df_industry
+            elif option == 'Poverty':
+                return df_poverty
 
 
         def display_sliders():
@@ -250,8 +234,8 @@ def main():
             help='Here are 5 pillars that can influence the vulnerability of a City')
 
         # Display the current cluster group for the selected city in an info panel.
-        cluster = get_cluster(selected_city)
-        
+        cluster = load_data().loc[load_data().index == selected_city, 'Vulnerability'].item()
+
         st.info(f'Level of Vulnerability: **{cluster}**', icon='ℹ️')
         
         # Display the slider widgets.
